@@ -20,7 +20,7 @@ struct DataArsip {
 };
 
 vector<DataArsip> database;
-const string FILE_NAME = "arsip_0001000.csv";   
+const string FILE_NAME = "datasets/arsip_0001000.csv";   
 
 
 vector<string> parseCSVLine(const string& baris) {
