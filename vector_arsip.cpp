@@ -6,9 +6,9 @@
 #include <algorithm>
 #include <chrono>
 #include <iomanip>
+#include <limits>
 using namespace std;
 using namespace std::chrono;
-
 
 struct DataArsip {
     string    id_dokumen;
@@ -22,13 +22,11 @@ struct DataArsip {
 vector<DataArsip> database;
 const string FILE_NAME = "datasets/arsip_0001000.csv";   
 
-
 vector<string> parseCSVLine(const string& baris) {
     vector<string> fields;
     string field;
     bool inQuotes = false;
-    for (size_t i = 0; i < baris.size(); i++) {
-        char c = baris[i];
+    for (char c : baris) {
         if (c == '"') {
             inQuotes = !inQuotes;
         } else if (c == ',' && !inQuotes) {
@@ -44,7 +42,6 @@ vector<string> parseCSVLine(const string& baris) {
 
 // ============================================================
 //  UTILITAS: generate ID berikutnya (format DOC-XXXXXXX)
-//  Mencari ID numerik tertinggi, bukan asumsi sorted
 // ============================================================
 string generateNextID() {
     int maxNum = 0;
@@ -58,13 +55,13 @@ string generateNextID() {
         }
     }
     ostringstream oss;
-    oss << "MAN-" << setw(7) << setfill('0') << (maxNum + 1);
+    oss << "DOC-" << setw(7) << setfill('0') << (maxNum + 1);
     return oss.str();
 }
 
 // ============================================================
 //  UTILITAS: cek duplikat berbasis metadata (nama_file + ukuran_data)
-//  Kembalikan indeks record pertama yang cocok, atau -1 jika tidak ada
+//  Kembalikan indeks record pertama yang cocok, -1 jika tidak ada
 // ============================================================
 int cariDuplikatMetadata(const string& nama, long long ukuran) {
     for (size_t i = 0; i < database.size(); i++) {
@@ -72,6 +69,82 @@ int cariDuplikatMetadata(const string& nama, long long ukuran) {
             return (int)i;
     }
     return -1;
+}
+
+// ============================================================
+//  UTILITAS VALIDASI
+// ============================================================
+
+// Ekstensi yang diizinkan di sistem arsip digital
+const vector<string> EKSTENSI_VALID = {
+    "pdf", "docx", "doc", "xlsx", "xls",
+    "txt", "csv", "json", "xml",
+    "png", "jpg", "jpeg", "zip", "rar"
+};
+
+// Nama file: tidak boleh kosong, tidak boleh karakter ilegal, dan harus berekstensi dari whitelist
+bool validasiNamaFile(const string& nama) {
+    if (nama.empty()) return false;
+    for (char c : nama)
+        if (c == ',' || c == '"' || c == '\\' || c == '/') return false;
+
+    // Cari posisi titik terakhir
+    size_t titik = nama.rfind('.');
+    if (titik == string::npos || titik == nama.size() - 1) return false; // tidak ada ekstensi
+
+    string ext = nama.substr(titik + 1);
+    // Ubah ke lowercase untuk perbandingan
+    transform(ext.begin(), ext.end(), ext.begin(), ::tolower);
+
+    for (const auto& e : EKSTENSI_VALID)
+        if (ext == e) return true;
+    return false;
+}
+
+// Tampilkan daftar ekstensi yang valid (dipanggil saat error)
+void tampilkanEkstensiValid() {
+    cout << "   [!] Ekstensi tidak diizinkan. Ekstensi yang valid:\n       ";
+    for (size_t i = 0; i < EKSTENSI_VALID.size(); i++) {
+        cout << "." << EKSTENSI_VALID[i];
+        if (i < EKSTENSI_VALID.size() - 1) cout << "  ";
+    }
+    cout << "\n";
+}
+
+// Tanggal: harus format YYYY-MM-DD dan range masuk akal
+bool validasiTanggal(const string& tgl) {
+    if (tgl.size() != 10) return false;
+    if (tgl[4] != '-' || tgl[7] != '-') return false;
+    try {
+        int y = stoi(tgl.substr(0, 4));
+        int m = stoi(tgl.substr(5, 2));
+        int d = stoi(tgl.substr(8, 2));
+        if (y < 2000 || y > 2100) return false;
+        if (m < 1 || m > 12)      return false;
+        if (d < 1 || d > 31)      return false;
+    } catch (...) { return false; }
+    return true;
+}
+
+// Sumber: tidak boleh kosong
+bool validasiSumber(const string& sumber) {
+    return !sumber.empty();
+}
+
+// ============================================================
+//  GENERATE KONTEN OTOMATIS
+//  Format: namatanpaekstensi|ukuran|keyword
+//  Contoh: laporan_keuangan_202401|512000|rekap final
+// ============================================================
+string generateKonten(const string& namaFile, long long ukuran,
+                      const string& keywords) {
+    // Ambil nama file tanpa ekstensi
+    size_t titik = namaFile.rfind('.');
+    string namaBersih = (titik != string::npos) ? namaFile.substr(0, titik) : namaFile;
+
+    string konten = namaBersih + "|" + to_string(ukuran);
+    if (!keywords.empty()) konten += "|" + keywords;
+    return konten;
 }
 
 // ============================================================
@@ -135,18 +208,66 @@ void muatData() {
 }
 
 // ============================================================
-//  INSERT MANUAL
+//  INSERT MANUAL ( Validasi tiap field satu per satu )
 // ============================================================
 void insertManual() {
     DataArsip d;
     d.id_dokumen = generateNextID();
     cout << "\n[Insert Manual] ID Otomatis: " << d.id_dokumen << "\n";
-    cout << "Nama File       : "; cin >> d.nama_file;
-    cout << "Ukuran (bytes)  : "; cin >> d.ukuran_data;
-    cout << "Sumber Data     : "; cin >> d.sumber_data;
-    cout << "Tanggal Unggah  : "; cin >> d.tanggal_unggah;
-    cout << "Konten          : "; cin.ignore(); getline(cin, d.konten);
 
+    // --- Nama File ---
+    do {
+        cout << "Nama File       : ";
+        cin >> d.nama_file;
+        if (!validasiNamaFile(d.nama_file)) {
+            // Cek apakah masalahnya di karakter ilegal atau di ekstensi
+            bool adaKarIlegal = false;
+            for (char c : d.nama_file)
+                if (c == ',' || c == '"' || c == '\\' || c == '/')
+                    { adaKarIlegal = true; break; }
+            if (adaKarIlegal)
+                cout << "   [!] Nama file mengandung karakter tidak valid ( , \" \\ / ).\n";
+            else
+                tampilkanEkstensiValid();
+        }
+    } while (!validasiNamaFile(d.nama_file));
+    
+    // --- Ukuran ---
+    while (true) {
+        cout << "Ukuran (bytes)  : ";
+        if (cin >> d.ukuran_data && d.ukuran_data > 0) break;
+        cout << "   [!] Ukuran harus angka positif lebih dari 0.\n";
+        cin.clear();
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    }
+
+    // --- Sumber Data ---
+    do {
+        cout << "Sumber Data     : ";
+        cin >> d.sumber_data;
+        if (!validasiSumber(d.sumber_data))
+            cout << "   [!] Sumber data tidak boleh kosong.\n";
+    } while (!validasiSumber(d.sumber_data));
+
+    // --- Tanggal ---
+    do {
+        cout << "Tanggal Unggah (YYYY-MM-DD) : ";
+        cin >> d.tanggal_unggah;
+        if (!validasiTanggal(d.tanggal_unggah))
+            cout << "   [!] Format tanggal tidak valid. Gunakan YYYY-MM-DD (contoh: 2024-03-15).\n";
+    } while (!validasiTanggal(d.tanggal_unggah));
+
+    // --- Konten (auto-generate + keyword opsional) ---
+    cin.ignore();
+    cout << "Keyword Tambahan: ";
+    cout << "(opsional, pisahkan spasi, Enter untuk lewati)\n";
+    cout << "                : ";
+    string keywords;
+    getline(cin, keywords);
+    d.konten = generateKonten(d.nama_file, d.ukuran_data, keywords);
+    cout << "   >> Konten    : " << d.konten << "\n";
+
+    // --- Cek Duplikat ---
     auto start = steady_clock::now();
     int idxDup = cariDuplikatMetadata(d.nama_file, d.ukuran_data);
     auto stop  = steady_clock::now();
@@ -156,17 +277,24 @@ void insertManual() {
         cout << ">> DITOLAK: Duplikat terdeteksi dengan ID \""
              << database[idxDup].id_dokumen << "\" "
              << "(nama + ukuran identik).\n";
-        cout << ">> Waktu cek duplikat: " << dur.count() << " mikrodetik.\n";
     } else {
         database.push_back(d);
         simpanKeFile();
         cout << ">> DITERIMA: Data berhasil ditambahkan.\n";
-        cout << ">> Waktu cek duplikat: " << dur.count() << " mikrodetik.\n";
     }
+    cout << ">> Waktu cek duplikat: " << dur.count() << " mikrodetik.\n";
 }
 
 // ============================================================
 //  BATCH IMPORT DARI CSV
+//
+//  Alur tiap baris:
+//    1. Format rusak (field < 6)      → rejected.csv  (alasan: format_rusak)
+//    2. Field tidak lolos validasi    → rejected.csv  (alasan: detail field)
+//    3. Duplikat metadata             → TETAP masuk DB, dicatat sebagai duplikat
+//    4. Valid & unik                  → masuk DB
+//
+//  ID dari file CSV diabaikan, selalu generate DOC- baru
 // ============================================================
 void insertBatch() {
     string fileBaru;
@@ -179,41 +307,110 @@ void insertBatch() {
         return;
     }
 
+    // Siapkan file rejected
+    string fileRejected = "rejected_" + fileBaru;
+    ofstream rejFile(fileRejected);
+    rejFile << "baris_ke,nama_file,ukuran_data,tanggal_unggah,sumber_data,konten,alasan_tolak\n";
+    bool adaRejected = false;
+
     auto start = steady_clock::now();
     string baris;
     getline(file, baris); // skip header
 
-    int sukses = 0, duplikat = 0, rusak = 0;
+    int noBaris  = 1;
+    int sukses   = 0;
+    int duplikat = 0;
+    int ditolak  = 0;
+
     while (getline(file, baris)) {
         if (baris.empty()) continue;
-        vector<string> f = parseCSVLine(baris);
-        if (f.size() < 6) { rusak++; continue; }
+        noBaris++;
 
+        vector<string> f = parseCSVLine(baris);
+
+        // --- Cek 1: field tidak lengkap ---
+        if (f.size() < 6) {
+            rejFile << noBaris << ",,,,,," << "format_rusak_field_kurang\n";
+            ditolak++;
+            adaRejected = true;
+            continue;
+        }
+
+        string nama   = f[1];
+        string ukuStr = f[2];
+        string tgl    = f[3];
+        string sumber = f[4];
+        string konten = f[5];
+        long long ukuran = 0;
+        bool ukuranValid = true;
+
+        // Coba parse ukuran
+        try { ukuran = stoll(ukuStr); } catch (...) { ukuranValid = false; }
+
+        // --- Cek 2: validasi field per field ---
+        string alasan = "";
+        if (!validasiNamaFile(nama)) {
+            // Bedakan alasan: karakter ilegal vs ekstensi tidak valid
+            bool adaKarIlegal = false;
+            for (char c : nama)
+                if (c == ',' || c == '"' || c == '\\' || c == '/')
+                    { adaKarIlegal = true; break; }
+            alasan += adaKarIlegal ? "nama_file_karakter_ilegal;" : "nama_file_ekstensi_tidak_valid;";
+        }
+        if (!ukuranValid || ukuran <= 0)
+            alasan += "ukuran_tidak_valid;";
+        if (!validasiTanggal(tgl))
+            alasan += "tanggal_tidak_valid;";
+        if (!validasiSumber(sumber))
+            alasan += "sumber_kosong;";
+
+        if (!alasan.empty()) {
+            rejFile << noBaris << ","
+                    << nama    << ","
+                    << ukuStr  << ","
+                    << tgl     << ","
+                    << sumber  << ","
+                    << konten  << ","
+                    << alasan  << "\n";
+            ditolak++;
+            adaRejected = true;
+            continue;
+        }
+
+        // --- Cek 3: duplikat metadata — TETAP masuk DB ---
         DataArsip d;
-        // Pakai ID dari file; jika kosong, generate baru
-        d.id_dokumen     = f[0].empty() ? generateNextID() : f[0];
-        d.nama_file      = f[1];
-        try { d.ukuran_data = stoll(f[2]); } catch (...) { d.ukuran_data = 0; }
-        d.tanggal_unggah = f[3];
-        d.sumber_data    = f[4];
-        d.konten         = f[5];
+        d.id_dokumen     = generateNextID(); // selalu generate baru, abaikan ID dari file
+        d.nama_file      = nama;
+        d.ukuran_data    = ukuran;
+        d.tanggal_unggah = tgl;
+        d.sumber_data    = sumber;
+        d.konten         = konten;
 
         if (cariDuplikatMetadata(d.nama_file, d.ukuran_data) != -1) {
+            database.push_back(d); // duplikat tetap masuk, ini yang ingin kita deteksi
             duplikat++;
         } else {
             database.push_back(d);
             sukses++;
         }
     }
+
     file.close();
+    rejFile.close();
+    if (!adaRejected) remove(fileRejected.c_str()); // hapus jika kosong
+
     simpanKeFile();
 
     auto stop = steady_clock::now();
     auto dur  = duration_cast<milliseconds>(stop - start);
+
     cout << ">> Batch Import selesai dalam " << dur.count() << " ms.\n";
-    cout << ">> " << sukses    << " data baru ditambahkan.\n";
-    cout << ">> " << duplikat  << " data ditolak (duplikat metadata).\n";
-    if (rusak) cout << ">> " << rusak << " baris dilewati (format rusak).\n";
+    cout << ">> " << sukses   << " record unik ditambahkan.\n";
+    cout << ">> " << duplikat << " record duplikat ditambahkan (terdeteksi & dicatat).\n";
+    cout << ">> " << ditolak  << " record ditolak karena format tidak valid";
+    if (adaRejected)
+        cout << " → lihat \"" << fileRejected << "\"";
+    cout << ".\n";
 }
 
 // ============================================================
@@ -321,7 +518,13 @@ void updateDeleteData() {
 
             if (opsi == 1) {
                 string namaBaru;
-                cout << "Nama baru: "; cin >> namaBaru;
+                // Validasi nama baru
+                do {
+                    cout << "Nama baru: "; cin >> namaBaru;
+                    if (!validasiNamaFile(namaBaru))
+                        cout << "   [!] Nama file tidak valid.\n";
+                } while (!validasiNamaFile(namaBaru));
+
                 bool konflik = false;
                 for (size_t k = 0; k < database.size(); k++) {
                     if (k != i &&
@@ -338,7 +541,13 @@ void updateDeleteData() {
                     cout << ">> Nama file berhasil diupdate.\n";
                 }
             } else if (opsi == 2) {
-                cout << "Sumber baru: "; cin >> database[i].sumber_data;
+                string sumberBaru;
+                do {
+                    cout << "Sumber baru: "; cin >> sumberBaru;
+                    if (!validasiSumber(sumberBaru))
+                        cout << "   [!] Sumber tidak boleh kosong.\n";
+                } while (!validasiSumber(sumberBaru));
+                database[i].sumber_data = sumberBaru;
                 simpanKeFile();
                 cout << ">> Sumber data berhasil diupdate.\n";
             } else if (opsi == 3) {
