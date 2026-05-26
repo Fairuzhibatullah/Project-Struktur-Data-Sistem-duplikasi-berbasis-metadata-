@@ -1,131 +1,105 @@
 # Sistem Deteksi Duplikasi Data — Arsip Digital
-**Proyek Akhir Mata Kuliah Struktur Data | Semester Genap 2025-2026**
+**Proyek Akhir Mata Kuliah Struktur Data C++**
 
 ---
 
-## Deskripsi Proyek
+##  Deskripsi Proyek
 
-Sistem ini mensimulasikan deteksi duplikasi data pada lingkungan arsip digital. Data dari berbagai sumber dikumpulkan secara berkala, sehingga duplikasi sangat mungkin terjadi. Proyek ini membangun dan membandingkan performa dua struktur data — **Vector** dan **Hash Table** — dalam menangani operasi insert, search, deteksi duplikat, update, dan delete.
+Sistem ini mensimulasikan deteksi duplikasi data pada lingkungan arsip digital skala industri. Proyek ini mengimplementasikan dan membandingkan performa dua struktur data utama — **std::vector** (Engine 1) dan **Hash Table / std::unordered_map** (Engine 2) — dalam menangani operasi penyimpanan data (*insert*), pencarian (*search*), pemindaian duplikat (*duplicate scan*), pembaharuan (*update*), dan penghapusan (*delete*).
 
-Deteksi duplikasi dilakukan secara sederhana berbasis perbandingan metadata (`nama_file + ukuran_data`), tanpa algoritma hashing kriptografi atau machine learning.
+Deteksi duplikasi data didukung oleh **dua mode deteksi** yang berjalan secara berdampingan:
+1. **Metadata-Based**: Membandingkan kecocokan atribut `nama_file + ukuran_data` ($O(1)$ untuk Hash Table, $O(n)$ untuk Vector).
+2. **Content-Based**: Membandingkan isi representasi konten dokumen (`konten`) untuk menangani berkas identik dengan nama berbeda.
 
 ---
 
-## Struktur Repository
+## 📂 Struktur Repositori
+
+Proyek menggunakan arsitektur **OOP Polymorphism** dan **Separation of Concerns (SoC)**. Seluruh file pustaka C++ dikelompokkan ke dalam folder `include/` untuk menghindari penumpukan berkas pada direktori utama:
 
 ```
-├── README.md                   ← Dokumen ini
-├── vector_arsip.cpp            ← Implementasi dengan std::vector (Engine 1)
-├── hash_arsip.cpp              ← Implementasi dengan unordered_map (Engine 2) [WIP]
-└── datasets/
-    ├── arsip_0001000.csv       ←   1.000 record (900 unik + 100 duplikat)
-    ├── arsip_0005000.csv       ←   5.000 record (4.500 unik + 500 duplikat)
-    ├── arsip_0010000.csv       ←  10.000 record (9.000 unik + 1.000 duplikat)
-    ├── arsip_0050000.csv       ←  50.000 record (45.000 unik + 5.000 duplikat)
-    └── arsip_0100000.csv       ← 100.000 record (90.000 unik + 10.000 duplikat)
+├── include/
+│   ├── DataArsip.h      ← [Model] Struktur data representasi dokumen
+│   ├── Validator.h      ← [Utility] Logika validasi input & parser CSV
+│   ├── BaseEngine.h     ← [Abstract Interface] Kontrak virtual murni operasi data
+│   ├── VectorEngine.h   ← [Engine 1] Implementasi database berbasis std::vector (O(n²))
+│   ├── HashEngine.h     ← [Engine 2] Implementasi database berbasis Hash Table (O(n))
+│   └── ArsipManager.h   ← [Controller/View] Logika Menu CLI & antarmuka interaktif
+│
+├── datasets/
+│   ├── arsip_0001000.csv       ←   1.000 record (900 unik + 100 duplikat)
+│   ├── arsip_0005000.csv       ←   5.000 record (4.500 unik + 500 duplikat)
+│   ├── arsip_0010000.csv       ←  10.000 record (9.000 unik + 1.000 duplikat)
+│   ├── arsip_0050000.csv       ←  50.000 record (45.000 unik + 5.000 duplikat)
+│   └── arsip_0100000.csv       ← 100.000 record (90.000 unik + 10.000 duplikat)
+│
+├── README.md                   ← Dokumen analisis proyek
+├── statistik_log.csv           ← File log perekaman performa eksekusi uji coba
+├── vector_database.csv         ← Database lokal fisik Engine Vector
+├── hash_database.csv           ← Database lokal fisik Engine Hash Table
+│
+├── vector_arsip.cpp            ← Titik masuk program Engine Vector
+└── hash_arsip.cpp              ← Titik masuk program Engine Hash Table
 ```
 
 ---
 
-## Domain Data
+## 📊 Domain Data & Metadata
 
-Setiap record merepresentasikan satu dokumen dalam arsip digital dengan field:
+Setiap dokumen di dalam sistem direpresentasikan oleh atribut terstruktur sebagai berikut:
 
-| Field | Tipe | Contoh | Keterangan |
+| Bidang (Field) | Tipe | Contoh Nilai | Deskripsi Atribut |
 |---|---|---|---|
-| `id_dokumen` | string | `DOC-0000001` | ID unik; prefix `DUP-` = duplikat |
-| `nama_file` | string | `laporan_keuangan_202309_0042.pdf` | Nama file dengan pola: kategori_dept_YYYYMM_seq.ext |
-| `ukuran_data` | long long | `392275674` | Ukuran file dalam bytes |
-| `tanggal_unggah` | string | `2023-09-14` | Format YYYY-MM-DD |
-| `sumber_data` | string | `server-arsip-jakarta` | Nama server/storage asal |
-| `konten` | string | `laporan\|keuangan\|392275674\|draft rekap` | Representasi ringkas isi |
+| `id_dokumen` | string | `DOC-0000001` | ID Dokumen unik (dihasilkan secara otomatis oleh sistem) |
+| `nama_file` | string | `laporan_keuangan_2023.pdf` | Nama berkas dengan ekstensi yang tervalidasi |
+| `ukuran_data` | long long | `392275674` | Ukuran berkas dalam satuan byte |
+| `tanggal_unggah` | string | `2026-05-26` | Tanggal dokumen diunggah (Format: `YYYY-MM-DD`) |
+| `sumber_data` | string | `server-jakarta` | Nama server/sumber penyimpanan asal berkas |
+| `konten` | string | `laporan_keuangan|392275674` | Representasi string pendek ringkasan isi dokumen |
 
 ---
 
-## Dataset
+## ⚙️ Perbandingan Kompleksitas Teoretis
 
-Dataset di-generate menggunakan `generate_dataset.py` dengan ketentuan:
+| Operasi Sistem | Kompleksitas Vector Engine | Kompleksitas Hash Engine | Deskripsi Teknis |
+|---|---|---|---|
+| **Generator ID** | $O(1)$ *(Optimized)* | $O(1)$ | Menggunakan pelacakan global `maxIDNum` tanpa linier scan. |
+| **Insert Record** | $O(n)$ | $O(1)$ rata-rata | Cek bentrokan duplikat instan di Hash Table sebelum ditulis. |
+| **Search by ID** | $O(n)$ linier scan | $O(1)$ rata-rata | *Direct mapping lookup* menggunakan `std::unordered_map`. |
+| **Search by Name** | $O(n)$ linier scan | $O(1)$ rata-rata | Memanfaatkan indeks bantu `indexNamaFile` secara instan. |
+| **Duplicate Scan** | $O(n^2)$ double loop | $O(n)$ linier | Iterasi langsung pada indeks map yang beranggota $> 1$. |
+| **Delete (Hapus)** | $O(n)$ geser memori | $O(1)$ rata-rata | Penghapusan kunci hash tanpa operasi pergeseran alokasi memory. |
+| **Simpan ke File** | $O(n)$ | $O(n)$ | Serialisasi data terurut ke format CSV fisik. |
 
-- **Seed**: 42 (reproducible — hasil generate selalu sama)
-- **Rasio duplikat**: 10% dari total record
-- **Distribusi ukuran file**: realistis (mayoritas 10KB–5MB, sebagian kecil hingga 500MB)
-- **Rentang tanggal**: 2022–2024
-- **Cara duplikasi**: record duplikat memiliki ID baru (`DUP-`) tetapi semua field lainnya identik dengan record aslinya, mensimulasikan file yang diunggah ulang
+---
 
+## 🚀 Panduan Kompilasi & Menjalankan
 
-## Implementasi Struktur Data
+Karena seluruh pustaka implementasi dipisahkan secara modular di dalam folder `include/`, proses kompilasi tetap sangat sederhana karena Anda cukup memanggil berkas `.cpp` utamanya saja:
 
-### Engine 1 — Vector (`vector_arsip.cpp`)
-
-Menggunakan `std::vector<DataArsip>` sebagai kontainer utama.
-
-**Kompleksitas Operasi:**
-
-| Operasi | Kompleksitas | Catatan |
-|---|---|---|
-| Insert | O(n) | Cek duplikat dulu dengan linear scan |
-| Search by ID/nama | O(n) | Linear scan seluruh vector |
-| Deteksi duplikat | O(n²) | Loop ganda membandingkan setiap pasang record |
-| Delete | O(n) | Erase + geser elemen di sebelah kanan |
-| Load dari file | O(n) | Baca baris per baris |
-
-**Fitur:**
-- Insert manual (ID otomatis format `MAN-XXXXXXX`)
-- Batch import dari file CSV
-- Search berdasarkan ID atau nama file
-- Tampilkan seluruh grup duplikat beserta anggotanya
-- Update nama file / sumber data (dengan validasi duplikat)
-- Delete record by ID
-- Statistik: total record, unik, grup duplikat, record terlibat duplikat
-
-**Cara kompilasi & jalankan:**
+### 1. Kompilasi Program (Windows GCC / G++):
 ```bash
+# Kompilasi Engine Vector
 g++ -O2 -std=c++17 -o vector_arsip vector_arsip.cpp
-./vector_arsip
+
+# Kompilasi Engine Hash Table
+g++ -O2 -std=c++17 -o hash_arsip hash_arsip.cpp
 ```
 
-> Ubah konstanta `FILE_NAME` di baris atas file untuk mengganti dataset yang digunakan.
+### 2. Menjalankan Program:
+```bash
+# Menjalankan Engine Vector
+./vector_arsip
+
+# Menjalankan Engine Hash Table
+./hash_arsip
+```
 
 ---
 
-### Engine 2 — Hash Table (`hash_arsip.cpp`) `[WIP]`
+## 📝 Pengumpulan Data Eksperimen (Untuk Excel)
 
-Menggunakan `std::unordered_map` dan `std::unordered_set`.
-
-**Kompleksitas Operasi (target):**
-
-| Operasi | Kompleksitas | Catatan |
-|---|---|---|
-| Insert | O(1) avg | Hash key = nama_file + "_" + ukuran_data |
-| Search by ID/nama | O(1) avg | Direct lookup via hash |
-| Deteksi duplikat | O(1) avg | Cek eksistensi key di unordered_set |
-| Delete | O(1) avg | Hash remove |
-| Load dari file | O(n) | Baca + insert satu per satu |
-
----
-
-## Rencana Eksperimen Perbandingan
-
-Kedua engine akan diuji pada semua ukuran dataset (1K, 5K, 10K, 50K, 100K record) untuk mengukur:
-
-1. **Waktu deteksi duplikat** — metrik utama (Vector O(n²) vs Hash O(n))
-2. **Waktu search** — O(n) vs O(1)
-3. **Waktu batch import** — O(n²) vs O(n)
-4. **Penggunaan memori** — overhead vector vs hash table
-
-Hasil akan disajikan dalam grafik perbandingan waktu eksekusi vs jumlah record.
-
----
-
-## Target Progress
-
-| Minggu | Target | Status |
-|---|---|---|
-| 7 | Spesifikasi sistem, dataset dummy, implementasi ≥1 struktur data, uji insert & deteksi | ✅ Selesai |
-| 14 | Implementasi ≥2 struktur data, grafik perbandingan, demo, laporan analisis | 🔄 In progress |
-
----
-
-## Referensi Dataset
-
-Dataset di-generate secara mandiri menggunakan script Python (`generate_dataset.py`) dengan data sintetis yang merepresentasikan skenario arsip digital nyata. Tidak menggunakan dataset publik eksternal.
+1. Jalankan kedua program di atas secara berurutan.
+2. Lakukan impor dataset yang sama dari subfolder `datasets/` (misalnya 1.000, 5.000, atau 10.000 data) melalui menu **2 (Batch Import)**.
+3. Jalankan menu **6 (Lihat Statistik)** untuk memproses grup duplikat secara riil. Setiap kali menu statistik dipanggil, durasi komputasi dan ukuran record akan terekam ke file **`statistik_log.csv`**.
+4. Buka file `statistik_log.csv` menggunakan **Microsoft Excel** untuk merancang tabel perbandingan performa eksekusi waktu (ms) dan menggambarkan grafik pertumbuhan waktu ($O(N^2)$ vs $O(N)$) untuk laporan UAS Anda.

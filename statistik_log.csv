@@ -1,0 +1,10 @@
+timestamp,struktur_data,dataset,total_record,record_unik,grup_duplikat,record_duplikat,waktu_ms
+2026-05-26 10:44:20,Vector,arsip_0001000.csv,2999,901,899,2098,147
+2026-05-26 13:13:55,Hash Table,arsip_0005000.csv,5000,4025,475,975,0
+2026-05-26 13:15:57,Hash Table,arsip_0005000.csv,4999,4024,475,975,0
+2026-05-26 13:17:01,Hash Table,arsip_0005000.csv,4999,4024,475,975,0
+2026-05-26 13:17:28,Hash Table,hash_database.csv,4999,4024,475,975,0
+2026-05-26 13:18:16,Vector,arsip_0005000.csv,5000,4025,475,975,692
+2026-05-26 13:18:52,Vector,vector_database.csv,5000,4025,475,975,691
+2026-05-26 13:35:02,Vector,vector_database.csv,10000,8039,961,1961,2968.9301
+2026-05-26 13:35:23,Hash Table,hash_database.csv,10000,8039,961,1961,1.4687
