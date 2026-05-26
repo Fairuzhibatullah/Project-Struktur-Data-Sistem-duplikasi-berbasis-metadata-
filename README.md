@@ -55,7 +55,7 @@ Setiap dokumen di dalam sistem direpresentasikan oleh atribut terstruktur sebaga
 | `ukuran_data` | long long | `392275674` | Ukuran berkas dalam satuan byte |
 | `tanggal_unggah` | string | `2026-05-26` | Tanggal dokumen diunggah (Format: `YYYY-MM-DD`) |
 | `sumber_data` | string | `server-jakarta` | Nama server/sumber penyimpanan asal berkas |
-| `konten` | string | `laporan_keuangan|392275674` | Representasi string pendek ringkasan isi dokumen |
+| `konten` | string | `laporan_keuangan 392275674` | Representasi string pendek ringkasan isi dokumen |
 
 ---
 
