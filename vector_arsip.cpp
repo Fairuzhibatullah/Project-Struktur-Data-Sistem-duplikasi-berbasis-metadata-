@@ -20,7 +20,11 @@ struct DataArsip {
 };
 
 vector<DataArsip> database;
-string FILE_NAME = ""; 
+string DATASET_ASAL        = "";
+const string FILE_NAME     = "vector_database.csv";
+const string STATS_LOG     = "statistik_log.csv";
+const string NAMA_STRUKTUR = "Vector";
+
 
 vector<string> parseCSVLine(const string& baris) {
     vector<string> fields;
@@ -59,7 +63,6 @@ int cariDuplikatMetadata(const string& nama, long long ukuran) {
     return -1;
 }
 
-
 const vector<string> EKSTENSI_VALID = {
     "pdf", "docx", "doc", "xlsx", "xls",
     "txt", "csv", "json", "xml",
@@ -72,7 +75,7 @@ bool validasiNamaFile(const string& nama) {
         if (c == ',' || c == '"' || c == '\\' || c == '/') return false;
 
     size_t titik = nama.rfind('.');
-    if (titik == string::npos || titik == nama.size() - 1) return false; 
+    if (titik == string::npos || titik == nama.size() - 1) return false; // tidak ada ekstensi
 
     string ext = nama.substr(titik + 1);
     transform(ext.begin(), ext.end(), ext.begin(), ::tolower);
@@ -120,7 +123,69 @@ string generateKonten(const string& namaFile, long long ukuran,
 }
 
 string pilihFile(const string& prefix);
+void simpanKeFile();
 
+int bacaCSV(const string& path) {
+    database.clear();
+    ifstream file(path);
+    if (!file.is_open()) return -1;
+    string baris;
+    getline(file, baris); 
+    int skipped = 0;
+    while (getline(file, baris)) {
+        if (baris.empty()) continue;
+        vector<string> f = parseCSVLine(baris);
+        if (f.size() < 6) { skipped++; continue; }
+        DataArsip d;
+        d.id_dokumen     = f[0];
+        d.nama_file      = f[1];
+        try { d.ukuran_data = stoll(f[2]); } catch (...) { d.ukuran_data = 0; }
+        d.tanggal_unggah = f[3];
+        d.sumber_data    = f[4];
+        d.konten         = f[5];
+        database.push_back(d);
+    }
+    file.close();
+    return skipped;
+}
+
+bool muatDatabase() {
+    auto start   = steady_clock::now();
+    int  skipped = bacaCSV(FILE_NAME);
+    auto dur     = duration_cast<milliseconds>(steady_clock::now() - start);
+    if (skipped == -1) return false; // file tidak ada
+    cout << ">> Berhasil memuat " << database.size() << " data dalam "
+         << dur.count() << " ms";
+    if (skipped) cout << " (" << skipped << " baris dilewati)";
+    cout << ".\n";
+    return true;
+}
+
+void muatDariDataset(const string& sumberFile) {
+    size_t slash = sumberFile.rfind('/');
+    DATASET_ASAL = (slash != string::npos)
+                   ? sumberFile.substr(slash + 1) : sumberFile;
+
+    auto start   = steady_clock::now();
+    int  skipped = bacaCSV(sumberFile);
+    auto dur     = duration_cast<milliseconds>(steady_clock::now() - start);
+
+    if (skipped == -1) {
+        cout << ">> ERROR: File \"" << sumberFile << "\" tidak ditemukan.\n";
+        return;
+    }
+    cout << ">> Berhasil memuat " << database.size() << " data dari \""
+         << DATASET_ASAL << "\" dalam " << dur.count() << " ms";
+    if (skipped) cout << " (" << skipped << " baris dilewati)";
+    cout << ".\n";
+
+    simpanKeFile();
+    cout << ">> Database utama diperbarui: " << FILE_NAME << "\n";
+}
+
+// ============================================================
+//  SIMPAN KE FILE
+// ============================================================
 void simpanKeFile() {
     ofstream file(FILE_NAME);
     if (!file.is_open()) {
@@ -140,39 +205,6 @@ void simpanKeFile() {
              << kontenSafe       << "\n";
     }
     file.close();
-}
-
-void muatData() {
-    auto start = steady_clock::now();
-    database.clear();
-    ifstream file(FILE_NAME);
-    if (!file.is_open()) {
-        cout << ">> File \"" << FILE_NAME << "\" tidak ditemukan. Database kosong.\n";
-        return;
-    }
-    string baris;
-    getline(file, baris); // skip header
-    int skipped = 0;
-    while (getline(file, baris)) {
-        if (baris.empty()) continue;
-        vector<string> f = parseCSVLine(baris);
-        if (f.size() < 6) { skipped++; continue; }
-        DataArsip d;
-        d.id_dokumen     = f[0];
-        d.nama_file      = f[1];
-        try { d.ukuran_data = stoll(f[2]); } catch (...) { d.ukuran_data = 0; }
-        d.tanggal_unggah = f[3];
-        d.sumber_data    = f[4];
-        d.konten         = f[5];
-        database.push_back(d);
-    }
-    file.close();
-    auto stop = steady_clock::now();
-    auto dur  = duration_cast<milliseconds>(stop - start);
-    cout << ">> Berhasil memuat " << database.size() << " data dalam "
-         << dur.count() << " ms";
-    if (skipped) cout << " (" << skipped << " baris dilewati)";
-    cout << ".\n";
 }
 
 void insertManual() {
@@ -245,7 +277,6 @@ void insertManual() {
     cout << ">> Waktu cek duplikat: " << dur.count() << " mikrodetik.\n";
 }
 
-
 void insertBatch() {
     string fileBaru = pilihFile("Batch Import");
 
@@ -262,7 +293,7 @@ void insertBatch() {
 
     auto start = steady_clock::now();
     string baris;
-    getline(file, baris); // skip header
+    getline(file, baris); 
 
     int noBaris  = 1;
     int sukses   = 0;
@@ -294,7 +325,6 @@ void insertBatch() {
 
         string alasan = "";
         if (!validasiNamaFile(nama)) {
-            // Bedakan alasan: karakter ilegal vs ekstensi tidak valid
             bool adaKarIlegal = false;
             for (char c : nama)
                 if (c == ',' || c == '"' || c == '\\' || c == '/')
@@ -322,7 +352,7 @@ void insertBatch() {
         }
 
         DataArsip d;
-        d.id_dokumen     = generateNextID(); // selalu generate baru, abaikan ID dari file
+        d.id_dokumen     = generateNextID(); 
         d.nama_file      = nama;
         d.ukuran_data    = ukuran;
         d.tanggal_unggah = tgl;
@@ -330,7 +360,7 @@ void insertBatch() {
         d.konten         = konten;
 
         if (cariDuplikatMetadata(d.nama_file, d.ukuran_data) != -1) {
-            database.push_back(d); // duplikat tetap masuk, ini yang ingin kita deteksi
+            database.push_back(d); 
             duplikat++;
         } else {
             database.push_back(d);
@@ -340,7 +370,7 @@ void insertBatch() {
 
     file.close();
     rejFile.close();
-    if (!adaRejected) remove(fileRejected.c_str()); // hapus jika kosong
+    if (!adaRejected) remove(fileRejected.c_str()); 
 
     simpanKeFile();
 
@@ -355,7 +385,6 @@ void insertBatch() {
         cout << " → lihat \"" << fileRejected << "\"";
     cout << ".\n";
 }
-
 
 void searchData() {
     string query;
@@ -429,7 +458,6 @@ void listDuplikat() {
     cout << ">> Waktu pemindaian: " << dur.count() << " ms.\n";
 }
 
-
 void updateDeleteData() {
     string id;
     cout << "\n[Update/Delete] Masukkan ID Dokumen: "; cin >> id;
@@ -468,7 +496,6 @@ void updateDeleteData() {
                 }
             } while (!validasiNamaFile(namaBaru));
 
-            // Cek duplikat metadata dengan nama baru
             bool konflik = false;
             for (size_t k = 0; k < database.size(); k++) {
                 if (k != i &&
@@ -481,7 +508,6 @@ void updateDeleteData() {
                 cout << ">> DITOLAK: Nama baru + ukuran yang sama sudah ada (duplikat metadata).\n";
             } else {
                 database[i].nama_file = namaBaru;
-                // Regenerate konten dari nama baru + keyword baru
                 cin.ignore();
                 cout << "Keyword baru (opsional, Enter untuk lewati): ";
                 string kw; getline(cin, kw);
@@ -492,7 +518,6 @@ void updateDeleteData() {
             }
 
         } else if (opsi == 2) {
-            // Update sumber data
             string sumberBaru;
             do {
                 cout << "Sumber baru: "; cin >> sumberBaru;
@@ -504,7 +529,6 @@ void updateDeleteData() {
             cout << ">> Sumber data berhasil diupdate.\n";
 
         } else if (opsi == 3) {
-            // Update konten — keyword baru, nama file tetap
             cin.ignore();
             cout << "Keyword baru (opsional, Enter untuk lewati): ";
             string kw; getline(cin, kw);
@@ -515,7 +539,6 @@ void updateDeleteData() {
             cout << ">> Konten berhasil diupdate.\n";
 
         } else if (opsi == 4) {
-            // Update tanggal unggah
             string tglBaru;
             do {
                 cout << "Tanggal baru (YYYY-MM-DD): "; cin >> tglBaru;
@@ -552,6 +575,7 @@ void updateDeleteData() {
     cout << ">> ID tidak ditemukan.\n";
 }
 
+
 void tampilkanStatistik() {
     cout << "\n========== STATISTIK DATABASE ==========\n";
     auto start = steady_clock::now();
@@ -582,24 +606,53 @@ void tampilkanStatistik() {
     auto stop = steady_clock::now();
     auto dur  = duration_cast<milliseconds>(stop - start);
 
-    cout << "Total Record di Sistem  : " << total                << "\n";
-    cout << "Record Benar-benar Unik : " << recordUnik           << "\n";
-    cout << "Grup Duplikat           : " << grupDuplikat         << "\n";
-    cout << "Record Terlibat Duplikat: " << totalRecordDuplikat  << "\n";
-    cout << "Waktu Kalkulasi         : " << dur.count()          << " ms (O(n²))\n";
+    cout << "Dataset                 : " << DATASET_ASAL          << "\n";
+    cout << "Total Record di Sistem  : " << total                 << "\n";
+    cout << "Record Benar-benar Unik : " << recordUnik            << "\n";
+    cout << "Grup Duplikat           : " << grupDuplikat          << "\n";
+    cout << "Record Terlibat Duplikat: " << totalRecordDuplikat   << "\n";
+    cout << "Waktu Kalkulasi         : " << dur.count()           << " ms (O(n²))\n";
     cout << "=========================================\n";
+
+    {
+        ifstream cek(STATS_LOG);
+        if (!cek.is_open()) {
+            ofstream buat(STATS_LOG);
+            buat << "timestamp,struktur_data,dataset,total_record,"
+                 << "record_unik,grup_duplikat,record_duplikat,waktu_ms\n";
+        }
+    }
+
+    auto now    = system_clock::now();
+    time_t nowT = system_clock::to_time_t(now);
+    tm* tmInfo  = localtime(&nowT);
+    char tsBuf[20];
+    strftime(tsBuf, sizeof(tsBuf), "%Y-%m-%d %H:%M:%S", tmInfo);
+
+    ofstream log(STATS_LOG, ios::app);
+    log << tsBuf              << ","
+        << NAMA_STRUKTUR      << ","
+        << DATASET_ASAL       << ","
+        << total              << ","
+        << recordUnik         << ","
+        << grupDuplikat       << ","
+        << totalRecordDuplikat << ","
+        << dur.count()        << "\n";
+    log.close();
+
+    cout << ">> Hasil dicatat ke \"" << STATS_LOG << "\".\n";
 }
 
 
 string pilihFile(const string& prefix) {
     const vector<pair<string,string>> DAFTAR_FILE = {
-        {"datasets/arsip_0001000.csv",       "     1.000 record"},
-        {"datasets/arsip_0005000.csv",       "     5.000 record"},
-        {"datasets/arsip_0010000.csv",       "    10.000 record"},
-        {"datasets/arsip_0050000.csv",       "    50.000 record"},
-        {"datasets/arsip_0100000.csv",       "   100.000 record"},
-        {"datasets/batch_import_0001000.csv","  1.000 record (batch)"},
-        {"datasets/batch_import_0005000.csv","  5.000 record (batch)"},
+        {"datasets/arsip_0001000.csv",        "    1.000 record"},
+        {"datasets/arsip_0005000.csv",        "    5.000 record"},
+        {"datasets/arsip_0010000.csv",        "   10.000 record"},
+        {"datasets/arsip_0050000.csv",        "   50.000 record"},
+        {"datasets/arsip_0100000.csv",        "  100.000 record"},
+        {"datasets/batch_import_0001000.csv", "    1.000 record (batch)"},
+        {"datasets/batch_import_0005000.csv", "    5.000 record (batch)"},
     };
 
     cout << "\n[" << prefix << "] Pilih file:\n";
@@ -623,18 +676,65 @@ string pilihFile(const string& prefix) {
     }
 }
 
+void clearDatabase() {
+    cout << "\n[Clear Database] Yakin hapus seluruh database? (y/n): ";
+    string konfirmasi; cin >> konfirmasi;
+    if (konfirmasi != "y" && konfirmasi != "Y") {
+        cout << ">> Dibatalkan.\n";
+        return;
+    }
+    database.clear();
+    remove(FILE_NAME.c_str());
+    DATASET_ASAL = "";
+    cout << ">> Database berhasil dikosongkan.\n";
+    cout << ">> Import dataset baru untuk melanjutkan.\n";
+
+    while (true) {
+        string sumber = pilihFile("Import Dataset Baru");
+        muatDariDataset(sumber);
+        if (!database.empty()) break;
+        cout << "   [!] File tidak ditemukan atau kosong, silakan pilih ulang.\n";
+    }
+}
+
 
 int main() {
     cout << "============================================\n";
-    cout << "  SISTEM DETEKSI DUPLIKASI ARSIP — VECTOR  \n";
+    cout << "  SISTEM DETEKSI DUPLIKASI ARSIP ( VECTOR )  \n";
     cout << "  Deteksi berbasis: nama_file + ukuran_data\n";
     cout << "============================================\n";
 
-    while (true) {
-        FILE_NAME = pilihFile("Muat Dataset");
-        muatData();
-        if (!database.empty()) break;
-        cout << "   [!] File tidak ditemukan atau kosong, silakan pilih ulang.\n";
+    ifstream cekDB(FILE_NAME);
+    bool dbAda = cekDB.is_open();
+    cekDB.close();
+
+    if (dbAda) {
+        cout << "\nDatabase ditemukan: " << FILE_NAME << "\n";
+        cout << "1. Lanjut dari database yang ada\n";
+        cout << "2. Import dataset baru (database lama akan diganti)\n";
+        cout << "Pilih (1-2): ";
+        int pilihan; cin >> pilihan;
+
+        if (pilihan == 1) {
+            muatDatabase();
+            if (database.empty()) {
+                cout << "   [!] Database kosong, import dataset baru.\n";
+                dbAda = false;
+            } else {
+                DATASET_ASAL = FILE_NAME;
+            }
+        } else {
+            dbAda = false;
+        }
+    }
+
+    if (!dbAda) {
+        while (true) {
+            string sumber = pilihFile("Import Dataset");
+            muatDariDataset(sumber);
+            if (!database.empty()) break;
+            cout << "   [!] File tidak ditemukan atau kosong, silakan pilih ulang.\n";
+        }
     }
 
     int menu;
@@ -646,8 +746,9 @@ int main() {
              << "4. Tampilkan Daftar Duplikat\n"
              << "5. Update / Delete Data\n"
              << "6. Lihat Statistik\n"
-             << "7. Keluar\n"
-             << "Pilih (1-7): ";
+             << "7. Clear Database\n"
+             << "8. Keluar\n"
+             << "Pilih (1-8): ";
         cin >> menu;
         switch (menu) {
             case 1: insertManual();       break;
@@ -656,9 +757,10 @@ int main() {
             case 4: listDuplikat();       break;
             case 5: updateDeleteData();   break;
             case 6: tampilkanStatistik(); break;
-            case 7: cout << "Program ditutup.\n"; break;
+            case 7: clearDatabase();      break;
+            case 8: cout << "Program ditutup.\n"; break;
             default: cout << ">> Opsi tidak valid.\n";
         }
-    } while (menu != 7);
+    } while (menu != 8);
     return 0;
 }
