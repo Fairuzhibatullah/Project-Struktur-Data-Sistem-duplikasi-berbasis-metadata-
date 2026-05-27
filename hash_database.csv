@@ -1,0 +1,1001 @@
+id_dokumen,nama_file,ukuran_data,tanggal_unggah,sumber_data,konten
+DOC-0000298,laporan_hukum_202309_9214.zip,392275674,2023-02-28,backup-eksternal,laporan|hukum|392275674|draft rekap revisi pending
+DOC-0000788,log_sdm_202207_0190.json,58897,2022-11-10,server-arsip-jakarta,log|sdm|58897|file arsip total approved rekap
+DOC-0000538,log_sdm_202311_8729.zip,4419958,2024-06-07,portal-upload-web,log|sdm|4419958|data rekap arsip revisi draft
+DOC-0000071,laporan_sdm_202208_1634.jpg,228238299,2024-12-13,backup-eksternal,laporan|sdm|228238299|file periode approved
+DOC-0000611,kontrak_keuangan_202310_4111.pdf,308871779,2024-02-18,nas-lokal-01,kontrak|keuangan|308871779|revisi dokumen arsip final rekap
+DOC-0000115,backup_audit_202409_6860.png,30627026,2022-11-28,cloud-storage-aws,backup|audit|30627026|periode final rekap pending draft
+DUP-0000089,dataset_teknologi_202211_1808.zip,40971231,2023-11-07,server-arsip-surabaya,dataset|teknologi|40971231|arsip rekap data approved total
+DUP-0000040,laporan_manajemen_202304_3155.csv,2260314,2023-08-10,cloud-storage-gcp,laporan|manajemen|2260314|draft pending total final periode
+DOC-0000822,gambar_keuangan_202304_1463.txt,4113146,2023-02-01,nas-lokal-02,gambar|keuangan|4113146|total final arsip pending periode
+DOC-0000707,surat_sdm_202210_9046.csv,19442696,2023-03-19,portal-upload-web,surat|sdm|19442696|final periode dokumen approved
+DOC-0000701,laporan_hukum_202411_8352.docx,266491,2023-04-06,server-arsip-jakarta,laporan|hukum|266491|dokumen file pending final total
+DOC-0000110,invoice_pemasaran_202305_9875.docx,3742736,2022-11-04,nas-lokal-01,invoice|pemasaran|3742736|dokumen data periode
+DOC-0000297,backup_audit_202302_8149.docx,35002234,2022-02-06,server-arsip-bandung,backup|audit|35002234|approved rekap arsip dokumen
+DOC-0000604,kontrak_keuangan_202410_7279.csv,21460912,2022-06-23,ftp-pusat,kontrak|keuangan|21460912|draft approved dokumen rekap pending
+DOC-0000374,presentasi_logistik_202308_0520.csv,38446773,2023-11-08,server-arsip-bandung,presentasi|logistik|38446773|rekap final approved
+DOC-0000759,dataset_audit_202409_5015.jpg,2664717,2023-04-11,nas-lokal-02,dataset|audit|2664717|final total arsip
+DOC-0000571,presentasi_operasional_202202_7584.zip,273949,2023-01-03,server-arsip-surabaya,presentasi|operasional|273949|rekap total approved final
+DUP-0000015,presentasi_keuangan_202307_5864.txt,24454624,2022-05-20,server-arsip-surabaya,presentasi|keuangan|24454624|total arsip dokumen revisi
+DOC-0000618,memo_manajemen_202412_9269.jpg,2125463,2022-12-26,server-arsip-bandung,memo|manajemen|2125463|periode total file final revisi
+DOC-0000073,backup_hukum_202212_1481.txt,2910710,2024-06-07,server-arsip-bandung,backup|hukum|2910710|file total pending periode final
+DUP-0000037,backup_operasional_202410_0203.json,141341,2022-09-12,cloud-storage-gcp,backup|operasional|141341|data draft final periode pending
+DOC-0000716,gambar_keuangan_202308_8438.xml,1644445,2024-12-26,server-arsip-bandung,gambar|keuangan|1644445|rekap dokumen revisi file
+DOC-0000048,laporan_logistik_202408_2507.png,199890,2024-06-10,server-arsip-surabaya,laporan|logistik|199890|arsip data final file pending
+DOC-0000650,gambar_hukum_202204_5076.xml,160852942,2024-06-04,backup-eksternal,gambar|hukum|160852942|dokumen file final
+DOC-0000388,invoice_manajemen_202203_2956.json,4082565,2024-04-02,ftp-pusat,invoice|manajemen|4082565|data periode arsip pending
+DUP-0000025,memo_hukum_202412_4455.xml,4833640,2023-08-07,ftp-pusat,memo|hukum|4833640|approved revisi total periode
+DOC-0000362,gambar_hukum_202403_2746.xml,4390235,2023-11-22,nas-lokal-02,gambar|hukum|4390235|dokumen file approved total arsip
+DOC-0000087,backup_keuangan_202209_4107.csv,14709846,2022-12-24,server-arsip-bandung,backup|keuangan|14709846|rekap periode file draft revisi
+DOC-0000545,presentasi_hukum_202404_4551.json,4483366,2022-10-24,nas-lokal-01,presentasi|hukum|4483366|file draft final rekap
+DOC-0000070,presentasi_teknologi_202301_5214.txt,2459264,2024-08-26,nas-lokal-02,presentasi|teknologi|2459264|data file periode pending
+DOC-0000870,presentasi_logistik_202401_2627.json,2966780,2024-01-25,server-arsip-jakarta,presentasi|logistik|2966780|periode dokumen rekap total
+DOC-0000275,presentasi_operasional_202203_8476.csv,3006442,2023-05-08,server-arsip-jakarta,presentasi|operasional|3006442|approved data draft periode rekap
+DOC-0000477,invoice_keuangan_202411_9728.pdf,56735,2023-08-05,nas-lokal-02,invoice|keuangan|56735|pending periode revisi data final
+DOC-0000517,laporan_riset_202301_1086.zip,72349,2023-09-10,server-arsip-jakarta,laporan|riset|72349|total dokumen revisi
+DOC-0000117,gambar_pemasaran_202406_3863.pdf,3825697,2024-03-01,server-arsip-bandung,gambar|pemasaran|3825697|revisi rekap draft total
+DOC-0000416,kontrak_logistik_202208_9672.xml,23061,2023-02-18,backup-eksternal,kontrak|logistik|23061|final draft periode
+DOC-0000255,laporan_operasional_202206_2788.pdf,64906,2024-02-08,server-arsip-surabaya,laporan|operasional|64906|total arsip file draft pending
+DOC-0000464,kontrak_hukum_202402_7430.xlsx,254819,2023-07-21,nas-lokal-02,kontrak|hukum|254819|data draft final periode total
+DOC-0000039,gambar_teknologi_202205_5503.csv,2896862,2023-10-17,ftp-pusat,gambar|teknologi|2896862|periode file revisi
+DOC-0000587,presentasi_teknologi_202304_2261.xlsx,40544229,2024-05-28,nas-lokal-02,presentasi|teknologi|40544229|pending arsip draft rekap
+DOC-0000098,backup_manajemen_202210_0816.docx,15440791,2022-06-17,cloud-storage-gcp,backup|manajemen|15440791|data approved pending dokumen
+DOC-0000061,gambar_operasional_202408_7173.xml,318688956,2022-06-14,portal-upload-web,gambar|operasional|318688956|approved draft dokumen
+DOC-0000419,invoice_sdm_202301_7515.txt,411287,2024-10-16,backup-eksternal,invoice|sdm|411287|rekap dokumen pending revisi arsip
+DOC-0000385,dataset_audit_202206_3617.jpg,2646969,2022-05-26,server-arsip-jakarta,dataset|audit|2646969|data pending total
+DOC-0000031,presentasi_keuangan_202210_4350.docx,22529856,2022-03-20,server-arsip-bandung,presentasi|keuangan|22529856|approved draft data file total
+DOC-0000415,dataset_operasional_202208_7401.zip,39693246,2022-07-05,ftp-pusat,dataset|operasional|39693246|periode dokumen arsip
+DOC-0000895,presentasi_pemasaran_202404_5933.jpg,35802,2023-02-11,server-arsip-surabaya,presentasi|pemasaran|35802|approved revisi final periode draft
+DOC-0000682,gambar_hukum_202211_9543.pdf,404159,2022-03-27,server-arsip-bandung,gambar|hukum|404159|arsip rekap approved
+DOC-0000782,log_logistik_202411_7168.xml,355823,2023-08-04,portal-upload-web,log|logistik|355823|total file data
+DOC-0000509,dataset_sdm_202201_1956.png,48270846,2023-07-22,backup-eksternal,dataset|sdm|48270846|dokumen draft file
+DUP-0000099,invoice_logistik_202201_2814.jpg,217059,2024-09-04,backup-eksternal,invoice|logistik|217059|approved data dokumen pending final
+DOC-0000888,kontrak_audit_202209_3510.csv,342803,2022-01-07,nas-lokal-02,kontrak|audit|342803|pending arsip dokumen
+DOC-0000596,invoice_pemasaran_202305_9574.jpg,4853227,2024-10-18,nas-lokal-02,invoice|pemasaran|4853227|file pending approved periode
+DOC-0000549,gambar_keuangan_202408_2230.pdf,2041320,2022-01-07,nas-lokal-02,gambar|keuangan|2041320|data final draft
+DOC-0000037,invoice_logistik_202408_0823.txt,374858,2023-05-26,server-arsip-bandung,invoice|logistik|374858|periode pending arsip dokumen
+DUP-0000022,memo_teknologi_202407_3080.json,4486262,2022-01-07,nas-lokal-01,memo|teknologi|4486262|data draft rekap
+DOC-0000734,invoice_riset_202304_8742.zip,390292,2022-11-11,server-arsip-jakarta,invoice|riset|390292|revisi approved arsip
+DOC-0000626,presentasi_keuangan_202202_0202.png,2114651,2022-05-19,portal-upload-web,presentasi|keuangan|2114651|dokumen periode arsip
+DOC-0000180,kontrak_keuangan_202210_7917.txt,3630635,2024-09-26,server-arsip-jakarta,kontrak|keuangan|3630635|arsip file approved
+DOC-0000431,kontrak_manajemen_202406_0519.docx,25688416,2023-07-11,nas-lokal-02,kontrak|manajemen|25688416|pending revisi draft
+DOC-0000547,laporan_logistik_202205_3447.csv,441335,2022-11-25,backup-eksternal,laporan|logistik|441335|draft data approved rekap final
+DOC-0000440,kontrak_manajemen_202212_5413.csv,31311837,2023-10-28,backup-eksternal,kontrak|manajemen|31311837|rekap total pending data
+DOC-0000369,log_sdm_202212_8060.json,290545,2024-09-04,cloud-storage-gcp,log|sdm|290545|approved final dokumen
+DOC-0000005,surat_operasional_202305_7429.docx,11778092,2024-01-18,server-arsip-surabaya,surat|operasional|11778092|draft revisi final total
+DOC-0000186,surat_manajemen_202312_2293.xml,3282752,2022-06-10,ftp-pusat,surat|manajemen|3282752|draft rekap total approved revisi
+DOC-0000434,dataset_riset_202211_9737.docx,498813,2022-06-28,nas-lokal-01,dataset|riset|498813|rekap total arsip final
+DOC-0000456,memo_operasional_202301_1828.xlsx,2808689,2022-12-24,portal-upload-web,memo|operasional|2808689|periode data pending draft file
+DOC-0000678,invoice_hukum_202205_3433.zip,28111811,2024-03-26,cloud-storage-gcp,invoice|hukum|28111811|periode pending rekap
+DOC-0000333,presentasi_manajemen_202312_1857.docx,3978032,2024-09-13,backup-eksternal,presentasi|manajemen|3978032|revisi dokumen periode approved
+DOC-0000109,gambar_audit_202306_4635.jpg,1831660,2024-03-04,nas-lokal-02,gambar|audit|1831660|data dokumen rekap draft
+DOC-0000847,dataset_hukum_202405_1654.zip,420196,2022-08-30,backup-eksternal,dataset|hukum|420196|rekap dokumen arsip
+DOC-0000079,laporan_operasional_202403_1477.png,201292,2023-08-28,nas-lokal-01,laporan|operasional|201292|approved periode revisi data draft
+DUP-0000012,memo_riset_202405_6952.xlsx,191175,2023-05-28,backup-eksternal,memo|riset|191175|revisi approved pending total
+DOC-0000328,dataset_pemasaran_202411_2718.jpg,135242,2024-11-18,server-arsip-surabaya,dataset|pemasaran|135242|periode file dokumen data
+DOC-0000828,dataset_logistik_202405_2840.docx,25268398,2024-06-11,nas-lokal-01,dataset|logistik|25268398|periode data revisi final file
+DOC-0000329,gambar_pemasaran_202202_4332.pdf,265664,2024-01-27,cloud-storage-aws,gambar|pemasaran|265664|data revisi arsip
+DOC-0000796,kontrak_teknologi_202310_4452.png,4242643,2023-10-15,portal-upload-web,kontrak|teknologi|4242643|dokumen approved data
+DOC-0000627,memo_pemasaran_202204_2256.xml,4229780,2022-04-01,server-arsip-jakarta,memo|pemasaran|4229780|final dokumen approved
+DOC-0000504,surat_audit_202211_5916.json,4791242,2024-03-25,server-arsip-surabaya,surat|audit|4791242|approved draft file data rekap
+DOC-0000027,log_keuangan_202303_0686.json,1742301,2023-09-24,nas-lokal-01,log|keuangan|1742301|draft revisi data
+DOC-0000113,invoice_operasional_202211_5518.docx,4916868,2022-09-26,portal-upload-web,invoice|operasional|4916868|periode file data dokumen
+DOC-0000826,laporan_logistik_202205_2257.json,505384,2023-12-19,cloud-storage-gcp,laporan|logistik|505384|data arsip periode total final
+DOC-0000737,kontrak_audit_202307_9949.jpg,418615,2023-07-11,cloud-storage-aws,kontrak|audit|418615|rekap periode dokumen
+DOC-0000391,memo_teknologi_202405_9072.txt,6456355,2024-11-13,ftp-pusat,memo|teknologi|6456355|dokumen periode total rekap pending
+DOC-0000139,dataset_operasional_202208_6810.png,41411,2024-09-18,backup-eksternal,dataset|operasional|41411|draft dokumen periode
+DUP-0000069,gambar_riset_202203_4304.png,424826,2023-09-07,backup-eksternal,gambar|riset|424826|data file final
+DOC-0000254,kontrak_logistik_202407_1662.png,28570725,2024-09-08,portal-upload-web,kontrak|logistik|28570725|data revisi periode pending total
+DOC-0000022,memo_teknologi_202211_4916.json,217505,2024-07-25,nas-lokal-01,memo|teknologi|217505|rekap pending dokumen
+DOC-0000776,surat_operasional_202306_4865.xlsx,11203628,2022-12-03,cloud-storage-aws,surat|operasional|11203628|approved pending data arsip
+DOC-0000482,gambar_manajemen_202411_5337.zip,114202,2023-04-17,server-arsip-bandung,gambar|manajemen|114202|revisi total file approved
+DOC-0000126,log_operasional_202310_2957.docx,1162088,2023-08-25,nas-lokal-01,log|operasional|1162088|total draft final
+DOC-0000540,memo_manajemen_202204_0454.txt,1452599,2023-05-18,cloud-storage-gcp,memo|manajemen|1452599|pending arsip approved dokumen
+DOC-0000843,invoice_keuangan_202402_7235.zip,29617,2024-02-06,portal-upload-web,invoice|keuangan|29617|rekap periode draft total pending
+DOC-0000122,log_riset_202211_6339.pdf,256486,2024-02-04,cloud-storage-gcp,log|riset|256486|rekap draft total data revisi
+DUP-0000081,memo_keuangan_202205_2026.txt,2574577,2024-02-13,nas-lokal-02,memo|keuangan|2574577|file final total
+DUP-0000059,dataset_sdm_202207_3785.xml,39713878,2022-07-23,server-arsip-surabaya,dataset|sdm|39713878|total data dokumen approved final
+DOC-0000279,backup_manajemen_202209_1964.zip,476315,2024-02-21,ftp-pusat,backup|manajemen|476315|approved rekap periode dokumen
+DOC-0000898,invoice_hukum_202201_8876.jpg,3984461,2022-11-07,server-arsip-bandung,invoice|hukum|3984461|dokumen approved revisi final draft
+DOC-0000567,dataset_operasional_202206_8400.zip,358924,2023-02-14,backup-eksternal,dataset|operasional|358924|approved pending final file
+DOC-0000211,invoice_teknologi_202406_9999.txt,44454905,2024-05-26,server-arsip-surabaya,invoice|teknologi|44454905|periode revisi data rekap draft
+DOC-0000390,dataset_riset_202307_0004.csv,247189,2022-03-12,cloud-storage-gcp,dataset|riset|247189|rekap arsip periode final file
+DOC-0000047,invoice_operasional_202206_8729.zip,42979091,2024-05-27,nas-lokal-01,invoice|operasional|42979091|arsip data draft
+DOC-0000195,presentasi_logistik_202302_9239.csv,31369431,2023-02-14,portal-upload-web,presentasi|logistik|31369431|periode data arsip rekap pending
+DOC-0000805,laporan_sdm_202407_3709.docx,419151853,2022-12-15,server-arsip-bandung,laporan|sdm|419151853|file draft arsip
+DOC-0000497,backup_riset_202403_5022.jpg,3050828,2022-12-18,cloud-storage-gcp,backup|riset|3050828|pending draft final
+DOC-0000112,invoice_logistik_202303_3510.jpg,200105,2023-12-01,backup-eksternal,invoice|logistik|200105|revisi periode data
+DOC-0000051,invoice_teknologi_202408_8042.xml,2515984,2024-07-06,server-arsip-jakarta,invoice|teknologi|2515984|final revisi approved
+DOC-0000441,presentasi_audit_202310_9416.png,23941972,2022-09-18,ftp-pusat,presentasi|audit|23941972|approved total draft
+DUP-0000046,presentasi_teknologi_202301_5214.txt,2459264,2024-08-26,nas-lokal-02,presentasi|teknologi|2459264|data file periode pending
+DOC-0000775,dataset_operasional_202202_4488.csv,1201215,2024-04-09,server-arsip-bandung,dataset|operasional|1201215|file pending approved arsip
+DOC-0000230,laporan_audit_202201_9059.json,88687,2024-05-08,cloud-storage-aws,laporan|audit|88687|revisi approved draft final
+DUP-0000082,kontrak_teknologi_202408_2019.jpg,331262,2024-06-04,server-arsip-surabaya,kontrak|teknologi|331262|rekap periode data revisi dokumen
+DOC-0000656,memo_hukum_202308_7559.xlsx,402521,2022-05-20,server-arsip-bandung,memo|hukum|402521|data revisi pending periode dokumen
+DOC-0000057,backup_manajemen_202308_7254.zip,283978,2023-09-01,portal-upload-web,backup|manajemen|283978|final dokumen data rekap
+DOC-0000444,backup_manajemen_202303_5047.png,61198,2024-04-11,server-arsip-bandung,backup|manajemen|61198|total data dokumen approved draft
+DOC-0000338,backup_keuangan_202208_2136.jpg,1485800,2022-01-03,nas-lokal-02,backup|keuangan|1485800|approved draft rekap arsip file
+DUP-0000043,laporan_keuangan_202204_1583.json,49892439,2022-12-10,server-arsip-surabaya,laporan|keuangan|49892439|approved arsip total
+DOC-0000691,memo_hukum_202312_9703.csv,56734,2023-01-21,server-arsip-bandung,memo|hukum|56734|draft periode file approved rekap
+DOC-0000291,dataset_hukum_202203_2794.docx,8079565,2023-11-05,nas-lokal-01,dataset|hukum|8079565|dokumen final total draft
+DOC-0000166,invoice_audit_202211_6888.pdf,104362,2024-02-06,nas-lokal-02,invoice|audit|104362|approved file total arsip
+DOC-0000879,kontrak_manajemen_202210_9717.jpg,479551,2024-01-28,backup-eksternal,kontrak|manajemen|479551|draft pending periode arsip
+DOC-0000398,backup_riset_202306_9438.txt,149595,2022-07-03,server-arsip-bandung,backup|riset|149595|approved file draft dokumen revisi
+DOC-0000069,memo_operasional_202208_8825.zip,4607401,2024-09-18,nas-lokal-01,memo|operasional|4607401|arsip file approved pending
+DOC-0000467,backup_operasional_202211_0015.png,270938,2022-03-19,nas-lokal-02,backup|operasional|270938|periode draft approved rekap
+DOC-0000801,surat_teknologi_202205_6902.pdf,38463901,2022-09-02,server-arsip-bandung,surat|teknologi|38463901|periode dokumen draft approved
+DUP-0000014,invoice_pemasaran_202306_0486.zip,44970621,2023-07-14,backup-eksternal,invoice|pemasaran|44970621|revisi draft arsip approved
+DOC-0000800,memo_manajemen_202405_9960.txt,1363358,2022-06-03,portal-upload-web,memo|manajemen|1363358|approved data file draft arsip
+DOC-0000594,backup_manajemen_202305_4662.jpg,20692596,2022-10-14,nas-lokal-02,backup|manajemen|20692596|file revisi total draft data
+DOC-0000672,dataset_audit_202410_7879.csv,3646961,2022-05-28,nas-lokal-01,dataset|audit|3646961|file pending revisi
+DOC-0000245,presentasi_manajemen_202301_7729.txt,435034,2024-12-20,nas-lokal-01,presentasi|manajemen|435034|revisi periode total file arsip
+DOC-0000226,dataset_manajemen_202404_0949.docx,239368,2023-05-16,server-arsip-bandung,dataset|manajemen|239368|total pending dokumen rekap
+DOC-0000179,kontrak_sdm_202401_1218.jpg,992681,2022-04-10,server-arsip-jakarta,kontrak|sdm|992681|periode data revisi total
+DOC-0000407,memo_manajemen_202211_2271.json,1605385,2023-02-19,server-arsip-surabaya,memo|manajemen|1605385|file arsip periode approved
+DUP-0000001,surat_audit_202408_5582.txt,4432063,2022-06-25,nas-lokal-01,surat|audit|4432063|approved file revisi
+DUP-0000084,surat_audit_202408_5582.txt,4432063,2022-06-25,nas-lokal-01,surat|audit|4432063|approved file revisi
+DOC-0000165,memo_keuangan_202404_9476.xml,11580,2022-05-30,server-arsip-jakarta,memo|keuangan|11580|draft total arsip rekap
+DOC-0000765,backup_logistik_202303_2483.png,813804,2024-08-06,server-arsip-bandung,backup|logistik|813804|total revisi data periode arsip
+DOC-0000210,log_keuangan_202212_4056.png,4066457,2023-09-02,server-arsip-jakarta,log|keuangan|4066457|final draft total pending
+DOC-0000802,surat_manajemen_202401_7566.pdf,347466,2023-08-06,server-arsip-surabaya,surat|manajemen|347466|rekap arsip data file
+DOC-0000773,presentasi_pemasaran_202205_7448.zip,4494819,2022-03-20,ftp-pusat,presentasi|pemasaran|4494819|pending periode revisi
+DOC-0000399,presentasi_pemasaran_202206_7246.zip,3057006,2022-10-26,backup-eksternal,presentasi|pemasaran|3057006|revisi file draft
+DOC-0000522,invoice_logistik_202408_3701.csv,3117304,2024-04-14,cloud-storage-gcp,invoice|logistik|3117304|revisi total pending draft
+DOC-0000323,memo_hukum_202306_2101.txt,4586850,2023-04-26,server-arsip-bandung,memo|hukum|4586850|dokumen total revisi draft
+DUP-0000002,kontrak_manajemen_202412_1940.xlsx,302206,2023-01-13,nas-lokal-01,kontrak|manajemen|302206|file rekap draft
+DOC-0000772,presentasi_audit_202202_2954.png,4399470,2022-08-10,nas-lokal-02,presentasi|audit|4399470|revisi approved draft total
+DOC-0000506,kontrak_manajemen_202308_8607.zip,118938,2023-11-18,server-arsip-bandung,kontrak|manajemen|118938|approved total rekap file final
+DOC-0000459,memo_audit_202407_7776.jpg,368356,2023-06-22,server-arsip-surabaya,memo|audit|368356|approved rekap final pending file
+DOC-0000202,kontrak_teknologi_202309_6986.jpg,93957,2024-08-04,cloud-storage-aws,kontrak|teknologi|93957|data periode file approved
+DOC-0000401,presentasi_teknologi_202405_8992.jpg,296483,2024-09-16,portal-upload-web,presentasi|teknologi|296483|periode data rekap approved dokumen
+DOC-0000053,invoice_teknologi_202403_3139.json,290947,2023-03-20,backup-eksternal,invoice|teknologi|290947|file dokumen arsip final
+DOC-0000848,presentasi_keuangan_202307_5864.txt,24454624,2022-05-20,server-arsip-surabaya,presentasi|keuangan|24454624|total arsip dokumen revisi
+DOC-0000838,dataset_logistik_202210_6381.xlsx,249642,2022-01-23,portal-upload-web,dataset|logistik|249642|rekap data dokumen pending
+DOC-0000635,kontrak_riset_202203_2143.zip,9387412,2023-01-24,cloud-storage-aws,kontrak|riset|9387412|approved draft data file revisi
+DOC-0000034,dataset_riset_202310_9940.pdf,120196,2023-10-22,backup-eksternal,dataset|riset|120196|pending data revisi arsip
+DOC-0000836,kontrak_teknologi_202408_2019.jpg,331262,2024-06-04,server-arsip-surabaya,kontrak|teknologi|331262|rekap periode data revisi dokumen
+DOC-0000694,log_hukum_202408_3535.csv,429311253,2024-10-10,cloud-storage-gcp,log|hukum|429311253|approved rekap draft periode revisi
+DOC-0000227,memo_sdm_202401_2685.docx,81938,2024-10-13,nas-lokal-01,memo|sdm|81938|arsip final periode draft dokumen
+DOC-0000299,presentasi_riset_202408_1869.zip,3547536,2022-07-19,cloud-storage-aws,presentasi|riset|3547536|draft file final
+DOC-0000062,memo_keuangan_202410_0340.docx,363526,2023-07-06,portal-upload-web,memo|keuangan|363526|periode pending arsip
+DOC-0000304,kontrak_logistik_202312_8976.zip,4797439,2023-10-05,ftp-pusat,kontrak|logistik|4797439|revisi file data final draft
+DOC-0000118,presentasi_sdm_202312_2274.xlsx,490979,2024-08-18,backup-eksternal,presentasi|sdm|490979|rekap total file final revisi
+DOC-0000613,presentasi_pemasaran_202305_4030.csv,429972585,2023-10-21,nas-lokal-01,presentasi|pemasaran|429972585|pending dokumen draft
+DOC-0000313,gambar_riset_202304_3995.pdf,191407,2022-03-23,nas-lokal-01,gambar|riset|191407|total approved final arsip
+DUP-0000097,surat_manajemen_202406_4479.docx,1294684,2022-05-18,portal-upload-web,surat|manajemen|1294684|pending approved revisi draft total
+DUP-0000028,invoice_operasional_202307_4845.jpg,224115,2022-09-18,cloud-storage-aws,invoice|operasional|224115|data approved periode final
+DUP-0000008,dataset_operasional_202307_1817.txt,12638164,2023-08-04,portal-upload-web,dataset|operasional|12638164|arsip data final rekap
+DOC-0000699,log_pemasaran_202412_6620.zip,1746282,2023-05-17,server-arsip-jakarta,log|pemasaran|1746282|revisi approved pending
+DOC-0000347,presentasi_logistik_202212_1125.xml,4843141,2022-07-04,ftp-pusat,presentasi|logistik|4843141|file arsip dokumen draft
+DUP-0000100,kontrak_teknologi_202310_4452.png,4242643,2023-10-15,portal-upload-web,kontrak|teknologi|4242643|dokumen approved data
+DOC-0000330,presentasi_logistik_202211_5310.png,8116366,2022-07-31,ftp-pusat,presentasi|logistik|8116366|final file dokumen arsip periode
+DUP-0000085,surat_keuangan_202205_4920.txt,2634209,2024-11-03,ftp-pusat,surat|keuangan|2634209|rekap total draft dokumen
+DOC-0000161,memo_sdm_202402_4834.xml,3108673,2024-01-23,portal-upload-web,memo|sdm|3108673|revisi periode pending
+DOC-0000262,backup_riset_202208_2833.zip,1736881,2022-12-09,cloud-storage-aws,backup|riset|1736881|periode rekap approved
+DOC-0000301,dataset_teknologi_202406_1766.png,17789525,2024-04-28,server-arsip-jakarta,dataset|teknologi|17789525|data dokumen total pending arsip
+DOC-0000289,surat_audit_202402_1810.json,16684,2024-10-08,server-arsip-surabaya,surat|audit|16684|arsip total data
+DOC-0000521,dataset_hukum_202403_8124.json,67837,2024-01-10,cloud-storage-gcp,dataset|hukum|67837|file rekap total draft pending
+DOC-0000510,gambar_manajemen_202408_1960.xml,47144102,2024-02-04,ftp-pusat,gambar|manajemen|47144102|dokumen rekap final periode data
+DOC-0000563,dataset_hukum_202301_4658.txt,11328717,2022-09-07,nas-lokal-02,dataset|hukum|11328717|dokumen total draft periode
+DUP-0000067,dataset_hukum_202203_2794.docx,8079565,2023-11-05,nas-lokal-01,dataset|hukum|8079565|dokumen final total draft
+DOC-0000703,dataset_keuangan_202408_1048.xml,4999791,2024-11-28,portal-upload-web,dataset|keuangan|4999791|file data total revisi dokumen
+DOC-0000234,dataset_operasional_202308_0982.docx,134868,2022-10-19,cloud-storage-gcp,dataset|operasional|134868|rekap revisi arsip
+DOC-0000372,kontrak_operasional_202312_8061.docx,4298087,2023-01-20,nas-lokal-01,kontrak|operasional|4298087|periode rekap arsip
+DOC-0000507,dataset_sdm_202203_6255.jpg,1648628,2023-08-16,ftp-pusat,dataset|sdm|1648628|rekap final dokumen data
+DOC-0000425,log_manajemen_202410_8133.zip,78007,2024-11-30,backup-eksternal,log|manajemen|78007|periode dokumen revisi final
+DOC-0000807,kontrak_sdm_202303_9571.zip,1559387,2024-04-26,backup-eksternal,kontrak|sdm|1559387|total arsip data revisi pending
+DOC-0000784,surat_audit_202302_5745.jpg,112529,2024-08-08,nas-lokal-02,surat|audit|112529|file approved rekap draft revisi
+DOC-0000875,surat_logistik_202306_5143.zip,2683379,2022-08-30,server-arsip-bandung,surat|logistik|2683379|approved arsip periode pending
+DOC-0000159,kontrak_manajemen_202302_6568.xml,39579900,2022-07-15,server-arsip-surabaya,kontrak|manajemen|39579900|pending draft revisi
+DOC-0000008,log_riset_202407_5931.csv,4093964,2023-03-26,server-arsip-surabaya,log|riset|4093964|pending total rekap data periode
+DOC-0000458,surat_audit_202301_4332.xlsx,395016,2022-08-26,server-arsip-jakarta,surat|audit|395016|pending approved file
+DOC-0000809,invoice_audit_202208_6309.pdf,361534,2023-01-20,backup-eksternal,invoice|audit|361534|draft revisi dokumen
+DUP-0000072,surat_teknologi_202308_9930.png,69754725,2023-03-05,server-arsip-jakarta,surat|teknologi|69754725|data approved total
+DOC-0000534,presentasi_logistik_202208_1640.zip,310175,2023-02-26,nas-lokal-01,presentasi|logistik|310175|arsip data draft periode
+DOC-0000305,kontrak_sdm_202402_5772.jpg,3204332,2024-09-10,portal-upload-web,kontrak|sdm|3204332|data approved arsip final file
+DOC-0000856,kontrak_manajemen_202402_1252.xml,1526568,2023-05-28,ftp-pusat,kontrak|manajemen|1526568|pending draft revisi
+DOC-0000149,log_manajemen_202201_9381.xml,366896,2022-08-14,cloud-storage-aws,log|manajemen|366896|pending draft approved
+DOC-0000523,kontrak_keuangan_202309_1393.png,3824991,2022-09-02,server-arsip-surabaya,kontrak|keuangan|3824991|approved dokumen total periode
+DOC-0000340,invoice_operasional_202304_0090.zip,32423817,2022-01-15,portal-upload-web,invoice|operasional|32423817|total arsip rekap approved revisi
+DOC-0000488,log_keuangan_202305_3917.xml,121249214,2022-07-05,server-arsip-jakarta,log|keuangan|121249214|data final periode pending
+DOC-0000834,surat_sdm_202310_3289.csv,554114,2022-08-23,server-arsip-bandung,surat|sdm|554114|periode dokumen total
+DOC-0000892,gambar_manajemen_202305_8315.xml,742956,2023-03-17,nas-lokal-02,gambar|manajemen|742956|arsip draft final
+DOC-0000639,backup_sdm_202202_4835.json,54438,2024-06-29,ftp-pusat,backup|sdm|54438|revisi dokumen rekap pending
+DOC-0000422,kontrak_sdm_202312_9486.csv,1988301,2024-01-08,server-arsip-jakarta,kontrak|sdm|1988301|final draft data
+DOC-0000267,memo_pemasaran_202305_4594.pdf,426102,2024-10-03,server-arsip-bandung,memo|pemasaran|426102|periode final pending
+DOC-0000865,gambar_keuangan_202308_9120.png,29400,2023-03-23,nas-lokal-02,gambar|keuangan|29400|dokumen total final
+DOC-0000584,kontrak_riset_202308_1818.zip,922971,2022-08-05,portal-upload-web,kontrak|riset|922971|total arsip rekap data file
+DOC-0000212,log_operasional_202405_4741.zip,3215004,2023-07-02,ftp-pusat,log|operasional|3215004|total periode approved rekap final
+DOC-0000576,laporan_hukum_202308_0322.xlsx,34881292,2024-07-09,portal-upload-web,laporan|hukum|34881292|revisi final dokumen
+DOC-0000248,laporan_teknologi_202301_5436.zip,286010,2023-02-17,server-arsip-surabaya,laporan|teknologi|286010|file periode draft rekap
+DOC-0000246,memo_riset_202407_5814.pdf,19724463,2022-12-22,server-arsip-surabaya,memo|riset|19724463|dokumen draft data
+DOC-0000311,laporan_sdm_202310_9014.json,3026270,2024-01-04,server-arsip-bandung,laporan|sdm|3026270|draft arsip revisi periode total
+DOC-0000546,backup_keuangan_202309_6303.pdf,2510547,2023-09-26,nas-lokal-01,backup|keuangan|2510547|total arsip revisi pending approved
+DUP-0000060,memo_audit_202211_3569.csv,475315,2022-08-20,cloud-storage-aws,memo|audit|475315|approved draft rekap periode final
+DOC-0000659,memo_audit_202304_4092.pdf,908230,2024-02-07,cloud-storage-aws,memo|audit|908230|total rekap approved
+DOC-0000127,memo_audit_202408_5760.zip,1897918,2024-07-04,server-arsip-jakarta,memo|audit|1897918|draft dokumen approved final rekap
+DOC-0000104,log_hukum_202312_2420.jpg,3430773,2023-04-29,server-arsip-bandung,log|hukum|3430773|final revisi periode
+DOC-0000462,laporan_logistik_202304_4642.docx,4240835,2023-05-31,cloud-storage-aws,laporan|logistik|4240835|rekap dokumen total
+DOC-0000101,kontrak_sdm_202409_5803.xml,2430309,2022-05-28,nas-lokal-02,kontrak|sdm|2430309|rekap approved file pending total
+DOC-0000853,laporan_logistik_202407_9004.xml,4104742,2022-10-10,server-arsip-bandung,laporan|logistik|4104742|total dokumen draft data
+DOC-0000138,backup_operasional_202411_0497.txt,32956666,2024-10-16,ftp-pusat,backup|operasional|32956666|data final pending revisi
+DOC-0000129,presentasi_logistik_202408_6078.zip,90445,2024-02-01,backup-eksternal,presentasi|logistik|90445|dokumen periode arsip
+DOC-0000697,memo_audit_202408_4770.xlsx,4206790,2022-10-24,cloud-storage-aws,memo|audit|4206790|file revisi rekap
+DOC-0000225,dataset_hukum_202302_5078.jpg,1780777,2022-06-11,ftp-pusat,dataset|hukum|1780777|periode arsip draft
+DOC-0000496,surat_hukum_202411_5504.pdf,20591273,2024-04-23,portal-upload-web,surat|hukum|20591273|data file draft pending
+DOC-0000634,kontrak_operasional_202207_1819.docx,365180,2023-11-25,cloud-storage-aws,kontrak|operasional|365180|pending revisi draft dokumen
+DOC-0000675,presentasi_keuangan_202204_7828.xml,444956715,2022-03-12,nas-lokal-01,presentasi|keuangan|444956715|file data rekap periode final
+DOC-0000725,log_logistik_202203_2549.xlsx,66559,2023-12-06,ftp-pusat,log|logistik|66559|data revisi rekap
+DOC-0000476,dataset_sdm_202210_0667.json,4179757,2022-10-01,server-arsip-bandung,dataset|sdm|4179757|dokumen approved periode rekap pending
+DUP-0000053,invoice_logistik_202309_1289.docx,318738,2024-03-21,cloud-storage-gcp,invoice|logistik|318738|draft revisi file periode total
+DOC-0000359,laporan_sdm_202412_5173.xml,4836969,2024-09-23,cloud-storage-gcp,laporan|sdm|4836969|arsip dokumen rekap approved
+DUP-0000063,memo_keuangan_202205_2026.txt,2574577,2024-02-13,nas-lokal-02,memo|keuangan|2574577|file final total
+DOC-0000082,invoice_teknologi_202406_9996.png,473593,2023-03-30,server-arsip-bandung,invoice|teknologi|473593|pending final approved total periode
+DOC-0000072,kontrak_hukum_202310_6513.png,22785378,2022-06-14,nas-lokal-01,kontrak|hukum|22785378|arsip approved draft pending rekap
+DOC-0000154,surat_teknologi_202405_2250.jpg,304659,2022-08-12,portal-upload-web,surat|teknologi|304659|dokumen revisi data rekap file
+DOC-0000465,memo_keuangan_202305_2916.xml,41488,2024-06-21,server-arsip-bandung,memo|keuangan|41488|revisi dokumen approved periode
+DOC-0000288,invoice_audit_202404_5865.txt,2706153,2024-04-19,cloud-storage-gcp,invoice|audit|2706153|rekap arsip pending
+DOC-0000570,log_logistik_202209_1764.csv,1142002,2024-11-11,nas-lokal-02,log|logistik|1142002|total pending dokumen final
+DOC-0000897,memo_keuangan_202205_2026.txt,2574577,2024-02-13,nas-lokal-02,memo|keuangan|2574577|file final total
+DOC-0000738,surat_manajemen_202309_8603.pdf,39413136,2023-06-15,cloud-storage-gcp,surat|manajemen|39413136|final file arsip
+DUP-0000065,laporan_sdm_202210_0485.jpg,1520002,2022-02-17,ftp-pusat,laporan|sdm|1520002|periode revisi draft total data
+DOC-0000715,dataset_pemasaran_202404_1535.docx,1143350,2022-12-05,portal-upload-web,dataset|pemasaran|1143350|total final arsip
+DOC-0000564,laporan_hukum_202308_4413.png,49260935,2022-01-12,nas-lokal-01,laporan|hukum|49260935|data dokumen pending
+DOC-0000189,presentasi_pemasaran_202306_4420.docx,171620,2022-07-29,server-arsip-surabaya,presentasi|pemasaran|171620|periode approved pending
+DUP-0000055,surat_teknologi_202405_7123.json,426466,2023-12-07,server-arsip-bandung,surat|teknologi|426466|rekap dokumen arsip approved periode
+DOC-0000449,dataset_sdm_202203_0191.csv,409738990,2022-05-27,server-arsip-jakarta,dataset|sdm|409738990|file pending approved
+DUP-0000071,backup_riset_202208_2833.zip,1736881,2022-12-09,cloud-storage-aws,backup|riset|1736881|periode rekap approved
+DOC-0000508,gambar_riset_202203_4304.png,424826,2023-09-07,backup-eksternal,gambar|riset|424826|data file final
+DOC-0000528,memo_riset_202401_0518.json,41274287,2024-05-31,server-arsip-bandung,memo|riset|41274287|pending draft approved file
+DOC-0000814,dataset_logistik_202210_4521.txt,221126,2024-12-20,portal-upload-web,dataset|logistik|221126|arsip approved total rekap
+DUP-0000091,laporan_pemasaran_202402_2334.pdf,25737,2023-08-19,backup-eksternal,laporan|pemasaran|25737|data dokumen draft
+DOC-0000029,presentasi_logistik_202402_6268.txt,422811,2022-03-21,backup-eksternal,presentasi|logistik|422811|revisi pending draft
+DOC-0000505,memo_pemasaran_202402_3534.json,243610,2024-06-28,nas-lokal-02,memo|pemasaran|243610|final periode approved dokumen
+DOC-0000693,laporan_riset_202304_8190.png,437896,2024-07-22,server-arsip-surabaya,laporan|riset|437896|final periode rekap draft file
+DOC-0000439,invoice_audit_202408_1594.zip,436168,2024-07-22,cloud-storage-gcp,invoice|audit|436168|data pending file revisi arsip
+DOC-0000660,laporan_keuangan_202204_1583.json,49892439,2022-12-10,server-arsip-surabaya,laporan|keuangan|49892439|approved arsip total
+DOC-0000795,memo_audit_202205_2834.png,3854958,2023-02-10,cloud-storage-gcp,memo|audit|3854958|total dokumen data final
+DOC-0000194,memo_pemasaran_202306_2911.zip,157831322,2024-03-26,nas-lokal-01,memo|pemasaran|157831322|file data pending revisi
+DOC-0000068,log_sdm_202412_2237.xml,324246,2022-05-23,cloud-storage-gcp,log|sdm|324246|draft arsip final rekap
+DOC-0000777,kontrak_logistik_202301_9190.json,43273318,2023-02-11,server-arsip-bandung,kontrak|logistik|43273318|data dokumen file periode draft
+DOC-0000867,kontrak_manajemen_202203_8303.pdf,353199,2024-06-20,portal-upload-web,kontrak|manajemen|353199|rekap arsip revisi file
+DOC-0000252,backup_teknologi_202206_1275.zip,270143,2023-05-03,nas-lokal-01,backup|teknologi|270143|periode data total draft
+DOC-0000454,gambar_audit_202406_6898.jpg,43518160,2023-12-24,cloud-storage-gcp,gambar|audit|43518160|periode rekap dokumen final
+DOC-0000589,laporan_sdm_202411_8517.zip,341144,2023-08-29,nas-lokal-02,laporan|sdm|341144|data arsip final draft
+DUP-0000003,dataset_hukum_202403_8124.json,67837,2024-01-10,cloud-storage-gcp,dataset|hukum|67837|file rekap total draft pending
+DOC-0000619,log_operasional_202411_8732.txt,6551390,2023-06-02,ftp-pusat,log|operasional|6551390|rekap approved file draft
+DOC-0000181,laporan_keuangan_202301_8229.jpg,4994097,2024-05-31,server-arsip-surabaya,laporan|keuangan|4994097|total arsip periode
+DOC-0000763,backup_keuangan_202201_5155.zip,309741903,2022-07-10,cloud-storage-gcp,backup|keuangan|309741903|draft final approved
+DOC-0000533,kontrak_keuangan_202407_9307.jpg,251649,2024-11-20,nas-lokal-02,kontrak|keuangan|251649|rekap pending dokumen file
+DOC-0000016,gambar_logistik_202306_6940.txt,355496,2024-04-21,backup-eksternal,gambar|logistik|355496|rekap data total file approved
+DOC-0000612,kontrak_riset_202312_2015.zip,57036,2022-10-14,ftp-pusat,kontrak|riset|57036|approved revisi dokumen arsip
+DOC-0000705,log_operasional_202405_5957.pdf,75387,2022-12-18,nas-lokal-02,log|operasional|75387|rekap revisi final file dokumen
+DOC-0000162,kontrak_audit_202408_8807.zip,378019,2023-03-24,cloud-storage-aws,kontrak|audit|378019|dokumen total arsip pending draft
+DOC-0000150,kontrak_logistik_202412_1021.txt,4456114,2022-10-10,ftp-pusat,kontrak|logistik|4456114|arsip draft pending
+DOC-0000638,gambar_audit_202204_3326.csv,807061,2024-07-14,cloud-storage-aws,gambar|audit|807061|revisi final approved dokumen
+DOC-0000421,laporan_sdm_202203_0532.xlsx,192986,2023-09-04,nas-lokal-01,laporan|sdm|192986|rekap total approved
+DOC-0000272,surat_teknologi_202401_0146.txt,224699,2024-08-28,server-arsip-surabaya,surat|teknologi|224699|periode dokumen rekap revisi final
+DOC-0000794,laporan_pemasaran_202403_4385.xlsx,391547,2023-07-15,backup-eksternal,laporan|pemasaran|391547|total draft arsip
+DOC-0000695,surat_keuangan_202311_2609.xlsx,31293781,2022-02-14,ftp-pusat,surat|keuangan|31293781|draft approved pending file
+DOC-0000381,log_operasional_202403_8907.jpg,2091956,2023-12-14,nas-lokal-01,log|operasional|2091956|pending final dokumen arsip periode
+DOC-0000621,presentasi_keuangan_202401_3697.xml,52891,2024-05-17,server-arsip-bandung,presentasi|keuangan|52891|revisi periode draft
+DOC-0000673,kontrak_teknologi_202412_6132.pdf,272510,2024-10-03,nas-lokal-02,kontrak|teknologi|272510|approved draft file pending
+DOC-0000017,presentasi_hukum_202303_6913.txt,291168,2023-01-11,cloud-storage-gcp,presentasi|hukum|291168|revisi total pending arsip
+DOC-0000207,kontrak_riset_202206_7390.xlsx,1676893,2022-04-20,nas-lokal-01,kontrak|riset|1676893|pending periode revisi
+DOC-0000131,gambar_teknologi_202304_2010.zip,490498,2022-10-05,server-arsip-bandung,gambar|teknologi|490498|periode pending total draft
+DOC-0000300,log_riset_202208_2302.json,884015,2024-04-18,server-arsip-bandung,log|riset|884015|dokumen revisi data total
+DOC-0000088,backup_pemasaran_202212_6898.pdf,37472,2024-12-13,server-arsip-bandung,backup|pemasaran|37472|total pending data draft file
+DOC-0000396,surat_logistik_202206_1353.csv,14932945,2024-09-01,portal-upload-web,surat|logistik|14932945|rekap arsip approved final total
+DOC-0000646,dataset_riset_202401_2280.csv,22184,2022-11-11,nas-lokal-01,dataset|riset|22184|data dokumen file approved arsip
+DOC-0000256,laporan_logistik_202201_1660.xlsx,4142337,2023-11-10,cloud-storage-aws,laporan|logistik|4142337|approved arsip data
+DOC-0000480,laporan_teknologi_202303_2618.docx,36837307,2022-03-30,server-arsip-jakarta,laporan|teknologi|36837307|draft final revisi approved data
+DOC-0000078,backup_audit_202406_3589.csv,20442984,2023-01-25,portal-upload-web,backup|audit|20442984|data file periode total
+DOC-0000542,backup_operasional_202311_1480.docx,32313768,2024-03-23,server-arsip-surabaya,backup|operasional|32313768|total dokumen arsip
+DOC-0000899,dataset_riset_202202_4330.pdf,250598,2024-08-23,nas-lokal-02,dataset|riset|250598|approved total revisi file
+DOC-0000490,presentasi_riset_202312_8888.pdf,404730,2023-03-01,server-arsip-bandung,presentasi|riset|404730|draft rekap arsip file data
+DOC-0000771,surat_riset_202307_2593.pdf,65206,2024-03-28,server-arsip-bandung,surat|riset|65206|approved pending total
+DOC-0000176,dataset_audit_202306_8402.jpg,3087234,2024-10-15,backup-eksternal,dataset|audit|3087234|file pending draft
+DOC-0000492,gambar_manajemen_202306_4381.txt,20128837,2024-10-28,nas-lokal-02,gambar|manajemen|20128837|rekap total draft dokumen
+DOC-0000710,invoice_operasional_202206_1458.docx,3912329,2024-01-14,nas-lokal-01,invoice|operasional|3912329|periode revisi final rekap
+DOC-0000244,log_keuangan_202309_7941.xml,29099606,2023-12-06,portal-upload-web,log|keuangan|29099606|draft approved final periode rekap
+DOC-0000852,surat_pemasaran_202201_0432.xml,2410549,2023-02-06,ftp-pusat,surat|pemasaran|2410549|approved data rekap arsip pending
+DOC-0000820,presentasi_audit_202408_4154.png,2658721,2024-01-17,backup-eksternal,presentasi|audit|2658721|draft final file
+DUP-0000045,invoice_riset_202201_3311.docx,78039,2022-08-08,backup-eksternal,invoice|riset|78039|total rekap dokumen
+DOC-0000667,log_logistik_202406_5616.csv,20368603,2023-05-12,cloud-storage-aws,log|logistik|20368603|rekap data revisi dokumen approved
+DOC-0000302,backup_riset_202412_0796.xlsx,52328745,2024-06-05,portal-upload-web,backup|riset|52328745|arsip periode dokumen data
+DOC-0000426,surat_keuangan_202212_3397.docx,337921,2024-04-29,nas-lokal-02,surat|keuangan|337921|draft file arsip
+DOC-0000148,dataset_manajemen_202210_7776.csv,47228957,2023-06-28,portal-upload-web,dataset|manajemen|47228957|revisi rekap dokumen pending periode
+DUP-0000077,log_manajemen_202410_8133.zip,78007,2024-11-30,backup-eksternal,log|manajemen|78007|periode dokumen revisi final
+DOC-0000366,surat_operasional_202403_0469.png,1601233,2022-03-13,nas-lokal-01,surat|operasional|1601233|pending file arsip final
+DOC-0000405,laporan_pemasaran_202209_4520.json,168506,2022-05-07,cloud-storage-gcp,laporan|pemasaran|168506|rekap arsip final revisi
+DOC-0000321,log_riset_202412_5634.docx,402322,2023-03-10,nas-lokal-02,log|riset|402322|arsip periode data dokumen revisi
+DOC-0000116,log_hukum_202203_4470.jpg,24130256,2024-07-09,ftp-pusat,log|hukum|24130256|approved total revisi
+DOC-0000114,gambar_keuangan_202208_4669.xml,387270,2024-07-08,cloud-storage-aws,gambar|keuangan|387270|revisi final pending file draft
+DOC-0000050,laporan_audit_202305_5577.json,121211,2023-07-27,portal-upload-web,laporan|audit|121211|final arsip rekap data revisi
+DOC-0000730,memo_pemasaran_202304_5241.csv,432029609,2022-04-08,server-arsip-surabaya,memo|pemasaran|432029609|rekap file draft
+DOC-0000423,dataset_hukum_202308_2205.xml,9357102,2022-09-07,cloud-storage-gcp,dataset|hukum|9357102|arsip approved file revisi
+DOC-0000237,backup_hukum_202306_6661.xlsx,245702,2022-09-05,ftp-pusat,backup|hukum|245702|revisi pending final data
+DOC-0000494,gambar_hukum_202302_1792.docx,103748,2022-12-04,cloud-storage-gcp,gambar|hukum|103748|file periode pending
+DOC-0000334,laporan_teknologi_202203_8400.pdf,320560,2022-03-22,portal-upload-web,laporan|teknologi|320560|rekap periode final
+DOC-0000815,surat_hukum_202210_4362.txt,479268,2023-05-04,server-arsip-bandung,surat|hukum|479268|total final revisi approved arsip
+DOC-0000674,memo_manajemen_202207_9267.docx,825704,2022-11-29,cloud-storage-aws,memo|manajemen|825704|final draft arsip pending
+DOC-0000010,memo_pemasaran_202301_4316.docx,92920,2024-10-22,server-arsip-surabaya,memo|pemasaran|92920|total data final arsip revisi
+DOC-0000813,invoice_pemasaran_202407_8322.xml,218104,2023-11-15,server-arsip-jakarta,invoice|pemasaran|218104|final draft total rekap
+DOC-0000748,log_logistik_202204_6999.xlsx,127604,2024-02-29,server-arsip-surabaya,log|logistik|127604|data final revisi approved
+DUP-0000041,presentasi_pemasaran_202209_4941.xlsx,293045,2022-09-06,server-arsip-jakarta,presentasi|pemasaran|293045|pending periode file draft
+DOC-0000140,presentasi_pemasaran_202309_9203.json,120204543,2022-08-06,nas-lokal-01,presentasi|pemasaran|120204543|pending total final
+DOC-0000146,log_keuangan_202308_8509.pdf,384127,2024-07-24,server-arsip-surabaya,log|keuangan|384127|arsip periode draft dokumen data
+DOC-0000573,invoice_logistik_202201_2814.jpg,217059,2024-09-04,backup-eksternal,invoice|logistik|217059|approved data dokumen pending final
+DOC-0000880,backup_operasional_202301_9243.docx,268627,2024-11-26,ftp-pusat,backup|operasional|268627|arsip approved final draft data
+DOC-0000469,presentasi_operasional_202206_8760.xml,349253,2023-11-28,server-arsip-bandung,presentasi|operasional|349253|final data revisi periode
+DOC-0000024,memo_manajemen_202405_1698.jpg,438397,2022-10-03,cloud-storage-gcp,memo|manajemen|438397|total arsip periode
+DOC-0000881,presentasi_sdm_202404_7054.xlsx,395155,2024-11-29,cloud-storage-gcp,presentasi|sdm|395155|dokumen draft total data final
+DOC-0000531,backup_pemasaran_202401_2101.csv,24757,2024-01-21,nas-lokal-01,backup|pemasaran|24757|dokumen rekap draft approved total
+DUP-0000023,invoice_teknologi_202301_8752.csv,104079,2022-09-17,cloud-storage-gcp,invoice|teknologi|104079|rekap arsip final
+DOC-0000652,log_pemasaran_202310_0641.zip,35883806,2022-07-06,cloud-storage-gcp,log|pemasaran|35883806|pending draft final approved periode
+DOC-0000665,log_manajemen_202205_3874.pdf,333144,2024-05-27,cloud-storage-aws,log|manajemen|333144|total rekap periode draft pending
+DOC-0000610,kontrak_pemasaran_202209_6943.jpg,469845759,2024-07-14,server-arsip-jakarta,kontrak|pemasaran|469845759|pending dokumen final
+DOC-0000688,gambar_sdm_202409_3947.png,308862268,2023-05-14,cloud-storage-aws,gambar|sdm|308862268|data total file
+DOC-0000883,kontrak_hukum_202201_9805.txt,4767270,2022-03-23,ftp-pusat,kontrak|hukum|4767270|revisi rekap pending data draft
+DOC-0000636,laporan_manajemen_202303_5369.zip,290739,2023-05-22,server-arsip-jakarta,laporan|manajemen|290739|final periode arsip pending revisi
+DOC-0000787,dataset_sdm_202207_3785.xml,39713878,2022-07-23,server-arsip-surabaya,dataset|sdm|39713878|total data dokumen approved final
+DUP-0000086,laporan_keuangan_202209_4141.docx,3689800,2024-08-29,server-arsip-surabaya,laporan|keuangan|3689800|file data rekap
+DOC-0000277,log_operasional_202205_1600.xlsx,42463393,2024-08-22,server-arsip-surabaya,log|operasional|42463393|final arsip periode draft total
+DOC-0000438,invoice_logistik_202212_9767.pdf,215477,2024-07-02,portal-upload-web,invoice|logistik|215477|final draft revisi arsip
+DOC-0000720,gambar_manajemen_202408_5383.png,13088,2023-09-04,nas-lokal-01,gambar|manajemen|13088|rekap draft periode
+DOC-0000792,presentasi_audit_202211_9295.xlsx,15316,2022-03-06,server-arsip-bandung,presentasi|audit|15316|draft pending dokumen arsip
+DOC-0000595,presentasi_audit_202302_1512.docx,233185,2022-05-08,nas-lokal-02,presentasi|audit|233185|pending revisi file
+DOC-0000293,invoice_logistik_202210_6222.zip,4175577,2024-01-05,portal-upload-web,invoice|logistik|4175577|data periode pending
+DOC-0000556,dataset_logistik_202401_0854.zip,59953,2023-11-13,cloud-storage-aws,dataset|logistik|59953|draft dokumen data rekap
+DOC-0000588,gambar_sdm_202202_5543.pdf,4839836,2023-10-07,nas-lokal-02,gambar|sdm|4839836|approved rekap file
+DUP-0000038,kontrak_sdm_202211_6435.txt,178871,2024-09-29,server-arsip-surabaya,kontrak|sdm|178871|data final approved dokumen pending
+DOC-0000361,memo_pemasaran_202410_3260.pdf,3445161,2022-12-24,cloud-storage-gcp,memo|pemasaran|3445161|draft data arsip pending
+DOC-0000481,presentasi_manajemen_202209_2882.png,398191,2022-11-20,server-arsip-jakarta,presentasi|manajemen|398191|arsip total data revisi
+DOC-0000554,memo_operasional_202210_3532.png,236129,2023-08-03,cloud-storage-aws,memo|operasional|236129|periode approved file rekap
+DOC-0000696,dataset_logistik_202312_3197.docx,2874311,2024-03-17,server-arsip-bandung,dataset|logistik|2874311|draft dokumen rekap
+DOC-0000012,laporan_teknologi_202408_1134.zip,95984846,2024-12-26,server-arsip-surabaya,laporan|teknologi|95984846|data pending arsip
+DOC-0000864,backup_operasional_202410_0203.json,141341,2022-09-12,cloud-storage-gcp,backup|operasional|141341|data draft final periode pending
+DOC-0000744,dataset_manajemen_202304_7456.txt,47774,2024-04-04,server-arsip-bandung,dataset|manajemen|47774|arsip periode rekap total approved
+DOC-0000519,log_manajemen_202209_3556.docx,313108,2023-01-28,cloud-storage-gcp,log|manajemen|313108|arsip rekap total
+DOC-0000460,presentasi_riset_202406_7075.pdf,288550,2023-07-13,nas-lokal-01,presentasi|riset|288550|final total file approved
+DOC-0000418,laporan_sdm_202203_2931.json,1759044,2022-04-16,nas-lokal-02,laporan|sdm|1759044|final pending file periode
+DUP-0000030,gambar_sdm_202307_6722.txt,369298,2023-10-15,server-arsip-bandung,gambar|sdm|369298|revisi approved final dokumen periode
+DOC-0000263,invoice_logistik_202210_4226.txt,386739511,2023-10-17,server-arsip-bandung,invoice|logistik|386739511|approved arsip file
+DOC-0000717,dataset_riset_202409_9982.json,397439,2022-03-28,portal-upload-web,dataset|riset|397439|periode data arsip revisi
+DOC-0000498,laporan_sdm_202403_8771.json,97222,2023-08-08,server-arsip-surabaya,laporan|sdm|97222|file data periode
+DOC-0000327,backup_teknologi_202403_5994.pdf,4460295,2024-03-14,cloud-storage-aws,backup|teknologi|4460295|file final periode pending total
+DOC-0000312,log_sdm_202206_3625.xml,3884108,2023-03-13,nas-lokal-01,log|sdm|3884108|draft final revisi arsip
+DOC-0000076,memo_riset_202405_6952.xlsx,191175,2023-05-28,backup-eksternal,memo|riset|191175|revisi approved pending total
+DOC-0000020,backup_riset_202210_7812.pdf,979538,2024-10-26,ftp-pusat,backup|riset|979538|rekap arsip total
+DOC-0000463,laporan_manajemen_202212_1966.txt,392568141,2022-06-26,portal-upload-web,laporan|manajemen|392568141|approved data dokumen
+DUP-0000048,kontrak_operasional_202209_3296.jpg,33396307,2023-10-01,nas-lokal-02,kontrak|operasional|33396307|data draft pending arsip dokumen
+DOC-0000812,invoice_hukum_202205_0469.txt,251616,2024-09-02,ftp-pusat,invoice|hukum|251616|draft final total arsip
+DOC-0000429,kontrak_audit_202312_0918.jpg,36035842,2024-12-03,cloud-storage-gcp,kontrak|audit|36035842|file data draft arsip rekap
+DOC-0000585,kontrak_hukum_202405_7234.txt,15538276,2024-11-02,backup-eksternal,kontrak|hukum|15538276|total periode draft dokumen data
+DUP-0000049,log_audit_202404_0055.png,1088039,2024-02-27,backup-eksternal,log|audit|1088039|dokumen arsip draft
+DOC-0000269,memo_riset_202410_0475.xml,456323,2022-12-22,cloud-storage-aws,memo|riset|456323|rekap revisi file
+DOC-0000499,kontrak_teknologi_202403_7224.docx,176003,2023-06-18,nas-lokal-01,kontrak|teknologi|176003|revisi arsip rekap
+DOC-0000125,presentasi_keuangan_202307_6554.json,429085,2024-06-19,nas-lokal-02,presentasi|keuangan|429085|periode pending data draft
+DOC-0000591,surat_operasional_202312_2065.docx,185370,2024-12-01,ftp-pusat,surat|operasional|185370|revisi total arsip dokumen
+DOC-0000789,kontrak_audit_202205_3176.json,352109,2023-05-18,nas-lokal-02,kontrak|audit|352109|data rekap final total
+DOC-0000235,dataset_pemasaran_202402_8281.png,95581640,2022-10-01,nas-lokal-02,dataset|pemasaran|95581640|dokumen file rekap
+DOC-0000581,kontrak_manajemen_202211_7912.txt,402825,2022-09-22,server-arsip-surabaya,kontrak|manajemen|402825|periode dokumen pending
+DUP-0000024,gambar_keuangan_202411_0004.docx,82832,2022-10-28,server-arsip-surabaya,gambar|keuangan|82832|arsip final approved pending
+DOC-0000221,kontrak_hukum_202306_2291.zip,3448895,2023-05-23,cloud-storage-gcp,kontrak|hukum|3448895|total revisi arsip final rekap
+DOC-0000721,dataset_pemasaran_202202_8669.pdf,267973,2024-11-19,server-arsip-surabaya,dataset|pemasaran|267973|total pending rekap periode
+DOC-0000471,kontrak_keuangan_202208_6370.txt,320874,2022-05-10,ftp-pusat,kontrak|keuangan|320874|final pending arsip data rekap
+DOC-0000075,invoice_manajemen_202310_2345.xml,2520227,2023-04-21,backup-eksternal,invoice|manajemen|2520227|final pending file rekap data
+DOC-0000548,invoice_audit_202407_1645.png,3291077,2022-11-25,cloud-storage-gcp,invoice|audit|3291077|total draft approved arsip data
+DOC-0000065,laporan_riset_202406_8168.png,2073557,2024-06-24,server-arsip-jakarta,laporan|riset|2073557|final arsip periode
+DOC-0000049,gambar_logistik_202202_4570.zip,456542,2024-07-12,cloud-storage-aws,gambar|logistik|456542|dokumen file approved draft
+DOC-0000457,memo_teknologi_202206_1383.png,286503,2022-10-25,portal-upload-web,memo|teknologi|286503|pending approved data
+DOC-0000044,invoice_audit_202304_1125.pdf,936926,2022-03-24,server-arsip-jakarta,invoice|audit|936926|revisi rekap dokumen
+DOC-0000090,invoice_audit_202310_2431.png,52357,2022-05-15,server-arsip-surabaya,invoice|audit|52357|dokumen data file arsip
+DOC-0000128,invoice_logistik_202203_9955.json,1842066,2024-06-16,server-arsip-jakarta,invoice|logistik|1842066|total revisi draft
+DOC-0000203,dataset_keuangan_202407_6371.zip,35170469,2022-01-10,cloud-storage-aws,dataset|keuangan|35170469|final total dokumen
+DOC-0000811,gambar_manajemen_202202_4553.jpg,219822,2024-05-16,server-arsip-surabaya,gambar|manajemen|219822|final dokumen total periode pending
+DOC-0000719,surat_riset_202305_3491.docx,263296,2022-01-05,portal-upload-web,surat|riset|263296|revisi final arsip rekap
+DOC-0000402,memo_sdm_202410_4445.pdf,423762,2022-04-19,backup-eksternal,memo|sdm|423762|rekap total approved final draft
+DOC-0000872,invoice_teknologi_202412_1987.zip,4007111,2024-12-16,server-arsip-jakarta,invoice|teknologi|4007111|pending data arsip dokumen file
+DUP-0000036,kontrak_hukum_202312_9903.xlsx,3988449,2024-05-21,portal-upload-web,kontrak|hukum|3988449|pending arsip approved
+DOC-0000761,kontrak_keuangan_202302_1711.json,2133519,2022-06-09,nas-lokal-01,kontrak|keuangan|2133519|draft rekap revisi final periode
+DOC-0000306,laporan_riset_202211_0928.docx,86193,2023-02-14,cloud-storage-gcp,laporan|riset|86193|final data file
+DOC-0000019,dataset_keuangan_202305_6931.xml,421078,2024-09-23,server-arsip-surabaya,dataset|keuangan|421078|final revisi rekap
+DOC-0000553,presentasi_sdm_202407_7434.zip,386744,2024-10-09,server-arsip-bandung,presentasi|sdm|386744|file revisi data
+DOC-0000153,dataset_logistik_202205_0690.json,481974840,2023-08-13,server-arsip-bandung,dataset|logistik|481974840|pending data final file
+DOC-0000633,laporan_keuangan_202205_2856.txt,101302,2023-11-27,ftp-pusat,laporan|keuangan|101302|periode revisi rekap
+DOC-0000229,laporan_audit_202302_9403.zip,92475,2022-08-25,cloud-storage-aws,laporan|audit|92475|arsip rekap data dokumen revisi
+DOC-0000643,log_operasional_202307_6648.pdf,23914316,2022-01-25,backup-eksternal,log|operasional|23914316|arsip periode approved revisi file
+DOC-0000214,invoice_hukum_202406_7450.xml,2833927,2024-09-26,nas-lokal-01,invoice|hukum|2833927|rekap total pending draft data
+DOC-0000541,laporan_teknologi_202305_9023.xlsx,25278,2022-12-27,server-arsip-jakarta,laporan|teknologi|25278|pending rekap data total draft
+DUP-0000092,kontrak_keuangan_202210_7917.txt,3630635,2024-09-26,server-arsip-jakarta,kontrak|keuangan|3630635|arsip file approved
+DOC-0000855,laporan_teknologi_202303_4631.pdf,76435,2022-03-31,nas-lokal-01,laporan|teknologi|76435|dokumen data revisi final
+DOC-0000552,backup_teknologi_202312_2765.docx,156443359,2022-04-12,nas-lokal-02,backup|teknologi|156443359|approved dokumen final periode total
+DOC-0000278,surat_pemasaran_202306_6090.txt,3076018,2023-06-18,portal-upload-web,surat|pemasaran|3076018|pending total file rekap
+DOC-0000013,kontrak_operasional_202209_3296.jpg,33396307,2023-10-01,nas-lokal-02,kontrak|operasional|33396307|data draft pending arsip dokumen
+DUP-0000058,log_operasional_202310_2957.docx,1162088,2023-08-25,nas-lokal-01,log|operasional|1162088|total draft final
+DOC-0000680,gambar_sdm_202404_3042.jpg,291946667,2023-02-16,server-arsip-jakarta,gambar|sdm|291946667|periode revisi final approved pending
+DOC-0000447,memo_keuangan_202212_9176.json,8565314,2024-01-06,server-arsip-bandung,memo|keuangan|8565314|rekap revisi approved dokumen
+DOC-0000443,presentasi_teknologi_202406_8922.zip,4152012,2023-04-29,server-arsip-surabaya,presentasi|teknologi|4152012|data total dokumen pending file
+DOC-0000452,laporan_keuangan_202210_7890.zip,3591862,2022-06-13,server-arsip-surabaya,laporan|keuangan|3591862|file arsip final pending total
+DUP-0000064,kontrak_keuangan_202202_6323.zip,2066087,2023-08-05,cloud-storage-aws,kontrak|keuangan|2066087|final data arsip
+DOC-0000577,dataset_keuangan_202407_6811.json,340516,2024-10-12,portal-upload-web,dataset|keuangan|340516|file arsip final rekap pending
+DOC-0000842,laporan_keuangan_202208_7806.xlsx,358788,2023-10-25,cloud-storage-aws,laporan|keuangan|358788|revisi total periode approved arsip
+DOC-0000307,kontrak_keuangan_202206_7416.csv,293730,2022-07-29,portal-upload-web,kontrak|keuangan|293730|file arsip revisi data approved
+DOC-0000873,presentasi_operasional_202206_3983.txt,24667280,2024-01-12,cloud-storage-aws,presentasi|operasional|24667280|draft total revisi pending
+DOC-0000188,dataset_sdm_202405_4038.zip,1218855,2022-05-31,server-arsip-bandung,dataset|sdm|1218855|periode approved file data
+DOC-0000532,dataset_pemasaran_202404_4057.json,973531,2023-04-26,cloud-storage-gcp,dataset|pemasaran|973531|total file final data draft
+DOC-0000878,presentasi_manajemen_202212_5816.zip,879482,2024-07-08,nas-lokal-02,presentasi|manajemen|879482|pending approved final file periode
+DOC-0000770,gambar_pemasaran_202302_6770.jpg,26048388,2024-11-02,backup-eksternal,gambar|pemasaran|26048388|data rekap dokumen file
+DOC-0000890,surat_operasional_202406_8904.png,3790097,2024-09-12,cloud-storage-gcp,surat|operasional|3790097|revisi total final
+DOC-0000625,laporan_operasional_202210_0174.xml,3948624,2024-07-17,nas-lokal-02,laporan|operasional|3948624|approved dokumen data total
+DUP-0000039,kontrak_logistik_202208_9672.xml,23061,2023-02-18,backup-eksternal,kontrak|logistik|23061|final draft periode
+DOC-0000025,memo_operasional_202211_4326.zip,189768,2024-11-01,backup-eksternal,memo|operasional|189768|rekap total approved final
+DOC-0000726,presentasi_logistik_202305_4624.zip,4143412,2024-09-22,server-arsip-bandung,presentasi|logistik|4143412|revisi dokumen periode arsip
+DUP-0000047,backup_audit_202409_6860.png,30627026,2022-11-28,cloud-storage-aws,backup|audit|30627026|periode final rekap pending draft
+DOC-0000692,memo_keuangan_202306_5981.zip,3756001,2022-09-16,ftp-pusat,memo|keuangan|3756001|dokumen file revisi total approved
+DOC-0000708,invoice_riset_202207_7473.csv,350666,2022-06-20,cloud-storage-gcp,invoice|riset|350666|approved periode arsip revisi total
+DOC-0000417,invoice_hukum_202209_6293.docx,3544590,2024-11-13,portal-upload-web,invoice|hukum|3544590|approved arsip file
+DOC-0000264,log_pemasaran_202410_9627.csv,603716,2024-12-06,nas-lokal-02,log|pemasaran|603716|approved periode data
+DOC-0000102,presentasi_manajemen_202302_6637.xml,4003871,2022-02-12,nas-lokal-01,presentasi|manajemen|4003871|dokumen pending draft
+DOC-0000473,invoice_keuangan_202310_0751.xlsx,659913,2023-05-13,server-arsip-surabaya,invoice|keuangan|659913|periode data rekap
+DOC-0000700,memo_manajemen_202411_1469.xlsx,3648846,2024-08-07,nas-lokal-02,memo|manajemen|3648846|data file pending draft
+DOC-0000363,kontrak_pemasaran_202312_4383.txt,352366,2024-03-20,cloud-storage-gcp,kontrak|pemasaran|352366|draft dokumen arsip pending
+DUP-0000042,memo_teknologi_202204_9799.xlsx,346613,2024-06-27,nas-lokal-01,memo|teknologi|346613|final draft rekap
+DOC-0000751,presentasi_operasional_202403_5248.docx,14975260,2022-10-30,nas-lokal-02,presentasi|operasional|14975260|file pending total dokumen
+DOC-0000077,surat_logistik_202405_0360.zip,165122,2024-03-21,cloud-storage-gcp,surat|logistik|165122|dokumen data rekap
+DOC-0000041,laporan_manajemen_202307_6866.xml,3450767,2023-03-28,backup-eksternal,laporan|manajemen|3450767|final approved pending
+DOC-0000617,surat_teknologi_202308_9930.png,69754725,2023-03-05,server-arsip-jakarta,surat|teknologi|69754725|data approved total
+DUP-0000061,kontrak_logistik_202408_8670.zip,210078,2023-05-30,ftp-pusat,kontrak|logistik|210078|data total arsip
+DUP-0000005,surat_keuangan_202311_2609.xlsx,31293781,2022-02-14,ftp-pusat,surat|keuangan|31293781|draft approved pending file
+DOC-0000833,presentasi_keuangan_202412_0869.docx,4785077,2023-02-24,ftp-pusat,presentasi|keuangan|4785077|arsip pending periode
+DOC-0000273,backup_operasional_202308_4129.csv,3658105,2023-03-23,backup-eksternal,backup|operasional|3658105|data arsip dokumen approved
+DOC-0000474,memo_hukum_202202_8146.png,1036516,2023-03-28,server-arsip-bandung,memo|hukum|1036516|approved draft file
+DOC-0000511,kontrak_pemasaran_202303_0867.png,14093077,2023-07-13,nas-lokal-01,kontrak|pemasaran|14093077|data draft rekap final
+DUP-0000010,presentasi_logistik_202201_3049.json,2593895,2024-10-19,ftp-pusat,presentasi|logistik|2593895|arsip total final dokumen
+DOC-0000799,presentasi_sdm_202401_5389.json,177032,2023-03-14,backup-eksternal,presentasi|sdm|177032|draft revisi arsip total approved
+DOC-0000735,memo_riset_202412_1924.json,35097133,2024-06-12,server-arsip-bandung,memo|riset|35097133|approved arsip data rekap
+DOC-0000764,log_teknologi_202212_1596.json,28879837,2023-11-10,nas-lokal-02,log|teknologi|28879837|arsip total file periode rekap
+DOC-0000433,kontrak_teknologi_202405_5364.json,443226303,2022-10-21,server-arsip-bandung,kontrak|teknologi|443226303|data periode revisi rekap pending
+DOC-0000172,presentasi_logistik_202209_7759.xml,207373,2023-05-09,cloud-storage-aws,presentasi|logistik|207373|file periode pending rekap
+DOC-0000365,invoice_audit_202309_1364.jpg,414191,2022-08-01,cloud-storage-gcp,invoice|audit|414191|periode total approved final revisi
+DOC-0000243,memo_audit_202202_4584.xml,37147222,2024-02-24,server-arsip-surabaya,memo|audit|37147222|revisi data arsip file
+DOC-0000400,kontrak_hukum_202403_4714.docx,2538837,2022-01-29,nas-lokal-01,kontrak|hukum|2538837|total final pending dokumen rekap
+DUP-0000035,kontrak_manajemen_202212_5413.csv,31311837,2023-10-28,backup-eksternal,kontrak|manajemen|31311837|rekap total pending data
+DOC-0000258,invoice_operasional_202204_2799.zip,1313586,2023-08-21,server-arsip-bandung,invoice|operasional|1313586|total final approved pending
+DOC-0000231,invoice_manajemen_202203_3657.json,363016,2024-11-22,server-arsip-jakarta,invoice|manajemen|363016|total pending final dokumen
+DOC-0000821,log_manajemen_202412_0340.png,369548,2022-10-30,nas-lokal-02,log|manajemen|369548|data periode draft
+DOC-0000605,laporan_pemasaran_202406_6259.xml,22612,2023-06-11,server-arsip-bandung,laporan|pemasaran|22612|total arsip periode
+DOC-0000844,dataset_sdm_202308_7169.zip,2141802,2023-08-09,cloud-storage-aws,dataset|sdm|2141802|file periode approved
+DOC-0000876,surat_sdm_202305_9087.png,73328,2024-08-20,server-arsip-bandung,surat|sdm|73328|rekap approved file
+DOC-0000060,invoice_riset_202202_0978.txt,2728287,2022-12-06,cloud-storage-gcp,invoice|riset|2728287|file dokumen final pending total
+DOC-0000783,laporan_manajemen_202409_1634.xml,403186,2024-06-28,ftp-pusat,laporan|manajemen|403186|rekap data final approved revisi
+DOC-0000380,presentasi_riset_202404_0350.json,34441927,2024-02-13,nas-lokal-01,presentasi|riset|34441927|periode final rekap pending arsip
+DOC-0000133,surat_audit_202308_9039.pdf,310038,2022-09-23,portal-upload-web,surat|audit|310038|total final approved
+DOC-0000561,kontrak_audit_202301_7234.xml,479329,2024-01-01,ftp-pusat,kontrak|audit|479329|pending file total periode
+DOC-0000156,gambar_teknologi_202202_9407.csv,348636,2023-04-21,ftp-pusat,gambar|teknologi|348636|file rekap periode approved dokumen
+DOC-0000543,invoice_riset_202308_1479.zip,331996891,2023-05-03,portal-upload-web,invoice|riset|331996891|draft file dokumen
+DOC-0000683,backup_riset_202310_7037.csv,304064379,2023-11-21,nas-lokal-01,backup|riset|304064379|draft file revisi data approved
+DOC-0000527,memo_manajemen_202409_8065.zip,50117,2024-08-12,cloud-storage-aws,memo|manajemen|50117|data pending file arsip
+DOC-0000597,kontrak_riset_202212_8409.xlsx,4339574,2024-12-19,server-arsip-bandung,kontrak|riset|4339574|revisi pending data rekap periode
+DOC-0000344,laporan_hukum_202202_4311.xlsx,4152211,2023-03-31,nas-lokal-01,laporan|hukum|4152211|dokumen rekap approved
+DOC-0000550,backup_hukum_202411_2132.docx,280724,2024-04-20,nas-lokal-01,backup|hukum|280724|pending periode final data
+DOC-0000557,laporan_operasional_202311_6077.jpg,3037616,2022-09-28,ftp-pusat,laporan|operasional|3037616|dokumen periode final
+DOC-0000568,invoice_logistik_202407_1523.json,4141545,2022-03-24,ftp-pusat,invoice|logistik|4141545|pending data revisi periode
+DOC-0000233,gambar_teknologi_202201_6719.jpg,21450187,2022-02-18,cloud-storage-aws,gambar|teknologi|21450187|draft data rekap file dokumen
+DOC-0000500,presentasi_pemasaran_202209_4941.xlsx,293045,2022-09-06,server-arsip-jakarta,presentasi|pemasaran|293045|pending periode file draft
+DOC-0000197,dataset_logistik_202407_8756.docx,4520113,2024-11-03,nas-lokal-02,dataset|logistik|4520113|rekap draft arsip total dokumen
+DOC-0000831,surat_manajemen_202410_4807.jpg,335525,2022-04-20,nas-lokal-02,surat|manajemen|335525|approved data rekap
+DOC-0000295,dataset_teknologi_202407_2436.png,364573,2022-04-22,server-arsip-jakarta,dataset|teknologi|364573|periode arsip pending dokumen file
+DOC-0000066,memo_audit_202404_2595.png,340313,2023-09-29,ftp-pusat,memo|audit|340313|arsip approved total
+DOC-0000566,kontrak_teknologi_202203_6366.xml,456874,2024-04-04,cloud-storage-gcp,kontrak|teknologi|456874|data periode total final pending
+DOC-0000752,backup_logistik_202203_6309.csv,179373,2023-12-24,nas-lokal-01,backup|logistik|179373|approved pending file draft
+DOC-0000007,dataset_operasional_202406_3484.docx,307365,2024-10-19,nas-lokal-02,dataset|operasional|307365|pending periode final data revisi
+DOC-0000414,log_logistik_202401_3111.pdf,4829585,2023-08-20,backup-eksternal,log|logistik|4829585|final file pending periode
+DOC-0000412,invoice_sdm_202406_7497.png,37879512,2023-05-21,nas-lokal-02,invoice|sdm|37879512|rekap dokumen approved draft
+DUP-0000076,presentasi_hukum_202404_4551.json,4483366,2022-10-24,nas-lokal-01,presentasi|hukum|4483366|file draft final rekap
+DOC-0000442,log_hukum_202407_3909.csv,3862293,2023-05-15,ftp-pusat,log|hukum|3862293|pending approved total
+DOC-0000336,surat_logistik_202210_8370.zip,315474,2023-06-26,server-arsip-surabaya,surat|logistik|315474|data draft pending total revisi
+DOC-0000052,surat_operasional_202406_6972.zip,300179,2023-11-09,nas-lokal-01,surat|operasional|300179|pending final data dokumen revisi
+DOC-0000778,presentasi_keuangan_202306_1862.xlsx,14897658,2024-04-12,cloud-storage-gcp,presentasi|keuangan|14897658|file rekap pending periode dokumen
+DOC-0000352,presentasi_pemasaran_202212_3116.txt,23057371,2024-10-18,cloud-storage-aws,presentasi|pemasaran|23057371|file revisi final
+DOC-0000753,kontrak_teknologi_202409_8071.xml,4669997,2024-12-26,ftp-pusat,kontrak|teknologi|4669997|approved total dokumen
+DOC-0000043,dataset_sdm_202306_3468.png,146396,2024-07-20,nas-lokal-01,dataset|sdm|146396|approved final file data
+DOC-0000774,presentasi_manajemen_202301_5923.pdf,465648426,2024-05-30,backup-eksternal,presentasi|manajemen|465648426|rekap revisi file
+DOC-0000239,dataset_riset_202201_6626.pdf,2682438,2024-07-15,ftp-pusat,dataset|riset|2682438|arsip revisi total pending dokumen
+DOC-0000742,gambar_teknologi_202407_2551.json,314959,2024-07-02,cloud-storage-aws,gambar|teknologi|314959|file approved draft periode pending
+DOC-0000428,dataset_manajemen_202204_5416.zip,496699561,2023-11-24,backup-eksternal,dataset|manajemen|496699561|rekap data periode pending
+DOC-0000666,memo_teknologi_202204_9799.xlsx,346613,2024-06-27,nas-lokal-01,memo|teknologi|346613|final draft rekap
+DOC-0000745,dataset_keuangan_202203_4069.docx,48250463,2022-06-21,cloud-storage-gcp,dataset|keuangan|48250463|data dokumen rekap
+DOC-0000598,log_pemasaran_202202_6056.docx,3927752,2023-08-17,server-arsip-jakarta,log|pemasaran|3927752|periode total draft final dokumen
+DOC-0000832,gambar_riset_202205_1754.png,10681376,2023-11-14,portal-upload-web,gambar|riset|10681376|final dokumen pending
+DOC-0000092,surat_logistik_202312_1558.json,31758330,2023-10-03,nas-lokal-02,surat|logistik|31758330|data final draft periode
+DOC-0000609,surat_keuangan_202209_2058.csv,1351523,2023-09-16,portal-upload-web,surat|keuangan|1351523|pending total arsip revisi
+DOC-0000839,laporan_pemasaran_202301_2594.xlsx,4344920,2024-01-03,ftp-pusat,laporan|pemasaran|4344920|revisi draft arsip approved total
+DOC-0000036,laporan_teknologi_202307_9432.png,1110928,2023-02-03,nas-lokal-02,laporan|teknologi|1110928|approved revisi periode rekap
+DOC-0000493,gambar_audit_202312_8715.jpg,1529362,2024-12-27,cloud-storage-gcp,gambar|audit|1529362|dokumen draft total revisi
+DUP-0000079,laporan_hukum_202309_9214.zip,392275674,2023-02-28,backup-eksternal,laporan|hukum|392275674|draft rekap revisi pending
+DOC-0000750,backup_sdm_202403_6968.xlsx,3308876,2022-11-04,cloud-storage-gcp,backup|sdm|3308876|final draft total file pending
+DUP-0000094,dataset_manajemen_202412_0631.zip,4905954,2024-12-02,server-arsip-bandung,dataset|manajemen|4905954|pending rekap revisi arsip
+DOC-0000155,surat_keuangan_202211_2253.docx,4462812,2022-01-11,ftp-pusat,surat|keuangan|4462812|approved data pending
+DUP-0000020,laporan_pemasaran_202207_1937.pdf,388017,2023-03-10,ftp-pusat,laporan|pemasaran|388017|data arsip periode revisi
+DOC-0000185,log_manajemen_202301_3395.pdf,455868,2022-10-23,nas-lokal-02,log|manajemen|455868|final periode dokumen
+DOC-0000394,laporan_pemasaran_202302_3715.json,34145675,2022-01-24,nas-lokal-02,laporan|pemasaran|34145675|final arsip rekap
+DOC-0000348,presentasi_operasional_202307_9420.txt,2131796,2022-01-10,cloud-storage-gcp,presentasi|operasional|2131796|approved arsip total
+DOC-0000096,backup_operasional_202306_5752.pdf,378416,2022-01-13,server-arsip-surabaya,backup|operasional|378416|dokumen data approved
+DOC-0000758,gambar_logistik_202302_2555.json,610809,2022-05-03,server-arsip-jakarta,gambar|logistik|610809|periode arsip file rekap approved
+DUP-0000016,backup_operasional_202311_1235.json,158318337,2023-03-15,cloud-storage-gcp,backup|operasional|158318337|rekap final dokumen approved
+DOC-0000217,memo_sdm_202302_6093.csv,198971,2022-12-05,server-arsip-jakarta,memo|sdm|198971|data final revisi approved
+DOC-0000760,dataset_sdm_202207_3010.txt,969736,2022-06-08,backup-eksternal,dataset|sdm|969736|draft data approved dokumen
+DOC-0000704,kontrak_manajemen_202302_0642.xlsx,244478,2022-09-21,portal-upload-web,kontrak|manajemen|244478|data periode total
+DOC-0000512,memo_riset_202210_2739.docx,2037192,2023-10-23,nas-lokal-01,memo|riset|2037192|final file draft total dokumen
+DOC-0000142,gambar_riset_202301_1476.png,3088226,2024-03-16,ftp-pusat,gambar|riset|3088226|revisi file dokumen draft
+DOC-0000236,dataset_sdm_202307_5346.txt,456123,2023-10-14,backup-eksternal,dataset|sdm|456123|revisi total file periode
+DUP-0000027,presentasi_operasional_202403_5248.docx,14975260,2022-10-30,nas-lokal-02,presentasi|operasional|14975260|file pending total dokumen
+DOC-0000835,log_hukum_202209_7272.txt,258377,2024-03-11,server-arsip-jakarta,log|hukum|258377|final approved pending
+DOC-0000002,surat_riset_202411_8929.zip,114248,2024-05-09,cloud-storage-aws,surat|riset|114248|dokumen final rekap periode
+DOC-0000767,backup_manajemen_202408_1596.docx,354352583,2022-01-31,server-arsip-surabaya,backup|manajemen|354352583|arsip total pending data
+DOC-0000349,log_hukum_202405_8814.jpg,71346,2023-05-28,backup-eksternal,log|hukum|71346|dokumen pending revisi draft
+DOC-0000371,memo_hukum_202412_4455.xml,4833640,2023-08-07,ftp-pusat,memo|hukum|4833640|approved revisi total periode
+DOC-0000846,kontrak_riset_202408_8206.png,118776,2023-12-23,nas-lokal-01,kontrak|riset|118776|arsip periode total pending approved
+DOC-0000241,laporan_hukum_202202_5433.txt,34758173,2022-09-08,server-arsip-jakarta,laporan|hukum|34758173|rekap periode dokumen approved
+DOC-0000711,invoice_logistik_202203_8626.txt,65051,2023-09-20,portal-upload-web,invoice|logistik|65051|total arsip draft final
+DOC-0000228,memo_hukum_202309_1047.pdf,235089,2023-06-23,portal-upload-web,memo|hukum|235089|total pending data arsip draft
+DOC-0000028,invoice_pemasaran_202412_2533.jpg,32271525,2023-04-30,server-arsip-surabaya,invoice|pemasaran|32271525|approved rekap periode
+DOC-0000501,kontrak_keuangan_202412_4843.jpg,227854941,2024-08-28,cloud-storage-gcp,kontrak|keuangan|227854941|data periode dokumen pending draft
+DOC-0000677,backup_hukum_202207_4144.jpg,33383350,2023-09-11,ftp-pusat,backup|hukum|33383350|data approved dokumen final file
+DOC-0000074,laporan_keuangan_202306_7057.json,24687579,2022-10-26,cloud-storage-aws,laporan|keuangan|24687579|approved dokumen periode data arsip
+DOC-0000562,invoice_pemasaran_202203_8336.docx,158958,2023-07-13,portal-upload-web,invoice|pemasaran|158958|dokumen revisi file rekap periode
+DOC-0000866,backup_riset_202205_4525.json,286459167,2023-06-16,backup-eksternal,backup|riset|286459167|revisi data periode
+DOC-0000290,memo_teknologi_202308_0821.png,208925699,2022-07-24,server-arsip-surabaya,memo|teknologi|208925699|final draft data
+DUP-0000017,memo_riset_202405_6952.xlsx,191175,2023-05-28,backup-eksternal,memo|riset|191175|revisi approved pending total
+DOC-0000410,backup_manajemen_202211_0428.zip,131730,2024-01-06,server-arsip-bandung,backup|manajemen|131730|pending periode arsip file draft
+DOC-0000137,invoice_riset_202211_9915.xlsx,1793476,2023-11-23,portal-upload-web,invoice|riset|1793476|rekap total file
+DOC-0000732,laporan_riset_202312_9649.xlsx,398650,2024-12-19,portal-upload-web,laporan|riset|398650|revisi data final file
+DOC-0000132,presentasi_hukum_202212_2853.jpg,3016219,2024-01-11,ftp-pusat,presentasi|hukum|3016219|total revisi periode
+DOC-0000397,dataset_riset_202208_9164.xml,13749330,2023-02-10,backup-eksternal,dataset|riset|13749330|data dokumen revisi arsip
+DOC-0000099,dataset_operasional_202307_1817.txt,12638164,2023-08-04,portal-upload-web,dataset|operasional|12638164|arsip data final rekap
+DOC-0000249,laporan_sdm_202209_5979.zip,1688269,2022-05-29,nas-lokal-01,laporan|sdm|1688269|data approved dokumen total draft
+DOC-0000739,invoice_sdm_202301_2428.txt,134894,2023-07-23,server-arsip-surabaya,invoice|sdm|134894|rekap data revisi dokumen
+DOC-0000386,gambar_keuangan_202312_0956.json,3989269,2023-06-29,ftp-pusat,gambar|keuangan|3989269|file total final
+DUP-0000026,log_logistik_202406_5616.csv,20368603,2023-05-12,cloud-storage-aws,log|logistik|20368603|rekap data revisi dokumen approved
+DOC-0000218,invoice_hukum_202210_3706.pdf,50862,2024-11-29,backup-eksternal,invoice|hukum|50862|rekap draft total
+DOC-0000404,kontrak_teknologi_202401_0652.jpg,351016832,2023-05-22,ftp-pusat,kontrak|teknologi|351016832|draft pending approved periode
+DOC-0000824,gambar_manajemen_202311_2411.json,14369,2024-08-13,server-arsip-surabaya,gambar|manajemen|14369|final dokumen arsip periode file
+DOC-0000637,invoice_audit_202311_8343.zip,276660,2024-02-06,backup-eksternal,invoice|audit|276660|pending periode draft dokumen file
+DOC-0000353,surat_teknologi_202303_1748.txt,46513336,2022-09-03,server-arsip-bandung,surat|teknologi|46513336|data pending dokumen rekap arsip
+DOC-0000164,backup_audit_202208_2162.docx,34895838,2024-11-17,nas-lokal-02,backup|audit|34895838|dokumen rekap arsip pending
+DOC-0000489,backup_manajemen_202212_6642.pdf,298979599,2023-01-14,nas-lokal-01,backup|manajemen|298979599|pending data rekap total approved
+DOC-0000851,presentasi_hukum_202408_2122.xml,1176068,2023-07-09,server-arsip-jakarta,presentasi|hukum|1176068|rekap pending arsip
+DUP-0000006,invoice_keuangan_202304_6238.csv,48581245,2024-11-07,server-arsip-bandung,invoice|keuangan|48581245|pending dokumen arsip total
+DOC-0000569,gambar_riset_202302_7826.jpg,255481,2023-09-08,server-arsip-surabaya,gambar|riset|255481|data final revisi
+DOC-0000158,kontrak_riset_202206_2663.png,434051,2024-07-28,cloud-storage-gcp,kontrak|riset|434051|periode rekap draft final revisi
+DOC-0000251,dataset_operasional_202212_9386.csv,392117,2024-03-12,portal-upload-web,dataset|operasional|392117|periode dokumen draft
+DOC-0000882,kontrak_hukum_202203_4727.csv,240118,2023-06-16,portal-upload-web,kontrak|hukum|240118|revisi data final
+DOC-0000887,surat_riset_202204_2243.pdf,386771099,2024-02-10,cloud-storage-aws,surat|riset|386771099|revisi final pending periode dokumen
+DOC-0000209,surat_operasional_202303_7493.pdf,291861,2024-10-11,ftp-pusat,surat|operasional|291861|total dokumen file final draft
+DOC-0000242,dataset_audit_202206_3518.pdf,233694,2023-01-19,cloud-storage-gcp,dataset|audit|233694|pending periode rekap revisi
+DOC-0000190,log_riset_202206_9081.jpg,720301,2022-07-10,portal-upload-web,log|riset|720301|draft approved rekap final data
+DOC-0000083,laporan_keuangan_202204_8808.csv,112341709,2022-10-05,nas-lokal-02,laporan|keuangan|112341709|draft data arsip approved
+DOC-0000315,invoice_hukum_202409_0121.xlsx,465172218,2022-05-15,cloud-storage-aws,invoice|hukum|465172218|data revisi approved total file
+DOC-0000309,backup_audit_202310_8956.txt,48461874,2023-02-07,cloud-storage-aws,backup|audit|48461874|pending periode total data
+DOC-0000762,log_hukum_202304_9039.docx,15755,2023-02-18,server-arsip-jakarta,log|hukum|15755|final total dokumen
+DOC-0000206,kontrak_pemasaran_202403_9418.xlsx,4008444,2024-02-25,nas-lokal-02,kontrak|pemasaran|4008444|pending data arsip
+DOC-0000858,dataset_manajemen_202209_3778.png,116721,2023-09-17,ftp-pusat,dataset|manajemen|116721|total draft periode
+DUP-0000029,presentasi_keuangan_202401_3697.xml,52891,2024-05-17,server-arsip-bandung,presentasi|keuangan|52891|revisi periode draft
+DOC-0000806,laporan_keuangan_202201_4986.csv,7890794,2022-06-03,cloud-storage-gcp,laporan|keuangan|7890794|file dokumen approved final
+DOC-0000170,laporan_sdm_202410_5225.jpg,175714508,2023-10-19,cloud-storage-aws,laporan|sdm|175714508|periode data arsip revisi
+DOC-0000406,kontrak_pemasaran_202407_8532.xml,1236478,2023-04-11,nas-lokal-02,kontrak|pemasaran|1236478|dokumen periode approved
+DOC-0000470,log_keuangan_202407_1750.xml,3007107,2024-01-06,backup-eksternal,log|keuangan|3007107|data pending revisi
+DOC-0000868,memo_operasional_202412_0733.pdf,3463990,2023-04-26,nas-lokal-01,memo|operasional|3463990|total arsip pending
+DOC-0000145,backup_manajemen_202306_5556.docx,60688,2024-01-19,server-arsip-surabaya,backup|manajemen|60688|dokumen arsip approved
+DOC-0000317,log_hukum_202307_7392.zip,22357571,2024-04-08,nas-lokal-02,log|hukum|22357571|rekap approved total arsip
+DOC-0000669,backup_riset_202312_7653.txt,50980,2023-09-30,server-arsip-surabaya,backup|riset|50980|revisi file approved periode data
+DOC-0000056,invoice_hukum_202203_9222.xml,949706,2023-09-15,server-arsip-bandung,invoice|hukum|949706|total arsip approved
+DOC-0000342,dataset_teknologi_202206_9161.xml,4547233,2024-09-17,cloud-storage-gcp,dataset|teknologi|4547233|dokumen draft approved periode
+DOC-0000134,gambar_riset_202203_5195.xml,43580921,2022-06-01,backup-eksternal,gambar|riset|43580921|data arsip draft periode
+DOC-0000143,laporan_keuangan_202309_0134.csv,4447569,2022-08-09,nas-lokal-02,laporan|keuangan|4447569|final draft approved
+DOC-0000743,invoice_audit_202210_8037.xlsx,1977323,2023-01-05,cloud-storage-gcp,invoice|audit|1977323|final periode data
+DOC-0000757,kontrak_pemasaran_202210_6824.xlsx,50404,2022-11-03,server-arsip-surabaya,kontrak|pemasaran|50404|file periode arsip final
+DOC-0000537,memo_riset_202207_6592.csv,3128596,2023-05-30,portal-upload-web,memo|riset|3128596|pending data arsip periode rekap
+DOC-0000614,laporan_sdm_202211_2844.pdf,535897,2024-04-26,ftp-pusat,laporan|sdm|535897|file pending approved arsip total
+DOC-0000894,dataset_teknologi_202211_1808.zip,40971231,2023-11-07,server-arsip-surabaya,dataset|teknologi|40971231|arsip rekap data approved total
+DOC-0000525,dataset_pemasaran_202309_4570.png,3892719,2022-10-29,backup-eksternal,dataset|pemasaran|3892719|total final pending
+DOC-0000168,dataset_riset_202306_2542.xml,21610252,2023-07-19,cloud-storage-aws,dataset|riset|21610252|total rekap approved data revisi
+DOC-0000810,log_riset_202408_2524.json,25926251,2024-10-30,server-arsip-bandung,log|riset|25926251|revisi draft approved
+DOC-0000615,invoice_riset_202402_5784.pdf,34875308,2024-02-10,portal-upload-web,invoice|riset|34875308|approved periode rekap total
+DOC-0000592,memo_riset_202201_8847.json,15739254,2023-06-14,cloud-storage-aws,memo|riset|15739254|file approved arsip total
+DOC-0000670,memo_operasional_202308_1311.zip,2189475,2024-01-07,nas-lokal-02,memo|operasional|2189475|periode pending data approved
+DUP-0000090,backup_sdm_202307_4423.jpg,1870720,2023-03-26,nas-lokal-01,backup|sdm|1870720|revisi rekap draft
+DOC-0000829,dataset_riset_202310_7556.txt,54877,2023-01-11,nas-lokal-02,dataset|riset|54877|total periode arsip pending
+DOC-0000111,presentasi_operasional_202205_9158.xml,381633,2024-02-11,nas-lokal-01,presentasi|operasional|381633|data file arsip
+DOC-0000520,surat_riset_202208_1759.png,319005,2023-01-06,nas-lokal-01,surat|riset|319005|approved revisi arsip data
+DOC-0000240,kontrak_hukum_202203_3247.pdf,419447,2024-03-31,nas-lokal-01,kontrak|hukum|419447|data file total final dokumen
+DOC-0000042,laporan_logistik_202403_7658.json,3891655,2022-09-19,portal-upload-web,laporan|logistik|3891655|rekap approved dokumen file total
+DOC-0000308,surat_riset_202307_6826.csv,894096,2023-10-03,ftp-pusat,surat|riset|894096|rekap final revisi
+DOC-0000411,kontrak_logistik_202204_0529.png,1873940,2024-04-16,server-arsip-jakarta,kontrak|logistik|1873940|approved revisi data dokumen
+DOC-0000495,kontrak_teknologi_202307_8871.jpg,62181748,2022-09-28,backup-eksternal,kontrak|teknologi|62181748|approved pending rekap final
+DOC-0000346,surat_keuangan_202403_0591.zip,2443397,2024-01-07,cloud-storage-aws,surat|keuangan|2443397|rekap periode total final approved
+DOC-0000616,gambar_pemasaran_202401_4607.txt,2358251,2024-01-03,cloud-storage-aws,gambar|pemasaran|2358251|dokumen data final
+DOC-0000383,backup_teknologi_202209_8152.json,3750509,2022-11-12,portal-upload-web,backup|teknologi|3750509|draft approved file total
+DOC-0000259,gambar_operasional_202206_6250.docx,3750814,2024-01-27,server-arsip-surabaya,gambar|operasional|3750814|rekap final pending dokumen
+DOC-0000250,memo_pemasaran_202311_7983.xlsx,443178497,2023-10-12,server-arsip-surabaya,memo|pemasaran|443178497|arsip dokumen draft revisi periode
+DOC-0000818,kontrak_keuangan_202205_1262.png,674709,2022-12-16,server-arsip-jakarta,kontrak|keuangan|674709|draft pending dokumen rekap data
+DOC-0000409,dataset_logistik_202204_1750.csv,2796769,2022-09-27,server-arsip-surabaya,dataset|logistik|2796769|dokumen file final
+DOC-0000877,kontrak_hukum_202307_5806.xlsx,4940172,2022-09-19,nas-lokal-02,kontrak|hukum|4940172|arsip revisi final total draft
+DUP-0000056,laporan_hukum_202308_4413.png,49260935,2022-01-12,nas-lokal-01,laporan|hukum|49260935|data dokumen pending
+DOC-0000608,surat_audit_202205_0994.jpg,30840180,2023-10-14,backup-eksternal,surat|audit|30840180|approved total pending rekap file
+DOC-0000468,log_audit_202404_0055.png,1088039,2024-02-27,backup-eksternal,log|audit|1088039|dokumen arsip draft
+DOC-0000450,kontrak_hukum_202312_9903.xlsx,3988449,2024-05-21,portal-upload-web,kontrak|hukum|3988449|pending arsip approved
+DOC-0000023,backup_hukum_202303_5719.docx,4743669,2022-05-21,cloud-storage-aws,backup|hukum|4743669|final periode pending arsip
+DOC-0000690,invoice_pemasaran_202402_5624.txt,461424250,2024-02-12,nas-lokal-02,invoice|pemasaran|461424250|data arsip approved revisi file
+DOC-0000560,presentasi_audit_202204_2436.xlsx,4190901,2022-04-22,cloud-storage-aws,presentasi|audit|4190901|rekap pending final
+DOC-0000655,log_keuangan_202411_7568.png,344950,2024-02-20,nas-lokal-01,log|keuangan|344950|approved revisi file rekap arsip
+DOC-0000167,kontrak_pemasaran_202309_2087.docx,291678,2023-04-02,server-arsip-jakarta,kontrak|pemasaran|291678|final pending arsip
+DUP-0000087,kontrak_audit_202408_8807.zip,378019,2023-03-24,cloud-storage-aws,kontrak|audit|378019|dokumen total arsip pending draft
+DOC-0000367,log_audit_202403_9681.xlsx,424533431,2024-07-24,portal-upload-web,log|audit|424533431|arsip data file final
+DOC-0000192,gambar_sdm_202305_7934.docx,154683,2022-06-07,nas-lokal-01,gambar|sdm|154683|revisi data pending file
+DOC-0000103,invoice_logistik_202309_1289.docx,318738,2024-03-21,cloud-storage-gcp,invoice|logistik|318738|draft revisi file periode total
+DOC-0000345,dataset_manajemen_202203_8100.jpg,323247,2024-06-18,server-arsip-jakarta,dataset|manajemen|323247|data arsip final
+DOC-0000343,invoice_teknologi_202204_8329.png,15857887,2024-03-31,nas-lokal-01,invoice|teknologi|15857887|dokumen data rekap periode approved
+DUP-0000078,log_riset_202206_9081.jpg,720301,2022-07-10,portal-upload-web,log|riset|720301|draft approved rekap final data
+DOC-0000432,gambar_operasional_202206_0613.txt,1968114,2023-02-18,server-arsip-bandung,gambar|operasional|1968114|arsip rekap pending file
+DOC-0000163,invoice_manajemen_202404_9384.docx,297125,2022-11-03,server-arsip-surabaya,invoice|manajemen|297125|arsip pending total revisi
+DOC-0000009,kontrak_logistik_202408_8670.zip,210078,2023-05-30,ftp-pusat,kontrak|logistik|210078|data total arsip
+DOC-0000368,presentasi_audit_202305_5993.jpg,56952,2024-04-24,cloud-storage-gcp,presentasi|audit|56952|final rekap data
+DOC-0000645,gambar_audit_202403_5007.jpg,82849,2022-01-20,backup-eksternal,gambar|audit|82849|draft file revisi approved arsip
+DOC-0000108,backup_teknologi_202201_7382.json,4705774,2022-07-31,nas-lokal-01,backup|teknologi|4705774|total arsip periode rekap revisi
+DOC-0000797,surat_manajemen_202208_2741.json,341716,2022-03-11,ftp-pusat,surat|manajemen|341716|dokumen approved final arsip
+DOC-0000840,kontrak_sdm_202312_2295.json,3346180,2023-07-25,cloud-storage-gcp,kontrak|sdm|3346180|total data pending approved
+DOC-0000603,surat_manajemen_202409_3104.jpg,943543,2024-09-01,ftp-pusat,surat|manajemen|943543|total data arsip
+DUP-0000009,surat_pemasaran_202206_2955.xml,295656794,2022-06-15,backup-eksternal,surat|pemasaran|295656794|data periode draft rekap
+DUP-0000066,log_keuangan_202309_7941.xml,29099606,2023-12-06,portal-upload-web,log|keuangan|29099606|draft approved final periode rekap
+DOC-0000382,invoice_riset_202406_7440.xlsx,2709134,2022-01-02,ftp-pusat,invoice|riset|2709134|file periode rekap draft
+DOC-0000331,dataset_logistik_202405_6166.json,1152949,2023-04-02,ftp-pusat,dataset|logistik|1152949|draft file pending dokumen
+DOC-0000780,backup_keuangan_202305_8227.json,6086578,2022-09-13,backup-eksternal,backup|keuangan|6086578|pending approved data draft arsip
+DOC-0000816,dataset_hukum_202304_2803.txt,2750387,2023-02-21,nas-lokal-01,dataset|hukum|2750387|final dokumen file rekap total
+DOC-0000709,memo_teknologi_202403_6877.json,4790165,2022-11-11,nas-lokal-01,memo|teknologi|4790165|approved rekap dokumen revisi
+DUP-0000031,log_operasional_202307_3958.csv,22750233,2022-01-09,nas-lokal-02,log|operasional|22750233|rekap file periode
+DOC-0000733,backup_logistik_202412_9861.docx,13756728,2022-09-04,server-arsip-jakarta,backup|logistik|13756728|data revisi file pending total
+DOC-0000869,invoice_riset_202406_6816.docx,180807,2022-05-27,nas-lokal-02,invoice|riset|180807|periode rekap draft dokumen
+DOC-0000530,invoice_manajemen_202309_2561.png,4441123,2024-11-03,server-arsip-jakarta,invoice|manajemen|4441123|final pending dokumen approved
+DOC-0000119,kontrak_riset_202304_4935.zip,1432703,2022-09-07,server-arsip-jakarta,kontrak|riset|1432703|approved data dokumen
+DOC-0000033,invoice_operasional_202307_4845.jpg,224115,2022-09-18,cloud-storage-aws,invoice|operasional|224115|data approved periode final
+DOC-0000268,presentasi_operasional_202208_3464.xml,1248993,2024-04-13,backup-eksternal,presentasi|operasional|1248993|draft rekap arsip periode total
+DOC-0000479,laporan_riset_202210_5930.txt,287976,2024-11-05,cloud-storage-aws,laporan|riset|287976|data file revisi final
+DOC-0000224,invoice_keuangan_202201_0991.zip,147460,2024-03-26,ftp-pusat,invoice|keuangan|147460|data arsip approved dokumen
+DOC-0000265,backup_manajemen_202210_1655.zip,11724577,2023-08-09,ftp-pusat,backup|manajemen|11724577|approved final file pending
+DOC-0000679,invoice_hukum_202407_2796.xml,2918774,2022-12-28,nas-lokal-01,invoice|hukum|2918774|file periode revisi
+DOC-0000526,gambar_teknologi_202202_8162.xlsx,396818,2022-02-24,server-arsip-surabaya,gambar|teknologi|396818|dokumen data draft periode
+DOC-0000825,gambar_operasional_202301_3561.docx,6046389,2023-08-03,portal-upload-web,gambar|operasional|6046389|rekap pending final
+DOC-0000276,gambar_operasional_202312_0579.csv,32152173,2023-01-24,nas-lokal-01,gambar|operasional|32152173|file revisi arsip pending draft
+DOC-0000565,presentasi_manajemen_202405_5295.xlsx,35523,2022-04-24,server-arsip-bandung,presentasi|manajemen|35523|dokumen approved total data final
+DOC-0000516,kontrak_teknologi_202207_1831.csv,78271,2022-06-09,server-arsip-jakarta,kontrak|teknologi|78271|approved rekap revisi total
+DOC-0000351,log_riset_202205_1524.pdf,2709138,2024-03-28,nas-lokal-01,log|riset|2709138|arsip periode pending
+DOC-0000213,kontrak_sdm_202211_6435.txt,178871,2024-09-29,server-arsip-surabaya,kontrak|sdm|178871|data final approved dokumen pending
+DOC-0000296,invoice_audit_202209_3649.json,155834,2024-02-15,nas-lokal-02,invoice|audit|155834|total pending data
+DOC-0000662,kontrak_keuangan_202304_7517.xml,600508,2023-03-27,server-arsip-bandung,kontrak|keuangan|600508|final data dokumen draft rekap
+DOC-0000356,presentasi_keuangan_202402_5332.pdf,3682873,2024-01-11,portal-upload-web,presentasi|keuangan|3682873|periode arsip final revisi
+DOC-0000445,gambar_keuangan_202411_0004.docx,82832,2022-10-28,server-arsip-surabaya,gambar|keuangan|82832|arsip final approved pending
+DOC-0000216,presentasi_keuangan_202301_2036.pdf,420983,2022-11-20,backup-eksternal,presentasi|keuangan|420983|rekap approved revisi periode
+DOC-0000583,laporan_hukum_202209_3672.json,2401616,2024-09-23,cloud-storage-gcp,laporan|hukum|2401616|draft rekap arsip final
+DOC-0000551,backup_pemasaran_202303_6448.csv,227315,2024-02-12,portal-upload-web,backup|pemasaran|227315|rekap file arsip
+DOC-0000160,laporan_operasional_202306_4948.xml,405185,2022-01-24,cloud-storage-gcp,laporan|operasional|405185|draft revisi rekap total pending
+DUP-0000007,surat_manajemen_202203_4596.json,28729396,2022-03-05,nas-lokal-01,surat|manajemen|28729396|data arsip periode approved
+DOC-0000600,invoice_riset_202308_9390.json,33426,2023-09-27,portal-upload-web,invoice|riset|33426|draft approved pending periode
+DOC-0000038,backup_pemasaran_202309_7306.png,4734387,2022-11-22,backup-eksternal,backup|pemasaran|4734387|final revisi file arsip
+DOC-0000175,surat_teknologi_202212_9903.docx,4517480,2023-02-23,nas-lokal-02,surat|teknologi|4517480|arsip draft final
+DOC-0000647,surat_logistik_202302_5388.docx,2079900,2024-07-13,cloud-storage-gcp,surat|logistik|2079900|periode total arsip
+DOC-0000461,gambar_teknologi_202311_2948.zip,39893410,2023-10-04,ftp-pusat,gambar|teknologi|39893410|data rekap total
+DOC-0000536,surat_manajemen_202406_4479.docx,1294684,2022-05-18,portal-upload-web,surat|manajemen|1294684|pending approved revisi draft total
+DOC-0000718,kontrak_hukum_202301_6926.json,39472783,2024-10-11,nas-lokal-02,kontrak|hukum|39472783|draft total file
+DOC-0000358,backup_sdm_202405_3864.zip,1337769,2024-06-04,nas-lokal-02,backup|sdm|1337769|periode file pending
+DOC-0000373,laporan_sdm_202408_0135.docx,75556,2023-04-22,server-arsip-bandung,laporan|sdm|75556|rekap pending revisi
+DOC-0000593,laporan_pemasaran_202201_2044.csv,3473538,2024-07-08,cloud-storage-gcp,laporan|pemasaran|3473538|file rekap pending draft revisi
+DUP-0000004,backup_hukum_202303_5719.docx,4743669,2022-05-21,cloud-storage-aws,backup|hukum|4743669|final periode pending arsip
+DOC-0000884,surat_operasional_202403_7436.zip,4231460,2023-08-28,server-arsip-bandung,surat|operasional|4231460|file total pending approved dokumen
+DOC-0000095,surat_sdm_202309_6023.png,66737,2022-08-24,cloud-storage-gcp,surat|sdm|66737|revisi approved arsip dokumen rekap
+DOC-0000271,kontrak_audit_202205_1481.zip,3387770,2023-08-07,server-arsip-jakarta,kontrak|audit|3387770|rekap periode dokumen revisi
+DUP-0000021,kontrak_hukum_202407_6090.xlsx,23813,2022-04-21,server-arsip-bandung,kontrak|hukum|23813|dokumen total pending periode rekap
+DOC-0000266,backup_manajemen_202303_9973.png,154396,2024-04-02,server-arsip-jakarta,backup|manajemen|154396|draft revisi rekap pending
+DOC-0000303,kontrak_hukum_202407_6860.xml,3199822,2023-05-24,cloud-storage-gcp,kontrak|hukum|3199822|draft final pending periode
+DOC-0000804,backup_keuangan_202311_1990.xml,248331,2024-02-05,portal-upload-web,backup|keuangan|248331|rekap revisi file
+DOC-0000205,presentasi_pemasaran_202410_1389.png,2995149,2022-10-02,nas-lokal-01,presentasi|pemasaran|2995149|revisi final total
+DUP-0000093,presentasi_hukum_202207_4521.json,3508775,2023-01-24,server-arsip-bandung,presentasi|hukum|3508775|total data revisi rekap
+DOC-0000193,gambar_hukum_202310_6225.xlsx,217456,2023-11-06,backup-eksternal,gambar|hukum|217456|approved data dokumen periode
+DOC-0000232,presentasi_hukum_202205_9238.jpg,3594720,2023-09-15,portal-upload-web,presentasi|hukum|3594720|pending draft dokumen
+DOC-0000424,surat_manajemen_202409_1437.pdf,392587,2024-09-17,portal-upload-web,surat|manajemen|392587|final approved dokumen draft file
+DOC-0000324,gambar_audit_202410_2497.json,3064192,2024-01-17,nas-lokal-01,gambar|audit|3064192|periode rekap draft revisi
+DOC-0000579,memo_logistik_202406_7346.png,336472,2024-06-12,server-arsip-jakarta,memo|logistik|336472|final revisi pending
+DOC-0000144,presentasi_keuangan_202206_9065.xml,304553,2023-08-15,server-arsip-bandung,presentasi|keuangan|304553|arsip pending file final
+DOC-0000286,laporan_keuangan_202209_4141.docx,3689800,2024-08-29,server-arsip-surabaya,laporan|keuangan|3689800|file data rekap
+DUP-0000054,surat_manajemen_202208_2741.json,341716,2022-03-11,ftp-pusat,surat|manajemen|341716|dokumen approved final arsip
+DOC-0000294,gambar_hukum_202311_5149.xml,1031302,2022-01-26,ftp-pusat,gambar|hukum|1031302|dokumen file revisi draft total
+DOC-0000389,presentasi_pemasaran_202307_7055.jpg,224297347,2023-10-25,portal-upload-web,presentasi|pemasaran|224297347|dokumen arsip revisi
+DOC-0000055,kontrak_audit_202308_7844.docx,43524798,2024-06-21,nas-lokal-01,kontrak|audit|43524798|rekap final pending
+DOC-0000849,log_manajemen_202209_1817.jpg,334348,2024-08-22,cloud-storage-gcp,log|manajemen|334348|rekap file draft approved final
+DOC-0000136,presentasi_teknologi_202302_4106.json,328581130,2023-02-07,ftp-pusat,presentasi|teknologi|328581130|periode data final arsip
+DOC-0000862,laporan_hukum_202405_8762.jpg,388167,2024-08-07,nas-lokal-02,laporan|hukum|388167|file dokumen arsip final periode
+DOC-0000837,log_riset_202311_1639.txt,2933000,2024-10-06,nas-lokal-01,log|riset|2933000|final approved data total pending
+DOC-0000698,presentasi_manajemen_202307_2757.docx,1738205,2022-04-26,server-arsip-bandung,presentasi|manajemen|1738205|pending periode rekap total
+DOC-0000316,log_logistik_202208_5435.docx,1789787,2022-03-19,server-arsip-bandung,log|logistik|1789787|rekap periode final
+DOC-0000253,gambar_keuangan_202206_4206.csv,373423,2022-08-10,server-arsip-jakarta,gambar|keuangan|373423|approved pending file
+DOC-0000084,backup_sdm_202407_4584.xml,4604941,2022-03-09,nas-lokal-01,backup|sdm|4604941|pending file revisi
+DOC-0000472,laporan_pemasaran_202207_1937.pdf,388017,2023-03-10,ftp-pusat,laporan|pemasaran|388017|data arsip periode revisi
+DOC-0000860,laporan_operasional_202307_7275.zip,19882,2022-04-01,cloud-storage-aws,laporan|operasional|19882|approved periode file
+DOC-0000654,invoice_teknologi_202302_1724.png,1516957,2024-10-30,nas-lokal-01,invoice|teknologi|1516957|pending periode final revisi
+DOC-0000223,backup_hukum_202306_2163.jpg,5809804,2024-03-03,portal-upload-web,backup|hukum|5809804|draft arsip periode pending
+DOC-0000857,gambar_operasional_202404_8632.json,24641652,2023-07-02,nas-lokal-01,gambar|operasional|24641652|arsip file total rekap draft
+DOC-0000781,log_logistik_202203_7518.jpg,230295544,2024-05-27,nas-lokal-01,log|logistik|230295544|arsip dokumen periode
+DOC-0000021,kontrak_hukum_202207_1965.zip,461841,2023-05-20,portal-upload-web,kontrak|hukum|461841|rekap dokumen total approved draft
+DOC-0000642,presentasi_keuangan_202406_4097.jpg,113099,2023-09-12,cloud-storage-gcp,presentasi|keuangan|113099|file dokumen periode
+DOC-0000606,memo_sdm_202205_6673.xlsx,56991,2022-12-13,server-arsip-jakarta,memo|sdm|56991|draft periode rekap dokumen final
+DOC-0000326,invoice_sdm_202209_3219.zip,157123,2023-06-24,server-arsip-bandung,invoice|sdm|157123|total rekap arsip data approved
+DOC-0000191,dataset_hukum_202409_2779.jpg,21290175,2024-02-19,server-arsip-surabaya,dataset|hukum|21290175|final file data
+DOC-0000741,laporan_pemasaran_202205_0257.txt,2846209,2022-08-06,nas-lokal-02,laporan|pemasaran|2846209|final data dokumen arsip revisi
+DOC-0000187,invoice_pemasaran_202306_0486.zip,44970621,2023-07-14,backup-eksternal,invoice|pemasaran|44970621|revisi draft arsip approved
+DOC-0000093,gambar_hukum_202302_6106.docx,11256567,2022-09-24,ftp-pusat,gambar|hukum|11256567|dokumen arsip data
+DOC-0000120,gambar_hukum_202409_0270.docx,38542972,2024-11-21,portal-upload-web,gambar|hukum|38542972|file periode final
+DOC-0000091,presentasi_logistik_202410_7049.zip,4306041,2022-07-23,server-arsip-bandung,presentasi|logistik|4306041|data arsip revisi approved pending
+DOC-0000475,presentasi_hukum_202201_9718.zip,3197692,2022-12-22,nas-lokal-01,presentasi|hukum|3197692|total final periode
+DOC-0000580,presentasi_audit_202412_7676.txt,3345022,2022-09-26,cloud-storage-gcp,presentasi|audit|3345022|file approved data draft pending
+DOC-0000089,gambar_riset_202411_8544.txt,73281426,2023-09-10,backup-eksternal,gambar|riset|73281426|rekap file pending approved arsip
+DOC-0000714,backup_logistik_202309_4700.png,195598,2023-07-19,nas-lokal-02,backup|logistik|195598|file revisi final total dokumen
+DOC-0000582,invoice_logistik_202401_0298.png,119803,2024-01-05,cloud-storage-gcp,invoice|logistik|119803|data periode file arsip
+DOC-0000871,backup_teknologi_202412_5637.json,4762942,2023-03-17,nas-lokal-02,backup|teknologi|4762942|rekap data periode approved total
+DOC-0000350,gambar_audit_202205_1107.zip,37344471,2024-02-23,cloud-storage-aws,gambar|audit|37344471|file revisi draft approved dokumen
+DUP-0000013,memo_pemasaran_202402_3534.json,243610,2024-06-28,nas-lokal-02,memo|pemasaran|243610|final periode approved dokumen
+DOC-0000360,invoice_sdm_202311_1578.pdf,143321,2024-07-10,nas-lokal-01,invoice|sdm|143321|draft file arsip dokumen
+DUP-0000080,kontrak_teknologi_202412_6132.pdf,272510,2024-10-03,nas-lokal-02,kontrak|teknologi|272510|approved draft file pending
+DOC-0000830,presentasi_riset_202307_6722.json,4087550,2024-08-02,server-arsip-jakarta,presentasi|riset|4087550|rekap approved total periode final
+DOC-0000319,backup_hukum_202307_0505.csv,34371950,2024-08-28,server-arsip-surabaya,backup|hukum|34371950|revisi periode approved arsip final
+DOC-0000004,gambar_riset_202209_4804.docx,253224099,2024-01-11,portal-upload-web,gambar|riset|253224099|file total rekap
+DOC-0000651,backup_teknologi_202304_0122.jpg,4350006,2022-10-20,backup-eksternal,backup|teknologi|4350006|approved dokumen revisi
+DOC-0000819,surat_audit_202411_4763.docx,19117,2023-04-13,ftp-pusat,surat|audit|19117|periode file total dokumen final
+DOC-0000420,backup_audit_202410_0108.png,1166097,2023-05-17,ftp-pusat,backup|audit|1166097|dokumen data arsip revisi
+DOC-0000518,backup_teknologi_202203_4545.xlsx,745444,2023-12-14,nas-lokal-01,backup|teknologi|745444|arsip dokumen revisi
+DOC-0000706,log_audit_202406_9932.xlsx,3125098,2024-11-11,cloud-storage-aws,log|audit|3125098|total data rekap revisi dokumen
+DOC-0000204,invoice_riset_202302_4299.xlsx,113323,2024-09-29,ftp-pusat,invoice|riset|113323|draft dokumen approved data total
+DOC-0000624,presentasi_hukum_202301_4940.xlsx,430681,2024-06-03,server-arsip-bandung,presentasi|hukum|430681|data rekap arsip
+DOC-0000283,presentasi_operasional_202405_2737.xlsx,273893,2022-05-14,server-arsip-jakarta,presentasi|operasional|273893|final pending arsip dokumen
+DOC-0000046,kontrak_operasional_202411_6150.docx,3116888,2024-03-23,cloud-storage-aws,kontrak|operasional|3116888|dokumen data revisi
+DOC-0000798,presentasi_logistik_202307_3047.pdf,434170,2024-01-03,cloud-storage-aws,presentasi|logistik|434170|revisi data draft
+DOC-0000177,surat_pemasaran_202403_0266.json,2356182,2023-06-19,ftp-pusat,surat|pemasaran|2356182|dokumen approved final periode revisi
+DOC-0000086,laporan_pemasaran_202404_1125.txt,472505652,2023-03-01,portal-upload-web,laporan|pemasaran|472505652|revisi draft periode
+DOC-0000274,backup_hukum_202411_9729.pdf,3639267,2023-08-02,cloud-storage-gcp,backup|hukum|3639267|total pending file draft final
+DUP-0000088,surat_manajemen_202409_1437.pdf,392587,2024-09-17,portal-upload-web,surat|manajemen|392587|final approved dokumen draft file
+DOC-0000152,surat_operasional_202308_5715.csv,4602056,2023-07-15,cloud-storage-gcp,surat|operasional|4602056|dokumen data arsip
+DOC-0000514,surat_riset_202412_9030.zip,4909496,2022-08-22,nas-lokal-02,surat|riset|4909496|total file periode rekap
+DUP-0000096,dataset_hukum_202301_4658.txt,11328717,2022-09-07,nas-lokal-02,dataset|hukum|11328717|dokumen total draft periode
+DOC-0000067,surat_hukum_202208_4782.png,397736491,2024-11-08,cloud-storage-gcp,surat|hukum|397736491|pending file revisi data
+DOC-0000063,gambar_operasional_202408_1495.xlsx,284013969,2024-08-20,nas-lokal-01,gambar|operasional|284013969|draft file total periode
+DOC-0000686,presentasi_audit_202410_1334.txt,3856829,2023-12-15,nas-lokal-02,presentasi|audit|3856829|data total approved final
+DOC-0000684,dataset_manajemen_202201_7487.pdf,227304439,2024-04-02,server-arsip-surabaya,dataset|manajemen|227304439|dokumen total arsip
+DOC-0000427,surat_keuangan_202205_4920.txt,2634209,2024-11-03,ftp-pusat,surat|keuangan|2634209|rekap total draft dokumen
+DUP-0000083,dataset_manajemen_202210_7776.csv,47228957,2023-06-28,portal-upload-web,dataset|manajemen|47228957|revisi rekap dokumen pending periode
+DUP-0000019,gambar_sdm_202303_4829.docx,193158,2024-07-31,server-arsip-surabaya,gambar|sdm|193158|approved revisi data dokumen rekap
+DUP-0000098,gambar_operasional_202408_7173.xml,318688956,2022-06-14,portal-upload-web,gambar|operasional|318688956|approved draft dokumen
+DOC-0000529,gambar_keuangan_202312_2690.pdf,355721,2024-10-03,nas-lokal-02,gambar|keuangan|355721|final approved pending
+DOC-0000376,gambar_hukum_202307_5114.jpg,2248582,2023-10-24,server-arsip-surabaya,gambar|hukum|2248582|file rekap arsip dokumen total
+DOC-0000740,log_hukum_202302_9000.pdf,3596321,2023-06-25,server-arsip-surabaya,log|hukum|3596321|dokumen final draft rekap
+DOC-0000850,surat_pemasaran_202406_1022.pdf,296831,2023-04-28,backup-eksternal,surat|pemasaran|296831|dokumen file rekap
+DOC-0000174,laporan_operasional_202204_9627.xml,831749,2023-03-21,backup-eksternal,laporan|operasional|831749|draft final rekap
+DOC-0000727,kontrak_teknologi_202404_7032.csv,22685248,2023-02-11,backup-eksternal,kontrak|teknologi|22685248|total arsip dokumen periode revisi
+DOC-0000900,log_operasional_202409_4008.png,378511,2024-02-23,server-arsip-jakarta,log|operasional|378511|file approved draft arsip
+DOC-0000689,dataset_keuangan_202305_3611.xlsx,225288780,2023-06-12,backup-eksternal,dataset|keuangan|225288780|total data periode arsip pending
+DOC-0000341,presentasi_logistik_202410_4156.json,233384,2023-06-20,ftp-pusat,presentasi|logistik|233384|dokumen draft file final
+DOC-0000018,invoice_keuangan_202203_6659.jpg,11258759,2024-09-21,backup-eksternal,invoice|keuangan|11258759|approved rekap periode
+DOC-0000756,kontrak_hukum_202407_6090.xlsx,23813,2022-04-21,server-arsip-bandung,kontrak|hukum|23813|dokumen total pending periode rekap
+DOC-0000629,laporan_teknologi_202207_5634.jpg,42544049,2023-02-05,cloud-storage-aws,laporan|teknologi|42544049|revisi total draft file pending
+DOC-0000671,log_manajemen_202207_7003.xml,37346522,2022-06-20,cloud-storage-gcp,log|manajemen|37346522|arsip periode file data final
+DOC-0000199,surat_riset_202306_6409.jpg,2354149,2024-08-06,portal-upload-web,surat|riset|2354149|arsip periode draft rekap pending
+DOC-0000891,dataset_audit_202203_7615.json,232751,2023-10-16,server-arsip-bandung,dataset|audit|232751|file approved periode pending
+DOC-0000558,kontrak_riset_202202_5199.png,301301150,2024-12-22,nas-lokal-02,kontrak|riset|301301150|final total draft
+DOC-0000100,surat_logistik_202304_2249.zip,117176,2023-06-08,cloud-storage-gcp,surat|logistik|117176|total rekap pending approved
+DOC-0000322,backup_operasional_202401_8993.txt,361785,2024-08-02,ftp-pusat,backup|operasional|361785|final data total
+DOC-0000064,presentasi_logistik_202401_7452.png,219952,2022-06-30,nas-lokal-01,presentasi|logistik|219952|draft total approved arsip
+DOC-0000728,backup_sdm_202205_3149.txt,220387,2022-10-27,nas-lokal-02,backup|sdm|220387|dokumen revisi total
+DOC-0000653,dataset_teknologi_202307_3006.xlsx,33996171,2022-07-15,nas-lokal-02,dataset|teknologi|33996171|rekap revisi periode final arsip
+DOC-0000455,backup_operasional_202401_4781.pdf,1918340,2022-02-25,cloud-storage-gcp,backup|operasional|1918340|total periode arsip file
+DOC-0000058,backup_hukum_202402_2574.txt,2720013,2023-05-07,server-arsip-surabaya,backup|hukum|2720013|total periode rekap approved pending
+DOC-0000123,invoice_manajemen_202406_2869.json,194706,2024-08-09,backup-eksternal,invoice|manajemen|194706|periode file total pending rekap
+DOC-0000430,surat_manajemen_202203_4596.json,28729396,2022-03-05,nas-lokal-01,surat|manajemen|28729396|data arsip periode approved
+DOC-0000085,presentasi_hukum_202207_4521.json,3508775,2023-01-24,server-arsip-bandung,presentasi|hukum|3508775|total data revisi rekap
+DOC-0000135,log_manajemen_202309_0908.xlsx,13659256,2022-09-12,ftp-pusat,log|manajemen|13659256|final periode data
+DOC-0000182,surat_teknologi_202307_1295.zip,3473268,2024-02-04,nas-lokal-02,surat|teknologi|3473268|dokumen revisi data final
+DOC-0000754,dataset_riset_202402_3854.zip,19719255,2024-01-11,server-arsip-jakarta,dataset|riset|19719255|rekap draft arsip
+DOC-0000723,presentasi_logistik_202404_1814.pdf,466400,2023-01-24,cloud-storage-gcp,presentasi|logistik|466400|periode approved data
+DUP-0000073,presentasi_logistik_202404_1814.pdf,466400,2023-01-24,cloud-storage-gcp,presentasi|logistik|466400|periode approved data
+DOC-0000731,surat_operasional_202207_3029.png,327992,2023-06-01,backup-eksternal,surat|operasional|327992|draft final total dokumen
+DOC-0000628,log_pemasaran_202208_5058.csv,1721589,2023-12-04,cloud-storage-gcp,log|pemasaran|1721589|rekap arsip dokumen periode
+DOC-0000030,memo_teknologi_202306_4565.txt,111255,2022-05-23,cloud-storage-gcp,memo|teknologi|111255|data arsip approved file
+DOC-0000379,invoice_manajemen_202401_0980.json,457785757,2023-12-30,server-arsip-surabaya,invoice|manajemen|457785757|arsip total periode pending revisi
+DOC-0000040,dataset_sdm_202309_7634.txt,223699,2024-05-01,server-arsip-jakarta,dataset|sdm|223699|approved file dokumen
+DOC-0000107,laporan_keuangan_202402_9734.json,10149331,2024-11-04,nas-lokal-02,laporan|keuangan|10149331|dokumen arsip rekap pending
+DOC-0000559,laporan_sdm_202406_7047.png,23857635,2023-08-03,cloud-storage-gcp,laporan|sdm|23857635|final arsip draft approved periode
+DOC-0000769,memo_audit_202403_2032.csv,34665164,2024-09-26,server-arsip-jakarta,memo|audit|34665164|final approved data periode
+DOC-0000664,kontrak_pemasaran_202408_1107.xlsx,3167301,2023-11-18,server-arsip-jakarta,kontrak|pemasaran|3167301|dokumen pending approved arsip revisi
+DOC-0000768,gambar_pemasaran_202205_9446.xlsx,136689881,2024-01-15,nas-lokal-01,gambar|pemasaran|136689881|total periode pending
+DUP-0000044,presentasi_riset_202307_6722.json,4087550,2024-08-02,server-arsip-jakarta,presentasi|riset|4087550|rekap approved total periode final
+DOC-0000178,presentasi_teknologi_202309_5531.xml,2561333,2023-06-12,backup-eksternal,presentasi|teknologi|2561333|data pending file periode draft
+DOC-0000503,presentasi_keuangan_202205_3207.zip,4916048,2022-02-16,server-arsip-bandung,presentasi|keuangan|4916048|pending data total arsip approved
+DOC-0000466,gambar_hukum_202210_1741.xlsx,4117618,2024-06-23,cloud-storage-gcp,gambar|hukum|4117618|rekap total data
+DOC-0000648,kontrak_keuangan_202202_6323.zip,2066087,2023-08-05,cloud-storage-aws,kontrak|keuangan|2066087|final data arsip
+DOC-0000623,laporan_pemasaran_202410_7185.jpg,9892964,2022-07-15,backup-eksternal,laporan|pemasaran|9892964|total file rekap dokumen approved
+DOC-0000483,surat_logistik_202301_7142.txt,316756,2022-10-24,cloud-storage-aws,surat|logistik|316756|pending periode approved draft data
+DOC-0000736,kontrak_manajemen_202301_9277.csv,1581579,2022-05-05,cloud-storage-aws,kontrak|manajemen|1581579|approved pending arsip dokumen total
+DOC-0000032,dataset_manajemen_202301_8519.txt,381607,2023-02-08,nas-lokal-01,dataset|manajemen|381607|total data draft dokumen
+DOC-0000586,invoice_teknologi_202204_7761.png,462971468,2023-12-01,cloud-storage-gcp,invoice|teknologi|462971468|periode total final draft approved
+DOC-0000059,backup_audit_202405_7439.csv,161049,2022-05-26,cloud-storage-aws,backup|audit|161049|data dokumen revisi approved
+DOC-0000641,surat_operasional_202309_8402.docx,53211,2022-06-10,cloud-storage-gcp,surat|operasional|53211|total file data
+DOC-0000281,laporan_audit_202210_2596.csv,415558,2024-09-29,server-arsip-bandung,laporan|audit|415558|dokumen approved data
+DOC-0000845,log_teknologi_202201_2303.docx,1307036,2022-01-11,nas-lokal-01,log|teknologi|1307036|dokumen arsip total draft
+DOC-0000722,memo_teknologi_202307_2985.png,166911,2023-07-06,server-arsip-bandung,memo|teknologi|166911|data pending periode dokumen
+DOC-0000713,backup_sdm_202403_2071.csv,279256,2022-10-20,nas-lokal-02,backup|sdm|279256|file final rekap draft revisi
+DOC-0000045,kontrak_teknologi_202404_7620.xlsx,1459569,2023-06-09,nas-lokal-01,kontrak|teknologi|1459569|dokumen file total
+DOC-0000408,kontrak_manajemen_202412_1940.xlsx,302206,2023-01-13,nas-lokal-01,kontrak|manajemen|302206|file rekap draft
+DOC-0000491,invoice_logistik_202306_2872.json,842879,2022-05-18,ftp-pusat,invoice|logistik|842879|revisi periode draft file total
+DOC-0000658,kontrak_audit_202211_8722.json,384557,2023-03-19,backup-eksternal,kontrak|audit|384557|rekap data arsip total approved
+DUP-0000095,laporan_pemasaran_202404_1125.txt,472505652,2023-03-01,portal-upload-web,laporan|pemasaran|472505652|revisi draft periode
+DOC-0000663,invoice_teknologi_202302_8785.xml,323979,2022-12-18,cloud-storage-gcp,invoice|teknologi|323979|dokumen draft approved
+DOC-0000035,gambar_sdm_202410_5492.docx,358050,2022-07-11,cloud-storage-aws,gambar|sdm|358050|final revisi data periode rekap
+DOC-0000280,surat_pemasaran_202206_2955.xml,295656794,2022-06-15,backup-eksternal,surat|pemasaran|295656794|data periode draft rekap
+DOC-0000622,memo_hukum_202210_5478.docx,236465,2023-05-28,cloud-storage-aws,memo|hukum|236465|pending revisi draft
+DOC-0000014,invoice_teknologi_202409_3771.txt,21028,2023-03-28,server-arsip-jakarta,invoice|teknologi|21028|file data rekap
+DOC-0000515,gambar_pemasaran_202310_8571.csv,1666134,2023-12-02,server-arsip-surabaya,gambar|pemasaran|1666134|final rekap total revisi periode
+DOC-0000260,memo_teknologi_202411_1585.csv,1767776,2022-06-25,nas-lokal-01,memo|teknologi|1767776|approved dokumen revisi arsip rekap
+DOC-0000378,backup_hukum_202210_7787.xml,5599273,2022-11-14,nas-lokal-01,backup|hukum|5599273|revisi periode pending
+DOC-0000097,invoice_sdm_202207_6879.pdf,288125,2024-07-18,nas-lokal-01,invoice|sdm|288125|draft final file
+DOC-0000337,dataset_logistik_202409_6878.xlsx,116088,2022-11-03,portal-upload-web,dataset|logistik|116088|periode pending dokumen
+DOC-0000318,laporan_manajemen_202212_1190.docx,44299489,2024-01-03,ftp-pusat,laporan|manajemen|44299489|final data file
+DOC-0000601,kontrak_riset_202303_5329.png,49776427,2022-07-02,portal-upload-web,kontrak|riset|49776427|dokumen approved data revisi file
+DOC-0000006,backup_sdm_202307_4423.jpg,1870720,2023-03-26,nas-lokal-01,backup|sdm|1870720|revisi rekap draft
+DOC-0000200,invoice_operasional_202212_2322.xml,96092945,2023-12-15,cloud-storage-gcp,invoice|operasional|96092945|pending revisi arsip file
+DOC-0000539,gambar_sdm_202307_6722.txt,369298,2023-10-15,server-arsip-bandung,gambar|sdm|369298|revisi approved final dokumen periode
+DOC-0000370,surat_keuangan_202407_6468.jpg,225868,2023-05-27,server-arsip-surabaya,surat|keuangan|225868|file data approved dokumen revisi
+DOC-0000885,memo_hukum_202402_5796.xlsx,442792873,2022-06-11,cloud-storage-aws,memo|hukum|442792873|total draft periode arsip data
+DOC-0000201,presentasi_audit_202302_4920.docx,4295403,2022-04-02,server-arsip-bandung,presentasi|audit|4295403|draft data total
+DOC-0000011,kontrak_pemasaran_202210_5311.xlsx,4948930,2024-09-27,server-arsip-jakarta,kontrak|pemasaran|4948930|draft final revisi
+DOC-0000766,log_riset_202303_5555.zip,3364000,2023-08-19,nas-lokal-01,log|riset|3364000|approved rekap file revisi arsip
+DOC-0000184,backup_hukum_202212_9287.jpg,20419369,2024-08-31,cloud-storage-gcp,backup|hukum|20419369|total data final
+DOC-0000384,invoice_riset_202201_3311.docx,78039,2022-08-08,backup-eksternal,invoice|riset|78039|total rekap dokumen
+DOC-0000392,presentasi_sdm_202404_3818.xlsx,476419,2023-06-09,cloud-storage-gcp,presentasi|sdm|476419|dokumen approved file
+DOC-0000196,surat_audit_202311_8181.csv,9641160,2022-10-13,cloud-storage-gcp,surat|audit|9641160|final data periode
+DOC-0000886,memo_audit_202412_5158.jpg,1121500,2022-03-20,nas-lokal-02,memo|audit|1121500|file arsip draft
+DOC-0000632,laporan_pemasaran_202402_2334.pdf,25737,2023-08-19,backup-eksternal,laporan|pemasaran|25737|data dokumen draft
+DOC-0000219,dataset_sdm_202212_1679.png,210838,2022-07-31,nas-lokal-01,dataset|sdm|210838|final periode approved data
+DOC-0000435,laporan_manajemen_202304_3155.csv,2260314,2023-08-10,cloud-storage-gcp,laporan|manajemen|2260314|draft pending total final periode
+DOC-0000746,laporan_hukum_202402_3315.jpg,3338621,2022-10-13,backup-eksternal,laporan|hukum|3338621|pending periode final draft file
+DOC-0000355,laporan_riset_202406_6451.xml,773156,2022-12-24,backup-eksternal,laporan|riset|773156|file arsip pending
+DOC-0000687,backup_teknologi_202409_0521.xlsx,43379065,2022-09-19,backup-eksternal,backup|teknologi|43379065|final data arsip
+DOC-0000790,kontrak_keuangan_202310_2011.zip,12444489,2022-08-08,server-arsip-surabaya,kontrak|keuangan|12444489|final periode total dokumen
+DOC-0000478,log_audit_202412_0617.xml,101513,2023-01-04,backup-eksternal,log|audit|101513|total data final draft approved
+DOC-0000375,invoice_riset_202307_0207.png,479604,2022-09-07,cloud-storage-aws,invoice|riset|479604|pending revisi rekap data
+DOC-0000026,laporan_keuangan_202303_7240.json,47755955,2024-05-25,ftp-pusat,laporan|keuangan|47755955|total file periode
+DUP-0000068,surat_teknologi_202205_6902.pdf,38463901,2022-09-02,server-arsip-bandung,surat|teknologi|38463901|periode dokumen draft approved
+DOC-0000357,memo_audit_202307_3450.zip,106423,2024-05-08,nas-lokal-01,memo|audit|106423|approved final pending periode
+DOC-0000668,log_pemasaran_202208_1147.xlsx,550690,2023-01-30,server-arsip-jakarta,log|pemasaran|550690|periode revisi file total dokumen
+DOC-0000446,surat_teknologi_202405_7123.json,426466,2023-12-07,server-arsip-bandung,surat|teknologi|426466|rekap dokumen arsip approved periode
+DOC-0000572,presentasi_manajemen_202405_5593.png,35195493,2023-01-19,cloud-storage-aws,presentasi|manajemen|35195493|total dokumen final
+DOC-0000124,memo_teknologi_202305_8445.pdf,7812261,2024-03-26,ftp-pusat,memo|teknologi|7812261|final rekap revisi file
+DOC-0000702,backup_sdm_202310_2052.xml,4137775,2022-07-23,nas-lokal-01,backup|sdm|4137775|file arsip periode
+DOC-0000257,memo_operasional_202310_9006.csv,36023,2024-10-02,server-arsip-surabaya,memo|operasional|36023|draft rekap approved
+DOC-0000808,gambar_operasional_202202_4323.json,37393873,2023-08-30,server-arsip-bandung,gambar|operasional|37393873|arsip revisi data total
+DOC-0000712,log_operasional_202206_6383.zip,35146,2023-01-06,nas-lokal-01,log|operasional|35146|data arsip file approved pending
+DOC-0000502,invoice_audit_202205_0407.pdf,298861,2024-04-02,portal-upload-web,invoice|audit|298861|pending draft total
+DOC-0000453,log_manajemen_202411_1280.docx,340648,2023-10-02,portal-upload-web,log|manajemen|340648|draft arsip rekap
+DUP-0000011,dataset_operasional_202206_8400.zip,358924,2023-02-14,backup-eksternal,dataset|operasional|358924|approved pending final file
+DOC-0000448,presentasi_logistik_202211_2842.xml,295799,2024-08-30,server-arsip-surabaya,presentasi|logistik|295799|arsip approved draft
+DOC-0000861,log_keuangan_202301_9974.csv,410029,2023-11-20,cloud-storage-gcp,log|keuangan|410029|revisi rekap draft approved arsip
+DUP-0000033,presentasi_pemasaran_202306_4420.docx,171620,2022-07-29,server-arsip-surabaya,presentasi|pemasaran|171620|periode approved pending
+DOC-0000729,laporan_logistik_202206_6981.xml,2441356,2024-09-08,server-arsip-jakarta,laporan|logistik|2441356|approved data rekap final total
+DOC-0000285,surat_keuangan_202312_0613.zip,1533158,2024-02-08,cloud-storage-gcp,surat|keuangan|1533158|dokumen rekap file data total
+DOC-0000854,surat_pemasaran_202202_9644.xml,20983333,2022-01-21,cloud-storage-aws,surat|pemasaran|20983333|file arsip dokumen rekap
+DOC-0000649,invoice_audit_202206_6732.pdf,15791,2024-03-11,server-arsip-surabaya,invoice|audit|15791|periode arsip approved
+DOC-0000171,dataset_operasional_202403_7000.csv,320203,2024-10-12,server-arsip-jakarta,dataset|operasional|320203|data file approved arsip
+DOC-0000220,kontrak_hukum_202306_3491.jpg,1876710,2022-11-07,nas-lokal-02,kontrak|hukum|1876710|data pending revisi total arsip
+DOC-0000863,dataset_audit_202311_4496.txt,17960,2022-06-25,cloud-storage-aws,dataset|audit|17960|final draft dokumen approved rekap
+DUP-0000052,laporan_manajemen_202409_1634.xml,403186,2024-06-28,ftp-pusat,laporan|manajemen|403186|rekap data final approved revisi
+DOC-0000081,log_pemasaran_202309_2025.docx,5934066,2024-07-20,nas-lokal-01,log|pemasaran|5934066|file data final approved draft
+DOC-0000544,dataset_teknologi_202204_4499.xml,66001,2024-06-19,nas-lokal-02,dataset|teknologi|66001|dokumen rekap pending arsip
+DOC-0000325,surat_logistik_202412_5433.csv,14013112,2024-09-09,backup-eksternal,surat|logistik|14013112|draft final pending arsip
+DUP-0000062,gambar_hukum_202310_0921.png,3040242,2023-12-22,ftp-pusat,gambar|hukum|3040242|final pending data
+DOC-0000859,laporan_teknologi_202201_8175.png,4306440,2022-03-11,cloud-storage-gcp,laporan|teknologi|4306440|dokumen approved final total
+DOC-0000320,kontrak_operasional_202409_2317.json,55986223,2022-09-10,server-arsip-jakarta,kontrak|operasional|55986223|dokumen file approved
+DOC-0000364,dataset_sdm_202404_4123.xlsx,13391287,2022-06-13,cloud-storage-aws,dataset|sdm|13391287|approved total data
+DOC-0000486,gambar_operasional_202206_7115.pdf,2569086,2023-04-01,portal-upload-web,gambar|operasional|2569086|dokumen rekap approved
+DOC-0000724,presentasi_keuangan_202405_1947.xlsx,4520618,2024-05-12,backup-eksternal,presentasi|keuangan|4520618|pending data periode draft approved
+DOC-0000395,presentasi_riset_202404_2510.zip,273403,2022-04-14,nas-lokal-02,presentasi|riset|273403|dokumen file arsip total
+DOC-0000793,laporan_sdm_202210_0485.jpg,1520002,2022-02-17,ftp-pusat,laporan|sdm|1520002|periode revisi draft total data
+DOC-0000387,invoice_teknologi_202209_6314.jpg,390198,2023-01-24,cloud-storage-aws,invoice|teknologi|390198|data revisi dokumen periode approved
+DOC-0000403,invoice_keuangan_202304_6238.csv,48581245,2024-11-07,server-arsip-bandung,invoice|keuangan|48581245|pending dokumen arsip total
+DOC-0000574,backup_manajemen_202302_2050.json,3813477,2022-10-04,server-arsip-jakarta,backup|manajemen|3813477|total rekap revisi
+DOC-0000247,backup_keuangan_202210_3085.json,352583929,2024-10-05,ftp-pusat,backup|keuangan|352583929|periode pending rekap total
+DOC-0000121,dataset_keuangan_202303_1403.zip,309192,2024-12-08,nas-lokal-01,dataset|keuangan|309192|arsip file data
+DOC-0000779,backup_hukum_202312_8948.pdf,108386,2022-12-07,portal-upload-web,backup|hukum|108386|revisi draft file dokumen
+DOC-0000513,kontrak_keuangan_202307_5576.xlsx,3629070,2022-11-30,server-arsip-bandung,kontrak|keuangan|3629070|periode arsip revisi
+DOC-0000310,kontrak_riset_202309_4330.docx,234661,2022-09-24,server-arsip-surabaya,kontrak|riset|234661|final rekap draft pending periode
+DOC-0000335,kontrak_riset_202412_4645.xml,656197,2022-06-25,cloud-storage-aws,kontrak|riset|656197|dokumen pending data periode
+DOC-0000484,gambar_teknologi_202303_0526.json,158561147,2022-05-03,cloud-storage-gcp,gambar|teknologi|158561147|total pending data
+DOC-0000681,backup_hukum_202302_4535.xlsx,54935,2022-05-12,nas-lokal-01,backup|hukum|54935|dokumen revisi pending
+DOC-0000436,kontrak_operasional_202409_1678.docx,336602,2023-02-28,ftp-pusat,kontrak|operasional|336602|arsip draft final periode
+DOC-0000451,log_audit_202310_0122.xml,107408,2024-10-17,cloud-storage-aws,log|audit|107408|arsip final approved file draft
+DUP-0000050,invoice_pemasaran_202305_9875.docx,3742736,2022-11-04,nas-lokal-01,invoice|pemasaran|3742736|dokumen data periode
+DOC-0000524,invoice_pemasaran_202302_3816.txt,321930,2024-05-19,backup-eksternal,invoice|pemasaran|321930|file dokumen data final
+DOC-0000141,gambar_teknologi_202310_6851.xlsx,162154,2023-05-24,server-arsip-surabaya,gambar|teknologi|162154|dokumen draft revisi periode
+DOC-0000054,invoice_teknologi_202301_8752.csv,104079,2022-09-17,cloud-storage-gcp,invoice|teknologi|104079|rekap arsip final
+DUP-0000018,kontrak_pemasaran_202312_4383.txt,352366,2024-03-20,cloud-storage-gcp,kontrak|pemasaran|352366|draft dokumen arsip pending
+DUP-0000075,kontrak_riset_202412_4645.xml,656197,2022-06-25,cloud-storage-aws,kontrak|riset|656197|dokumen pending data periode
+DOC-0000332,backup_keuangan_202204_1264.jpg,34521103,2024-11-19,cloud-storage-gcp,backup|keuangan|34521103|periode file data
+DOC-0000001,invoice_keuangan_202402_8936.csv,83158,2022-06-28,portal-upload-web,invoice|keuangan|83158|rekap file total revisi
+DOC-0000896,presentasi_logistik_202201_0329.txt,2586279,2024-12-14,server-arsip-bandung,presentasi|logistik|2586279|approved pending rekap periode final
+DOC-0000487,laporan_keuangan_202207_8702.png,4729674,2024-03-18,backup-eksternal,laporan|keuangan|4729674|total pending data revisi file
+DOC-0000169,surat_hukum_202411_0798.docx,4245020,2023-05-17,server-arsip-jakarta,surat|hukum|4245020|pending revisi arsip data
+DOC-0000147,dataset_manajemen_202409_8026.csv,4755667,2023-09-06,backup-eksternal,dataset|manajemen|4755667|draft file total
+DOC-0000151,log_logistik_202406_8951.json,296779978,2023-12-27,cloud-storage-gcp,log|logistik|296779978|pending revisi data final arsip
+DOC-0000630,gambar_manajemen_202310_4910.json,42990121,2024-05-07,nas-lokal-01,gambar|manajemen|42990121|total pending rekap
+DOC-0000823,memo_pemasaran_202305_3123.json,228782,2022-03-26,portal-upload-web,memo|pemasaran|228782|file draft dokumen total approved
+DOC-0000094,presentasi_hukum_202312_0843.xml,358830,2023-08-13,portal-upload-web,presentasi|hukum|358830|draft total dokumen arsip
+DUP-0000070,kontrak_logistik_202412_1021.txt,4456114,2022-10-10,ftp-pusat,kontrak|logistik|4456114|arsip draft pending
+DOC-0000238,memo_hukum_202312_9885.docx,369690,2022-03-24,cloud-storage-aws,memo|hukum|369690|periode total revisi draft
+DOC-0000803,presentasi_keuangan_202405_4501.docx,3981934,2023-10-12,nas-lokal-01,presentasi|keuangan|3981934|total arsip draft pending
+DOC-0000003,dataset_pemasaran_202302_1520.csv,410290,2024-02-18,server-arsip-bandung,dataset|pemasaran|410290|draft dokumen final rekap
+DOC-0000173,log_logistik_202304_4178.xml,1624852,2023-02-21,nas-lokal-01,log|logistik|1624852|total pending draft file revisi
+DOC-0000215,log_logistik_202208_4400.txt,492836709,2023-10-24,cloud-storage-gcp,log|logistik|492836709|arsip dokumen periode pending
+DOC-0000485,dataset_sdm_202403_2785.json,164749,2023-04-16,server-arsip-bandung,dataset|sdm|164749|arsip pending revisi data
+DUP-0000032,dataset_audit_202206_3518.pdf,233694,2023-01-19,cloud-storage-gcp,dataset|audit|233694|pending periode rekap revisi
+DOC-0000685,memo_teknologi_202407_3080.json,4486262,2022-01-07,nas-lokal-01,memo|teknologi|4486262|data draft rekap
+DOC-0000631,gambar_teknologi_202310_3493.pdf,2431679,2023-05-05,backup-eksternal,gambar|teknologi|2431679|draft approved revisi data periode
+DOC-0000893,presentasi_logistik_202305_0896.xml,33534641,2023-07-04,backup-eksternal,presentasi|logistik|33534641|revisi draft rekap final pending
+DOC-0000755,gambar_sdm_202303_4829.docx,193158,2024-07-31,server-arsip-surabaya,gambar|sdm|193158|approved revisi data dokumen rekap
+DOC-0000827,kontrak_teknologi_202304_0527.xml,1177112,2024-08-27,nas-lokal-01,kontrak|teknologi|1177112|data file approved
+DOC-0000284,presentasi_logistik_202306_3088.xlsx,482584,2022-12-04,nas-lokal-02,presentasi|logistik|482584|revisi file periode
+DOC-0000620,dataset_logistik_202308_5923.csv,281735,2024-11-25,server-arsip-jakarta,dataset|logistik|281735|revisi rekap final approved pending
+DUP-0000074,gambar_operasional_202404_8632.json,24641652,2023-07-02,nas-lokal-01,gambar|operasional|24641652|arsip file total rekap draft
+DOC-0000874,dataset_pemasaran_202206_7933.docx,275102,2023-04-17,backup-eksternal,dataset|pemasaran|275102|revisi dokumen periode arsip
+DOC-0000791,gambar_pemasaran_202207_1206.txt,267444,2024-09-23,server-arsip-bandung,gambar|pemasaran|267444|data approved file
+DOC-0000590,presentasi_keuangan_202212_6619.csv,45963322,2024-07-02,cloud-storage-aws,presentasi|keuangan|45963322|dokumen file pending draft approved
+DOC-0000339,surat_audit_202412_9440.xml,431853,2022-07-20,nas-lokal-02,surat|audit|431853|final pending revisi
+DOC-0000393,surat_hukum_202312_9441.json,16603290,2022-07-15,portal-upload-web,surat|hukum|16603290|final rekap dokumen approved total
+DOC-0000785,log_operasional_202307_3958.csv,22750233,2022-01-09,nas-lokal-02,log|operasional|22750233|rekap file periode
+DOC-0000661,presentasi_pemasaran_202407_7011.jpg,2237443,2022-09-05,cloud-storage-aws,presentasi|pemasaran|2237443|total draft data
+DOC-0000602,presentasi_riset_202405_1451.pdf,287885463,2022-12-06,server-arsip-jakarta,presentasi|riset|287885463|data final arsip total dokumen
+DOC-0000535,backup_operasional_202311_1235.json,158318337,2023-03-15,cloud-storage-gcp,backup|operasional|158318337|rekap final dokumen approved
+DOC-0000817,kontrak_riset_202404_2790.zip,3061245,2023-10-08,server-arsip-bandung,kontrak|riset|3061245|periode draft pending
+DOC-0000130,presentasi_logistik_202201_3049.json,2593895,2024-10-19,ftp-pusat,presentasi|logistik|2593895|arsip total final dokumen
+DOC-0000105,backup_sdm_202408_7602.docx,415194,2024-07-08,portal-upload-web,backup|sdm|415194|data dokumen draft file periode
+DOC-0000578,dataset_audit_202212_0995.jpg,4592815,2024-12-17,server-arsip-jakarta,dataset|audit|4592815|dokumen draft arsip total
+DOC-0000270,gambar_keuangan_202308_8276.json,2798290,2024-03-23,server-arsip-bandung,gambar|keuangan|2798290|rekap revisi draft pending arsip
+DOC-0000183,invoice_keuangan_202408_0920.docx,3663928,2022-01-20,server-arsip-surabaya,invoice|keuangan|3663928|pending approved draft
+DOC-0000287,memo_logistik_202410_2248.docx,2764733,2024-05-07,server-arsip-bandung,memo|logistik|2764733|file dokumen total final data
+DOC-0000222,memo_teknologi_202407_4843.jpg,2082482,2022-04-22,cloud-storage-aws,memo|teknologi|2082482|approved total revisi pending
+DOC-0000749,invoice_audit_202205_5855.xlsx,170539578,2022-06-06,portal-upload-web,invoice|audit|170539578|total draft file rekap
+DOC-0000106,gambar_hukum_202310_0921.png,3040242,2023-12-22,ftp-pusat,gambar|hukum|3040242|final pending data
+DOC-0000157,laporan_logistik_202301_0152.png,402693,2023-09-04,portal-upload-web,laporan|logistik|402693|total draft final pending arsip
+DOC-0000607,dataset_hukum_202305_6153.json,478194,2022-09-05,server-arsip-jakarta,dataset|hukum|478194|revisi dokumen data
+DOC-0000080,log_riset_202305_5550.csv,22244971,2022-08-24,backup-eksternal,log|riset|22244971|periode revisi approved
+DOC-0000208,dataset_riset_202408_6810.jpg,3932068,2024-06-28,backup-eksternal,dataset|riset|3932068|total dokumen rekap
+DOC-0000676,backup_audit_202411_2645.xlsx,325699,2022-01-26,server-arsip-bandung,backup|audit|325699|data approved file
+DOC-0000657,memo_sdm_202203_4820.xlsx,45734313,2022-09-12,ftp-pusat,memo|sdm|45734313|approved periode total rekap final
+DOC-0000555,memo_operasional_202310_7507.txt,2583043,2022-06-25,server-arsip-jakarta,memo|operasional|2583043|periode draft approved revisi
+DOC-0000575,laporan_teknologi_202311_8825.png,2528200,2023-01-26,server-arsip-bandung,laporan|teknologi|2528200|pending periode file approved
+DOC-0000261,dataset_riset_202310_3861.xml,418866787,2024-09-02,cloud-storage-gcp,dataset|riset|418866787|approved rekap arsip
+DUP-0000057,invoice_keuangan_202310_0751.xlsx,659913,2023-05-13,server-arsip-surabaya,invoice|keuangan|659913|periode data rekap
+DOC-0000413,dataset_manajemen_202412_0631.zip,4905954,2024-12-02,server-arsip-bandung,dataset|manajemen|4905954|pending rekap revisi arsip
+DOC-0000786,presentasi_riset_202407_3963.zip,99344,2024-03-12,cloud-storage-aws,presentasi|riset|99344|data approved rekap file periode
+DOC-0000640,log_manajemen_202307_6022.json,4422102,2024-10-15,nas-lokal-01,log|manajemen|4422102|approved rekap periode pending
+DOC-0000377,memo_audit_202211_3569.csv,475315,2022-08-20,cloud-storage-aws,memo|audit|475315|approved draft rekap periode final
+DOC-0000314,memo_keuangan_202409_7301.jpg,30163009,2024-09-23,server-arsip-jakarta,memo|keuangan|30163009|data revisi draft arsip
+DOC-0000747,kontrak_teknologi_202409_2017.pdf,2743589,2022-02-13,server-arsip-jakarta,kontrak|teknologi|2743589|arsip final total
+DOC-0000599,memo_operasional_202210_6911.png,84904,2022-04-10,cloud-storage-gcp,memo|operasional|84904|revisi periode pending rekap
+DOC-0000437,memo_manajemen_202406_8857.txt,173251,2024-06-27,server-arsip-jakarta,memo|manajemen|173251|rekap pending file
+DOC-0000889,surat_sdm_202407_9567.pdf,2706824,2023-04-26,nas-lokal-01,surat|sdm|2706824|arsip data periode final
+DUP-0000034,dataset_sdm_202203_6255.jpg,1648628,2023-08-16,ftp-pusat,dataset|sdm|1648628|rekap final dokumen data
+DOC-0000841,gambar_manajemen_202409_4248.xlsx,4752859,2022-09-23,nas-lokal-01,gambar|manajemen|4752859|dokumen draft file approved total
+DOC-0000292,presentasi_sdm_202307_7836.docx,4329725,2024-05-13,server-arsip-surabaya,presentasi|sdm|4329725|periode rekap file
+DOC-0000282,dataset_logistik_202404_6113.png,29778,2022-01-29,nas-lokal-01,dataset|logistik|29778|revisi rekap data file arsip
+DOC-0000198,surat_pemasaran_202411_6548.xlsx,871588,2023-11-11,nas-lokal-02,surat|pemasaran|871588|rekap total final
+DUP-0000051,presentasi_teknologi_202309_5531.xml,2561333,2023-06-12,backup-eksternal,presentasi|teknologi|2561333|data pending file periode draft
+DOC-0000015,surat_hukum_202404_4563.pdf,9755157,2024-09-21,cloud-storage-aws,surat|hukum|9755157|periode dokumen data pending revisi
+DOC-0000644,surat_audit_202408_5582.txt,4432063,2022-06-25,nas-lokal-01,surat|audit|4432063|approved file revisi
+DOC-0000354,gambar_pemasaran_202405_8042.zip,480874,2023-01-10,ftp-pusat,gambar|pemasaran|480874|approved revisi dokumen periode
