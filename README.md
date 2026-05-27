@@ -55,7 +55,7 @@ Setiap dokumen di dalam sistem direpresentasikan oleh atribut terstruktur sebaga
 | `ukuran_data` | long long | `392275674` | Ukuran berkas dalam satuan byte |
 | `tanggal_unggah` | string | `2026-05-26` | Tanggal dokumen diunggah (Format: `YYYY-MM-DD`) |
 | `sumber_data` | string | `server-jakarta` | Nama server/sumber penyimpanan asal berkas |
-| `konten` | string | `laporan_keuangan|392275674` | Representasi string pendek ringkasan isi dokumen |
+| `konten` | string | `laporan_keuangan 392275674` | Representasi string pendek ringkasan isi dokumen |
 
 ---
 
@@ -97,9 +97,9 @@ g++ -O2 -std=c++17 -o hash_arsip hash_arsip.cpp
 
 ---
 
-## 📝 Pengumpulan Data Eksperimen (Untuk Excel)
+## 📝 Pengumpulan Data Eksperimen
 
 1. Jalankan kedua program di atas secara berurutan.
 2. Lakukan impor dataset yang sama dari subfolder `datasets/` (misalnya 1.000, 5.000, atau 10.000 data) melalui menu **2 (Batch Import)**.
 3. Jalankan menu **6 (Lihat Statistik)** untuk memproses grup duplikat secara riil. Setiap kali menu statistik dipanggil, durasi komputasi dan ukuran record akan terekam ke file **`statistik_log.csv`**.
-4. Buka file `statistik_log.csv` menggunakan **Microsoft Excel** untuk merancang tabel perbandingan performa eksekusi waktu (ms) dan menggambarkan grafik pertumbuhan waktu ($O(N^2)$ vs $O(N)$) untuk laporan UAS Anda.
+4. Buka file `statistik_log.csv` menggunakan **Microsoft Excel** untuk merancang tabel perbandingan performa eksekusi waktu (ms) dan menggambarkan grafik pertumbuhan waktu (O(N^2) vs O(N)).
