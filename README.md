@@ -8,8 +8,8 @@
 Sistem ini mensimulasikan deteksi duplikasi data pada lingkungan arsip digital skala industri. Proyek ini mengimplementasikan dan membandingkan performa dua struktur data utama — **std::vector** (Engine 1) dan **Hash Table / std::unordered_map** (Engine 2) — dalam menangani operasi penyimpanan data (*insert*), pencarian (*search*), pemindaian duplikat (*duplicate scan*), pembaharuan (*update*), dan penghapusan (*delete*).
 
 Deteksi duplikasi data didukung oleh **dua mode deteksi** yang berjalan secara berdampingan:
-1. **Metadata-Based**: Membandingkan kecocokan atribut `nama_file + ukuran_data` ($O(1)$ untuk Hash Table, $O(n)$ untuk Vector).
-2. **Content-Based**: Membandingkan isi representasi konten dokumen (`konten`) untuk menangani berkas identik dengan nama berbeda.
+1. **Metadata-Based**: Membandingkan kecocokan atribut `nama_file + ukuran_data` (O(1) untuk Hash Table, O(n) untuk Vector).
+2. **Content-Based**: Membandingkan isi representasi konten dokumen (`konten`) untuk menangani berkas identik dengan nama berbeda. (Hanya Pelengkap Untuk Mencoba)
 
 Setiap engine diimplementasikan secara mandiri sebagai file tunggal berorientasi objek (OOP)
 
@@ -48,7 +48,7 @@ Setiap dokumen di dalam sistem direpresentasikan oleh atribut terstruktur sebaga
 | `ukuran_data` | long long | `392275674` | Ukuran berkas dalam satuan byte |
 | `tanggal_unggah` | string | `2026-06-03` | Tanggal dokumen diunggah (Format: `YYYY-MM-DD`) |
 | `sumber_data` | string | `server-jakarta` | Nama server/sumber penyimpanan asal berkas |
-| `konten` | string | Representasi string pendek ringkasan isi dokumen |
+| `konten` | string | Laporan keuangan jakarta |Representasi string pendek ringkasan isi dokumen |
 
 ---
 
@@ -97,4 +97,4 @@ g++ -O2 -std=c++17 -o hash_arsip hash_arsip.cpp
 1. Jalankan kedua program di atas secara berurutan.
 2. Lakukan impor dataset dummy yang sama dari subfolder `datasets/` (misalnya 1.000, 5.000, atau 10.000 data) melalui menu **2 (Batch Import)**.
 3. Jalankan menu **6 (Lihat Statistik)** untuk memproses grup duplikat secara riil. Setiap kali menu statistik dipanggil, durasi komputasi dan ukuran record akan terekam ke file **`statistik_log.csv`**.
-4. Buka file `statistik_log.csv` menggunakan **Microsoft Excel** untuk merancang tabel perbandingan performa eksekusi waktu (ms) dan menggambarkan grafik pertumbuhan waktu ($O(N^2)$ vs $O(N)$).
+4. Buka file `statistik_log.csv` menggunakan **Microsoft Excel** untuk merancang tabel perbandingan performa eksekusi waktu (ms) dan menggambarkan grafik pertumbuhan waktu (O(N^2) vs O(N)).
