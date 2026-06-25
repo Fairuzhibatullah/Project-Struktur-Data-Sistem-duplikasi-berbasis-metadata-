@@ -455,17 +455,19 @@ void insertManual(VectorEngine& engine, const string& fileDatabase, const string
 
     auto start = steady_clock::now();
     string IDDupMeta = engine.cariDuplikatMetadata(d.nama_file, d.ukuran_data);
-    string IDDupKonten = engine.cariDuplikatKonten(d.konten);
+    // string IDDupKonten = engine.cariDuplikatKonten(d.konten);
     auto stop = steady_clock::now();
     auto dur = duration_cast<microseconds>(stop - start);
 
     if (!IDDupMeta.empty()) {
         cout << ">> DITOLAK: Duplikat terdeteksi dengan ID \""
              << IDDupMeta << "\" (nama + ukuran identik).\n";
-    } else if (!IDDupKonten.empty()) {
-        cout << ">> DITOLAK: Duplikat terdeteksi dengan ID \""
-             << IDDupKonten << "\" (isi konten identik).\n";
-    } else {
+    } 
+    // else if (!IDDupKonten.empty()) {
+    //     cout << ">> DITOLAK: Duplikat terdeteksi dengan ID \""
+    //          << IDDupKonten << "\" (isi konten identik).\n";
+    // } 
+    else {
         engine.insertRecord(d);
         engine.simpanKeFile(fileDatabase);
         cout << ">> DITERIMA: Data berhasil ditambahkan dengan ID " << d.id_dokumen << ".\n";
@@ -630,7 +632,6 @@ void updateDeleteData(VectorEngine& engine, const string& fileDatabase) {
     string id;
     cout << "\n[Update/Delete] Masukkan ID Dokumen: "; cin >> id;
 
-    auto start = steady_clock::now();
     DataArsip d;
     bool found = engine.getRecordByID(id, d);
 
@@ -678,19 +679,30 @@ void updateDeleteData(VectorEngine& engine, const string& fileDatabase) {
                 string kw; getline(cin, kw);
                 string kontenBaru = Validator::generateKonten(namaBaru, ukuranBaru, kw);
                 
+                auto start = steady_clock::now();
                 engine.updateMetadata(id, namaBaru, ukuranBaru, kontenBaru);
+                auto stop = steady_clock::now();
                 engine.simpanKeFile(fileDatabase);
                 cout << ">> Metadata & konten berhasil diupdate.\n";
+                cout << ">> Waktu operasi: "
+                     << duration_cast<microseconds>(stop - start).count()
+                     << " mikrodetik.\n";
             }
+            
 
         } else if (opsi == 2) {
             string konfirmasi;
             cout << ">> Yakin hapus \"" << d.nama_file << "\"? (y/n): ";
             cin >> konfirmasi;
             if (konfirmasi == "y" || konfirmasi == "Y") {
+                auto start = steady_clock::now();
                 engine.deleteRecord(id);
+                auto stop = steady_clock::now();
                 engine.simpanKeFile(fileDatabase);
                 cout << ">> Data berhasil dihapus.\n";
+                cout << ">> Waktu operasi: "
+                     << duration_cast<microseconds>(stop - start).count()
+                     << " mikrodetik.\n";
             } else {
                 cout << ">> Penghapusan dibatalkan.\n";
             }
@@ -698,10 +710,6 @@ void updateDeleteData(VectorEngine& engine, const string& fileDatabase) {
             cout << ">> Opsi tidak valid.\n";
         }
 
-        auto stop = steady_clock::now();
-        cout << ">> Waktu operasi: "
-             << duration_cast<microseconds>(stop - start).count()
-             << " mikrodetik.\n";
         return;
     }
     cout << ">> ID tidak ditemukan.\n";
@@ -779,7 +787,7 @@ int main() {
 
     cout << "============================================\n";
     cout << "  SISTEM DETEKSI DUPLIKASI ARSIP ( " << namaStruktur << " )  \n";
-    cout << "  Deteksi berbasis: nama_file + ukuran_data / konten\n";
+    cout << "  Deteksi berbasis: nama_file + ukuran_data \n";
     cout << "============================================\n";
 
     ifstream cekDB(fileDatabase);

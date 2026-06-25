@@ -91,10 +91,3 @@ g++ -O2 -std=c++17 -o hash_arsip hash_arsip.cpp
 ```
 
 ---
-
-## 📝 Pengumpulan Data Eksperimen (Untuk Excel)
-
-1. Jalankan kedua program di atas secara berurutan.
-2. Lakukan impor dataset dummy yang sama dari subfolder `datasets/` (misalnya 1.000, 5.000, atau 10.000 data) melalui menu **2 (Batch Import)**.
-3. Jalankan menu **6 (Lihat Statistik)** untuk memproses grup duplikat secara riil. Setiap kali menu statistik dipanggil, durasi komputasi dan ukuran record akan terekam ke file **`statistik_log.csv`**.
-4. Buka file `statistik_log.csv` menggunakan **Microsoft Excel** untuk merancang tabel perbandingan performa eksekusi waktu (ms) dan menggambarkan grafik pertumbuhan waktu (O(N^2) vs O(N)).

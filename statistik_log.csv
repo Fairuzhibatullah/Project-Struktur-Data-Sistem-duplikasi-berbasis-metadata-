@@ -15,3 +15,8 @@ timestamp,struktur_data,dataset,total_record,record_unik,grup_duplikat,record_du
 2026-06-03 04:11:51,Hash Table,hash_database.csv,1000,803,97,197,0.1652
 2026-06-03 04:12:09,Hash Table,hash_database.csv,1000,803,97,197,0.1661
 2026-06-03 04:12:56,Vector,vector_database.csv,1000,803,97,197,2.8975
+2026-06-05 05:26:00,Hash Table,arsip_0050000.csv,50000,40276,4724,9724,4.9677
+2026-06-05 05:27:51,Hash Table,arsip_0010000.csv,10000,8039,961,1961,0.9583
+2026-06-05 10:08:49,Vector,vector_database.csv,2000,1614,186,386,9.8190
+2026-06-05 10:09:38,Vector,vector_database.csv,2000,1614,186,386,9.7048
+2026-06-05 10:16:52,Vector,arsip_0100000.csv,100000,80528,9472,19472,51875.3270
