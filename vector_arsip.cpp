@@ -108,6 +108,20 @@ private:
 public:
     VectorEngine() {}
 
+    size_t getMemoryUsage() const {
+        size_t size_vector_struct = sizeof(database);
+        size_t size_elements_reserved = database.capacity() * sizeof(DataArsip);
+        size_t size_dynamic_strings = 0;
+        for (const auto &d : database) {
+            size_dynamic_strings += d.id_dokumen.capacity();
+            size_dynamic_strings += d.nama_file.capacity();
+            size_dynamic_strings += d.tanggal_unggah.capacity();
+            size_dynamic_strings += d.sumber_data.capacity();
+            size_dynamic_strings += d.konten.capacity();
+        }
+        return size_vector_struct + size_elements_reserved + size_dynamic_strings;
+    }
+
     int bacaCSV(const string& path) {
         database.clear();
         maxIDNum = 0;
@@ -397,6 +411,13 @@ bool muatDariDataset(VectorEngine& engine, const string& sumberFile, const strin
     if (skipped) cout << " (" << skipped << " baris dilewati)";
     cout << ".\n";
 
+    size_t total_memory_bytes = engine.getMemoryUsage();
+    cout << "===== SPACE COMPLEXITY (Vector) =====\n";
+    cout << "Total Penggunaan Memori : " << total_memory_bytes << " bytes ("
+         << fixed << setprecision(2) << (double)total_memory_bytes / 1024.0 << " KB / "
+         << (double)total_memory_bytes / (1024.0 * 1024.0) << " MB)\n";
+    cout << "======================================\n";
+
     engine.simpanKeFile(fileDatabase);
     cout << ">> Database utama diperbarui: " << fileDatabase << "\n";
     return true;
@@ -453,26 +474,31 @@ void insertManual(VectorEngine& engine, const string& fileDatabase, const string
     d.konten = Validator::generateKonten(d.nama_file, d.ukuran_data, keywords);
     cout << "   >> Konten    : " << d.konten << "\n";
 
-    auto start = steady_clock::now();
+    auto startDup = steady_clock::now();
     string IDDupMeta = engine.cariDuplikatMetadata(d.nama_file, d.ukuran_data);
-    // string IDDupKonten = engine.cariDuplikatKonten(d.konten);
-    auto stop = steady_clock::now();
-    auto dur = duration_cast<microseconds>(stop - start);
+    auto endDup = steady_clock::now();
+    auto durDup = duration_cast<microseconds>(endDup - startDup).count();
 
     if (!IDDupMeta.empty()) {
         cout << ">> DITOLAK: Duplikat terdeteksi dengan ID \""
              << IDDupMeta << "\" (nama + ukuran identik).\n";
+        cout << "\n>> Runtime cekKonflik/duplikat : " << durDup << " microseconds\n";
     } 
-    // else if (!IDDupKonten.empty()) {
-    //     cout << ">> DITOLAK: Duplikat terdeteksi dengan ID \""
-    //          << IDDupKonten << "\" (isi konten identik).\n";
-    // } 
     else {
+        size_t memBefore = engine.getMemoryUsage();
+        auto startInsert = steady_clock::now();
         engine.insertRecord(d);
+        auto endInsert = steady_clock::now();
+        size_t memAfter = engine.getMemoryUsage();
+        auto durInsert = duration_cast<microseconds>(endInsert - startInsert).count();
+
         engine.simpanKeFile(fileDatabase);
         cout << ">> DITERIMA: Data berhasil ditambahkan dengan ID " << d.id_dokumen << ".\n";
+
+        cout << "\n>> Runtime cekKonflik/duplikat : " << durDup << " microseconds\n";
+        cout << ">> Runtime insert Vector : " << durInsert << " microseconds\n";
+        cout << ">> Space Complexity (Delta): +" << (int)(memAfter - memBefore) << " bytes (Before: " << memBefore << ", After: " << memAfter << " bytes)\n";
     }
-    cout << ">> Waktu cek duplikat (" << namaStruktur << "): " << dur.count() << " mikrodetik.\n";
 }
 
 void insertBatch(VectorEngine& engine, const string& fileDatabase) {
@@ -585,6 +611,13 @@ void insertBatch(VectorEngine& engine, const string& fileDatabase) {
     if (adaRejected)
         cout << " → lihat \"" << fileRejected << "\"";
     cout << ".\n";
+
+    size_t total_memory_bytes = engine.getMemoryUsage();
+    cout << "===== SPACE COMPLEXITY (Vector) =====\n";
+    cout << "Total Penggunaan Memori : " << total_memory_bytes << " bytes ("
+         << fixed << setprecision(2) << (double)total_memory_bytes / 1024.0 << " KB / "
+         << (double)total_memory_bytes / (1024.0 * 1024.0) << " MB)\n";
+    cout << "======================================\n";
 }
 
 void searchData(VectorEngine& engine) {
@@ -611,7 +644,18 @@ void searchData(VectorEngine& engine) {
     } else {
         cout << ">> Data tidak ditemukan.\n";
     }
-    cout << ">> Waktu pencarian: " << dur.count() << " mikrodetik.\n";
+
+    // Hitung Space Complexity Hasil Pencarian Sementara
+    size_t size_results_struct = sizeof(results);
+    size_t size_results_elements = results.capacity() * sizeof(DataArsip);
+    size_t size_results_strings = 0;
+    for (const auto &d : results) {
+        size_results_strings += d.id_dokumen.capacity() + d.nama_file.capacity() + d.tanggal_unggah.capacity() + d.sumber_data.capacity() + d.konten.capacity();
+    }
+    size_t total_results_mem = size_results_struct + size_results_elements + size_results_strings;
+
+    cout << "\n>> Runtime Search Data : " << dur.count() << " microseconds\n";
+    cout << ">> Space Complexity (Temporary Search Result): " << total_results_mem << " bytes\n";
 }
 
 void listDuplikat(VectorEngine& engine) {
@@ -670,23 +714,33 @@ void updateDeleteData(VectorEngine& engine, const string& fileDatabase) {
             }
 
             // Cek konflik duplikat
+            auto startDup = steady_clock::now();
             string IDDup = engine.cariDuplikatMetadata(namaBaru, ukuranBaru);
+            auto endDup = steady_clock::now();
+            auto durDup = duration_cast<microseconds>(endDup - startDup).count();
+
             if (!IDDup.empty() && IDDup != id) {
                 cout << ">> DITOLAK: Nama baru + ukuran yang sama sudah ada (duplikat metadata).\n";
+                cout << "\n>> Runtime cekKonflik/duplikat : " << durDup << " microseconds\n";
             } else {
                 cin.ignore();
                 cout << "Keyword baru (opsional, Enter untuk lewati): ";
                 string kw; getline(cin, kw);
                 string kontenBaru = Validator::generateKonten(namaBaru, ukuranBaru, kw);
                 
-                auto start = steady_clock::now();
+                size_t memBefore = engine.getMemoryUsage();
+                auto startUpdate = steady_clock::now();
                 engine.updateMetadata(id, namaBaru, ukuranBaru, kontenBaru);
-                auto stop = steady_clock::now();
+                auto endUpdate = steady_clock::now();
+                size_t memAfter = engine.getMemoryUsage();
+                auto durUpdate = duration_cast<microseconds>(endUpdate - startUpdate).count();
+
                 engine.simpanKeFile(fileDatabase);
                 cout << ">> Metadata & konten berhasil diupdate.\n";
-                cout << ">> Waktu operasi: "
-                     << duration_cast<microseconds>(stop - start).count()
-                     << " mikrodetik.\n";
+
+                cout << "\n>> Runtime cekKonflik/duplikat : " << durDup << " microseconds\n";
+                cout << ">> Runtime update Vector : " << durUpdate << " microseconds\n";
+                cout << ">> Space Complexity (Delta): " << (int)memAfter - (int)memBefore << " bytes (Before: " << memBefore << ", After: " << memAfter << " bytes)\n";
             }
             
 
@@ -695,14 +749,17 @@ void updateDeleteData(VectorEngine& engine, const string& fileDatabase) {
             cout << ">> Yakin hapus \"" << d.nama_file << "\"? (y/n): ";
             cin >> konfirmasi;
             if (konfirmasi == "y" || konfirmasi == "Y") {
-                auto start = steady_clock::now();
+                size_t memBefore = engine.getMemoryUsage();
+                auto startDelete = steady_clock::now();
                 engine.deleteRecord(id);
-                auto stop = steady_clock::now();
+                auto endDelete = steady_clock::now();
+                size_t memAfter = engine.getMemoryUsage();
+                auto durDelete = duration_cast<microseconds>(endDelete - startDelete).count();
+
                 engine.simpanKeFile(fileDatabase);
                 cout << ">> Data berhasil dihapus.\n";
-                cout << ">> Waktu operasi: "
-                     << duration_cast<microseconds>(stop - start).count()
-                     << " mikrodetik.\n";
+                cout << "\n>> Runtime delete Vector : " << durDelete << " microseconds\n";
+                cout << ">> Space Complexity (Delta): " << (int)memAfter - (int)memBefore << " bytes (Before: " << memBefore << ", After: " << memAfter << " bytes)\n";
             } else {
                 cout << ">> Penghapusan dibatalkan.\n";
             }
@@ -816,6 +873,13 @@ int main() {
                 double waktu;
                 engine.dapatkanStatistik(total, unik, grupDup, recordDup, waktu);
                 cout << ">> Berhasil memuat " << total << " data dalam " << dur.count() << " ms.\n";
+
+                size_t total_memory_bytes = engine.getMemoryUsage();
+                cout << "===== SPACE COMPLEXITY (Vector) =====\n";
+                cout << "Total Penggunaan Memori : " << total_memory_bytes << " bytes ("
+                     << fixed << setprecision(2) << (double)total_memory_bytes / 1024.0 << " KB / "
+                     << (double)total_memory_bytes / (1024.0 * 1024.0) << " MB)\n";
+                cout << "======================================\n";
             }
         } else {
             dbAda = false;

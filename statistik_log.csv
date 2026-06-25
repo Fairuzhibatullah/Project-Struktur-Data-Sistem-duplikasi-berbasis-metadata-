@@ -20,3 +20,7 @@ timestamp,struktur_data,dataset,total_record,record_unik,grup_duplikat,record_du
 2026-06-05 10:08:49,Vector,vector_database.csv,2000,1614,186,386,9.8190
 2026-06-05 10:09:38,Vector,vector_database.csv,2000,1614,186,386,9.7048
 2026-06-05 10:16:52,Vector,arsip_0100000.csv,100000,80528,9472,19472,51875.3270
+2026-06-25 09:51:28,Vector,vector_database.csv,1000,805,96,195,34.9720
+2026-06-25 10:01:19,Vector,arsip_0010000.csv,10000,8039,961,1961,3289.5952
+2026-06-25 10:13:48,Vector,arsip_0005000.csv,5000,4025,475,975,819.5960
+2026-06-25 10:22:59,Hash Table,arsip_0001000.csv,1001,804,97,197,0.2069
